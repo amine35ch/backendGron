@@ -1,0 +1,61 @@
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.env
+.env.backup
+.env.production
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+auth.json
+npm-debug.log
+yarn-error.log
+/.fleet
+/.idea
+/.vscode
+
+# Fichiers de logs
+/storage/logs/*
+!/storage/logs/.gitkeep
+
+# Fichiers de sessions
+/storage/framework/sessions/*
+!/storage/framework/sessions/.gitkeep
+
+# Fichiers de cache
+/storage/framework/cache/*
+!/storage/framework/cache/.gitkeep
+/storage/framework/views/*
+!/storage/framework/views/.gitkeep
+
+# Fichiers de debug Laravel Telescope
+/storage/debugbar/*
+
+# Fichiers temporaires
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Fichiers de compilation
+/public/build
+/public/css
+/public/js
+/public/mix-manifest.json
+
+# Fichiers de tests générés
+/coverage
+.phpunit.cache/
+
+# Dossiers spécifiques au projet
+/storage/app/documents/*
+!/storage/app/documents/.gitkeep
+/storage/app/invoices/*
+!/storage/app/invoices/.gitkeep
+/storage/app/exports/*
+!/storage/app/exports/.gitkeep
+
+# DocuSign API credentials
+docusign_private.key 
