@@ -1,0 +1,24 @@
+{
+    "0": {
+        "id": "0",
+        "title": "",
+        "active": "1",
+        "style": "",
+        "tag": "",
+        "hasLists": "1",
+        "ordre": "1",
+        "fields": {
+            "0": {
+                "id": "0",
+                "title": "",
+                "tag": "div",
+                "style-title": "",
+                "style": "",
+                "active": "1",
+                "src": "",
+                "type": "text",
+                "data": ""
+            }
+        }
+    }
+}

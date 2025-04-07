@@ -1,0 +1,644 @@
+{
+    "0": {
+        "id": "0",
+        "title": "",
+        "active": "1",
+        "style": "",
+        "tag": "h3",
+        "hasLists": "0",
+        "ordre": "1",
+        "fields": {
+            "0": {
+                "title": "",
+                "id": "0",
+                "tag": "div",
+                "style-title": "",
+                "style": "",
+                "active": "0",
+                "type": "text",
+                "src": "",
+                "data": "<div style=\"margin-top:-40px\"><table style=\"width: 100%\"><tr><td style=\"width:15%;\"><img style=\"width: auto;height:130px\" src=\"\" class=\"{img1}\"  alt=\"\"></td><td style=\"width: 2%\"></td><td style=\"width:15%;\"><img style=\"width: auto;height:140px\" src=\"\" class=\"{img2}\" alt=\"\"></td><td style=\"width: 8%\"></td><td style=\"width:60%;\"><table style=\"border:solid 1px #cebd5d; width:100%;margin-top:20px; \"><tr><td><p style=\"padding-left:15px;font-size:12px;margin-bottom:-12px;\">DÉLÉGATION <span class=\"{delegation}\"></span></p></td></tr><tr><td><p style=\"padding-left:15px;font-size:11px;margin-bottom:-12px;\">N° de dossier <span class=\"{nDeDossier}\"></span></p></td></tr><tr><td><p style=\"padding-left:15px;font-size:11px;\">Date du dépôt <span class=\"{dateDuDepot}\"></span></p></td></tr></table><p style=\"position: relative;top:-10px; left:275px;color:#f9a51b;font-size:10px;\">Réservé à l’Anah </p></td></tr></table><table style=\"width: 100%;margin-top:-20px;\"><tr><td style=\"width: 10%\"></td><td style=\"width:10%\"><img style=\"width: 95px\" src=\"\" class=\"{img3}\" alt=\"\"></td><td style=\"width:48%\"><p style=\"color:#f9a51b;font-size:24px;\"><span>DEMANDE D’AiDE</span></p></td><td style=\"width:32%\"><p style=\"color: #f9a51b; font-size:14px;\"><b>| Propriétaire occupant</b></p></td></tr></table></div>"
+            }
+        }
+    },
+    "1": {
+        "id": "1",
+        "title": "",
+        "active": "1",
+        "style": "",
+        "tag": "h3",
+        "hasLists": "0",
+        "ordre": "2",
+        "fields": {
+            "1": {
+                "title": "",
+                "id": "1",
+                "tag": "div",
+                "style-title": "",
+                "style": "",
+                "active": "0",
+                "type": "text",
+                "src": "",
+                "data": "<div><table style=\"width: 100%\"><tr><td style=\"width: 12%\"></td><td style=\"width: 88%\"><p>Madame, Monsieur,<br>Vous souhaitez demander une aide financière à l’Agence nationale de l’habitat (Anah) pour des travaux d’amélioration de votre logement. <br>Cette aide concerne : <br></p><ul class=\"line\"><li style=\"font-size:10px;\"> <b> des travaux lourds</b> pour un logement sans aucun confort de base (sanitaires, chauffage etc.) ou  très dégradé,</li><li style=\"font-size:10px;\"> <b>  des travaux de rénovation énergétique</b> (<span style=\"color:#008286\">programme Habiter Mieux</span>),</li><li style=\"font-size:10px;\"> <b> des travaux d’adaptation</b> n pour permettre à une personne en perte d’autonomie liée à la vieillesse ou en <span style=\"margin-left:19px;\"> situation de handicap de rester vivre dans son logement.</span></li></ul><p>Pour faire votre demande, nous vous remercions de remplir, dater et signer ce formulaire, et d’y ajouter les justificatifs indiqués en page 4. Votre demande est à adresser à la délégation de l’Anah du département où se situe le logement que vous souhaitez améliorer, et cela obligatoirement avant tout démarrage des travaux.</p><p>Nous attirons votre attention sur les informations suivantes:</p><p><b>Une aide financière de l’Anah n’est jamais automatiquement accordée</b>. Chaque dossier est étudié localement sous différents aspects: économique, social, environnemental et technique, ainsi que par rapport aux priorités de chaque territoire (département, métropole, communauté urbaine ou d’agglomération…) et des moyens mis à sa disposition</p><p>Pour savoir si une aide vous est accordée et en connaître le montant,<b> vous devez attendre de recevoir la décision de l’Anah par courrier</b>. Si vous réalisez le projet comme prévu et si vous respectez vos engagements envers l’Anah,<b> elle vous sera versée après les travaux,</b> sur présentation des factures.</p><p>Si vous obtenez l’<span style=\"color:#8ec740\">aide Habiter Mieux sérénité</span> pour des travaux de rénovation énergétique, à la fin des travaux, pour le paiement de cette aide et de la prime Habiter Mieux, vous devrez obligatoirement joindre à vos factures le formulaire « <span style=\"color:#008286\">Habiter Mieux / CEE – attestation d’exclusivité du professionnel</span> » rempli et signé par chaque entreprise ayant réalisé vos travaux (voir page 4).</p><p>Pour l’aide <span style=\"color:#f15b2b\">Habiter Mieux agilité</span>, ce formulaire n’est pas demandé car il n’y a pas de prime en plus de l’aide. En revanche, vous <b>devrez faire appel à une entreprise « reconnue garante de l’environnement » - RGE - </b> pour le type de travaux choisi parmi les trois éligibles à cette aide : changement de système de chauffage ou chaudière, isolation des combles aménagés ou aménageables, ou isolation des murs.</p><p>Pour vous accompagner dans l’élaboration de votre projet de travaux et le montage de votre dossier, <b>vous pouvez faire appel à un opérateur</b>. N’hésitez pas à prendre conseil auprès de lui durant votre démarche. À noter toutefois que, pour obtenir l’<span style=\"color:#8ec740\">aide Habiter Mieux sérénité</span>, ainsi qu’en cas de <b> travaux lourds, le recours à un opérateur est  obligatoire.</b></p><p>Nous sommes à votre disposition pour tout renseignement complémentaire.</p><p>Votre délégation de l’Anah</p></td></tr></table></div>"
+            }
+        }
+    },
+    "2": {
+        "id": "2",
+        "title": "",
+        "active": "1",
+        "style": "",
+        "tag": "div",
+        "hasLists": "0",
+        "ordre": "3",
+        "fields": {
+            "2": {
+                "id": "2",
+                "title": "",
+                "tag": "div",
+                "style-title": "",
+                "style": "",
+                "active": "1",
+                "type": "text",
+                "src": "",
+                "data": "<div><table style=\"width:100%\"><tr><td style=\"width:5%\"></td><td style=\"\"><p style=\"font-size:10px;\"><b>Pour tout connaître sur les aides et leurs conditions d’attribution, vous pouvez vous procurer le guide</b> «<span style=\"color: #f15b2b\">Les aides en pratiques » disponible sur le site internet <a style=\"color: #f15b2b\" href=\"https://www.anah.fr\">www.anah.fr</a> </span>ou en appelant le 0 820 15 15 15 <span style=\"font-size:10px;\">(service 0,05 €/min + prix appel)</span>. <span style=\"display: block; border-top: 1px solid #f9a51b; margin-top:5px; \"></span></p><p style=\" font-size:8px;position: absolute;top:920px;\">Vu les articles L.321-1 et suivants et R.321-1 et suivants du Code de la construction et de l’habitation (CCH),<br>Vu le règlement général de l’Agence nationale de l’habitat (RGA),<br>Vu la loi n° 78-17 du 6 janvier 1978 modifiée relative à l’informatique, aux fichiers et aux libertés: les informations recueillies font l’objet d’un traitement informatique destiné à l’instruction de votre demande <br>d’aide ainsi qu’à des exploitations statistiques. Les destinataires des données sont: les services de I’Agence, les organismes partenaires et, le cas échéant, la collectivité locale du lieu du bien concerné. En cas <br>de bénéfice de la prime Habiter Mieux sérénité, est également destinataire des données, le ministère en charge de l’énergie. Conformément à cette loi, vous bénéficiez d’un droit d’accès et de rectification aux <br>informations qui vous concernent. Si vous souhaitez exercer ce droit et obtenir communication des informations vous concernant, veuillez vous adresser à la délégation de I’Anah de votre département Vous <br>pouvez également pour des motifs légitimes, vous opposer au traitement des données vous concernant.</p></td></tr></table></div>                "
+            }
+        }
+    },
+    "3": {
+        "id": "3",
+        "title": "",
+        "active": "1",
+        "style": "",
+        "tag": "h3",
+        "hasLists": "0",
+        "ordre": "4",
+        "fields": {
+            "3": {
+                "id": "3",
+                "title": "",
+                "tag": "div",
+                "style-title": "",
+                "style": "",
+                "active": "1",
+                "type": "text",
+                "src": "",
+                "data": "<div style=\"position: relative; top:140px;left:680px;\"><table style=\"border: #f9a51b solid 1px;\"><tr><td ><p style=\"color: #f9a51b;margin-top:-5px;margin-bottom:-5px;\">1</p></td></tr></table></div>                "
+            }
+        }
+    },
+    "4": {
+        "id": "4",
+        "title": "",
+        "active": "1",
+        "style": "",
+        "tag": "h3",
+        "hasLists": "0",
+        "ordre": "5",
+        "fields": {
+            "4": {
+                "id": "4",
+                "title": "",
+                "tag": "div",
+                "style-title": "",
+                "style": "",
+                "active": "1",
+                "type": "text",
+                "src": "",
+                "data": "<div class=\"block\" style=\"position: absolute; top:60%; right:100%\"></div>                "
+            }
+        }
+    },
+    "5": {
+        "id": "5",
+        "title": "",
+        "active": "1",
+        "style": " margin-top:20px",
+        "tag": "h3",
+        "hasLists": "0",
+        "ordre": "6",
+        "fields": {
+            "5": {
+                "id": "5",
+                "title": "",
+                "tag": "div",
+                "style-title": "",
+                "style": "",
+                "active": "1",
+                "type": "text",
+                "src": "",
+                "data": "<div class=\"block\" style=\"position: absolute; top:64%; right:100%\"></div> "
+            }
+        }
+    },
+    "6": {
+        "id": "6",
+        "title": "",
+        "active": "1",
+        "style": " margin-top:20px",
+        "tag": "h3",
+        "hasLists": "0",
+        "ordre": "7",
+        "fields": {
+            "6": {
+                "id": "6",
+                "title": "",
+                "tag": "div",
+                "style-title": "",
+                "style": "",
+                "active": "1",
+                "type": "text",
+                "src": "",
+                "data": "<div class=\"block\" style=\"position: absolute; top:68%; right:100%\"></div> "
+            }
+        }
+    },
+    "7": {
+        "id": "7",
+        "title": "",
+        "active": "1",
+        "style": "",
+        "tag": "h3",
+        "hasLists": "0",
+        "ordre": "8",
+        "fields": {
+            "7": {
+                "id": "7",
+                "title": "",
+                "tag": "div",
+                "style-title": "",
+                "style": "",
+                "active": "1",
+                "type": "text",
+                "src": "",
+                "data": "<div class=\"block\" style=\"position: absolute; top:72%; right:100%\"></div>"
+            }
+        }
+    },
+    "8": {
+        "id": "8",
+        "title": "",
+        "active": "1",
+        "style": "",
+        "tag": "h3",
+        "hasLists": "1",
+        "ordre": "9",
+        "fields": {
+            "8": {
+                "id": "8",
+                "title": "",
+                "tag": "div",
+                "style-title": "",
+                "style": "",
+                "active": "1",
+                "type": "text",
+                "src": "",
+                "data": "<div class=\"block\" style=\"position: absolute; top:76%; right:100%\"></div> "
+            }
+        }
+    },
+    "9": {
+        "id": "9",
+        "title": "",
+        "active": "1",
+        "style": "",
+        "tag": "h3",
+        "hasLists": "1",
+        "ordre": "10",
+        "fields": {
+            "9": {
+                "id": "9",
+                "title": "",
+                "tag": "div",
+                "style-title": "",
+                "style": "",
+                "active": "1",
+                "type": "text",
+                "src": "",
+                "data": "<div class=\"block\" style=\"position: absolute; top:80%; right:100%\"></div>"
+            }
+        }
+    },
+    "10": {
+        "id": "10",
+        "title": "",
+        "active": "1",
+        "style": "",
+        "tag": "h3",
+        "hasLists": "0",
+        "ordre": "11",
+        "fields": {
+            "10": {
+                "id": "10",
+                "title": "",
+                "tag": "div",
+                "style-title": "",
+                "style": "",
+                "active": "1",
+                "type": "text",
+                "src": "",
+                "data": "<div class=\"block\" style=\"position: absolute; top:84%; right:100%\"></div> "
+            }
+        }
+    },
+    "11": {
+        "id": "11",
+        "title": "",
+        "active": "1",
+        "style": "",
+        "tag": "",
+        "hasLists": "0",
+        "ordre": "12",
+        "fields": {
+            "11": {
+                "id": "11",
+                "title": "",
+                "tag": "div",
+                "style-title": "",
+                "style": "",
+                "active": "1",
+                "type": "text",
+                "src": "",
+                "data": "<div class=\"block\" style=\"position: absolute; top:88%; right:100%\"></div>"
+            }
+        }
+    },
+    "12": {
+        "id": "12",
+        "title": "",
+        "active": "1",
+        "style": "",
+        "tag": "h3",
+        "hasLists": "0",
+        "ordre": "13",
+        "fields": {
+            "12": {
+                "id": "12",
+                "title": "",
+                "tag": "div",
+                "style-title": "",
+                "style": "",
+                "active": "1",
+                "type": "text",
+                "src": "",
+                "data": "<div class=\"block\" style=\"position: absolute; top:92%; right:100%\"></div>"
+            }
+        }
+    },
+    "13": {
+        "id": "13",
+        "title": "",
+        "active": "1",
+        "style": "",
+        "tag": "h3",
+        "hasLists": "0",
+        "ordre": "14",
+        "fields": {
+            "13": {
+                "id": "13",
+                "title": "",
+                "tag": "div",
+                "style-title": "",
+                "style": "",
+                "active": "1",
+                "type": "text",
+                "src": "",
+                "data": "<div class=\"block\" style=\"position: absolute; top:92%; right:100%\"></div> "
+            }
+        }
+    },
+    "14": {
+        "id": "14",
+        "title": "",
+        "active": "1",
+        "style": "",
+        "tag": "h3",
+        "hasLists": "",
+        "ordre": "15",
+        "fields": {
+            "14": {
+                "id": "14",
+                "title": "",
+                "tag": "div",
+                "style-title": "",
+                "style": "",
+                "active": "1",
+                "type": "text",
+                "src": "",
+                "data": "<div style=\"transform: rotate(-90deg); display: inline-block;font-size:10px;position:absolute; top:96%; right:96%\">02/18</div>"
+            }
+        }
+    },
+
+    "15": {
+        "id": "15",
+        "title": "",
+        "active": "1",
+        "style": "",
+        "tag": "h3",
+        "hasLists": "",
+        "ordre": "16",
+        "fields": {
+            "15": {
+                "id": "15",
+                "title": "",
+                "tag": "div",
+                "style-title": "",
+                "style": "",
+                "active": "1",
+                "type": "text",
+                "src": "",
+                "data": "<div style=\"margin-top:140px;position:relative; top:-135px;\"><table><tr><td><p style=\"background-color: #f9a51b;font-size:14px;color:white;margin-top:2px;padding-right:430px;\">IDENTITÉ DU DEMANDEUR DE L'AIDE</p></td></tr></table></div>"
+            }
+        }
+    },
+
+    "16": {
+        "id": "16",
+        "title": "",
+        "active": "1",
+        "style": "",
+        "tag": "",
+        "hasLists": "0",
+        "ordre": "17",
+        "fields": {
+            "16": {
+                "id": "16",
+                "title": "",
+                "tag": "div",
+                "style-title": "",
+                "style": "",
+                "active": "1",
+                "type": "text",
+                "src": "",
+                "data": "<div style=\"margin-top:-5px;position:relative; top:-138px;\"><span style=\"font-size:10px;margin-left:3px;\">  Mr  <input type=\"checkbox\" id=\"{Mr1}\" style=\"position:relative;top:7px;left:5px\" > <span style=\"margin-left:10px;\">ou Mme </span><input type=\"checkbox\" id=\"{Mme1}\" style=\"position:relative;top:7px;left:5px\" > </span><table style=\"width: 100%;position: relative; top:-15px;padding-bottom:-20px;\"><tr><td style=\"width:5%;\"><p style=\"font-size:10px;\"><u>Nom:</u></p></td><td style=\"width:38%\"><span style=\"font-size:10px;\" class=\"{Nom1}\"></span></td><td style=\"width:7%\"><p style=\"font-size:10px\"><u>Prènom:</u></p></td><td style=\"width:48%\"><span style=\"font-size:10px;\" class=\"{Prenom1}\"></span></td></tr></table><table style=\"width: 100%;padding-top:-20px;margin-top:-40px;\"><tr><td style=\"width:20%;\"><p style=\"font-size:10px;\"><u>Année de naissance :</u></p></td><td style=\"font-size:10px;width:80%;\"><span style=\"font-size:10px;\" class=\"{AnneeDeNaissance1}\"></span></td></tr></table><table style=\"width: 100%;padding-top:-20px;margin-top:-20px;\"><tr><td style=\"width:30%;\"><p style=\"font-size:10px;\"><u>Adresse du logement à améliorer:</u></p></td><td style=\"font-size:10px;width:90%;\"><span class=\"{AdressDuLogement1}\"></span></td></tr></table><table style=\"width: 100%;padding-top:-20px;margin-top:-20px;\"><tr><td style=\"width:6%;\"><p style=\"font-size:10px;\"><u>Bâtiment:</u></p></td><td style=\"width:11%\"><span style=\"font-size:10px;\" class=\"{Batiment}\"></span></td><td style=\"width:6%\"><p style=\"font-size:10px;\"><u>Escalier:</u></p></td><td style=\"width:11%\"><span style=\"font-size:10px;\" class=\"{Escaller}\"></span></td><td style=\"width:6%\"><p style=\"font-size:10px;\"><u>Étage:</u></p></td><td style=\"width:11%\"><span style=\"font-size:10px;\" class=\"{Etage}\"></span></td><td style=\"width:6%\"><p style=\"font-size:10px;\"><u>Porte:</u></p></td><td style=\"width:43%\"><span style=\"font-size:10px;\" class=\"{Porte}\"></span></td></tr></table><table style=\"width: 100%;padding-top:-20px;margin-top:-20px;\"><tr><td style=\"width:11%;\"><p style=\"font-size:10px;\"><u>Code Postal :</u></p></td><td style=\"width:13%\"><span style=\"font-size:10px;\" class=\"{CodePostal}\"></span></td><td style=\"width:6%\"><p style=\"font-size:10px;\"><u>Commune:</u></p></td><td style=\"width:70%\"><span style=\"font-size:10px;\" class=\"{Commune}\"></span></td></tr></table><table style=\"width: 100%;padding-top:-20px;margin-top:-20px;\"><tr><td style=\"width:6%;\"><p style=\"font-size:10px;\"><u>Tél:</u></p></td><td style=\"width:20%\"><span style=\"font-size:10px;\" class=\"{Tel}\"></span></td><td style=\"width:8%\"><p style=\"font-size:10px;\"><u>Portable:</u></p></td><td style=\"width:20%\"><span style=\"font-size:10px;\" class=\"{Portable}\"></span></td><td style=\"width:6%\"><p style=\"font-size:10px;\"><u>Email:</u></p></td><td style=\"width:41%\"><span style=\"font-size:10px;\" class=\"{Mel}\"></span></td></tr></table><ul style=\"margin-left:-20px;margin-top:-5px;\" class='marker'><li><span style=\"color:#008286\">Nombre total d’occupants du logement à améliorer (vous y compris, le cas échéant): <span class=\"{total_occupant}\"></span></li><li><span style=\"color:#008286\">Précisez l’identité des occupants du logement à améliorer (en dehors de vous):</span></li></ul></div>"
+            }
+        }
+    },
+    "17": {
+        "id": "17",
+        "title": "",
+        "active": "1",
+        "style": "",
+        "tag": "",
+        "hasLists": "1",
+        "ordre": "18",
+        "fields": {
+            "17": {
+                "id": "17",
+                "title": "",
+                "tag": "div",
+                "style-title": "",
+                "style": "",
+                "active": "1",
+                "src": "",
+                "type": "occupants",
+                "data": {}
+            }
+        }
+    },
+    "18": {
+        "id": "18",
+        "title": "",
+        "active": "1",
+        "style": "",
+        "tag": "",
+        "hasLists": "1",
+        "ordre": "19",
+        "fields": {
+            "18": {
+                "id": "18",
+                "title": "",
+                "tag": "div",
+                "style-title": "",
+                "style": "",
+                "active": "1",
+                "type": "text",
+                "src": "",
+                "data": "<div style=\"position:relative; top:-141px;\"><section style=\"font-size: 9px;\">Le cas échéant, nombre d’enfant(s) à naître : <span class=\"{naitre}\"><br>Si la liste ci-dessus est complétée sur papier libre, joignez ce dernier au présent formulaire et cochez la case &nbsp; <input type=\"checkbox\" id=\"{PapierLibre}\" style=\"position:relative;top:-5px;width:10px;height:10px;\" ></section><ul style=\"margin-left:-25px;margin-top:-2px;\" class='marker'><li><span style=\"color:#008286\">Vous occupez (ou allez occuper) à titre de résidence principale le logement à améliorer en qualité de:</span></li></ul><table style=\"width: 100%;margin-top:-18px;\"><tr><td style=\"width:33% \"><input type=\"checkbox\" id=\"{pleine}\" style=\"position:relative;top:-2px;width:10px;height:10px;\" > <span style=\"font-size: 9.5px;\"> &nbsp;propriétaire ou copropriétaire en pleine <span style=\"margin-left:20px\">propriété</span></td><td style=\"width:33% \"><input type=\"checkbox\" id=\"{indivision}\" style=\"position:relative;top:-5px;width:10px;height:10px;\" > <span style=\"font-size: 9.5px;\">&nbsp;propriétaire ou copropriétaire en indivision</span></td><td style=\"width:34% \"><input type=\"checkbox\" id=\"{SCI}\" style=\"position:relative;top:-5px;width:10px;height:10px;\" > <span style=\"font-size: 9.5px;\">&nbsp;associé d’une SCI propriétaire du logement</span></td></tr><tr><td><input type=\"checkbox\" id=\"{usufruitier}\" style=\"position:relative;top:-7.5px;width:10px;height:10px;\" > <span style=\"font-size: 9.5px\">&nbsp;&nbsp;usufruitier</span></td><td><span style=\"font-size: 9.5px;\"><input type=\"checkbox\" id=\"{habitation}\" style=\"position:relative;top:-4.8px;width:10px;height:10px;\" > <span style=\"font-size: 9.5px;\">&nbsp;&nbsp;titulaire d’un droit d’usage et d’habitation</span></td><td><span style=\"font-size: 9.5px;\"><input type=\"checkbox\" id=\"{immobilier}\" style=\"position:relative;top:-5px;width:10px;height:10px;\" > <span style=\"font-size: 9.5px;\">&nbsp;&nbsp;titulaire d’un droit réel immobilier</span></td></tr><tr><td><span style=\"font-size: 9.5px;\"><input type=\"checkbox\" id=\"{locataire}\" style=\"position:relative;top:-5px;width:10px;height:10px;\" > <span style=\"font-size: 9.5px;\">&nbsp;&nbsp;locataire</span></td><td><span style=\"font-size: 9.5px;\"> <input type=\"checkbox\" id=\"{viager}\" style=\"position:relative;top:-5px;width:10px;height:10px;\" > <span style=\"font-size: 9.5px;\">&nbsp;&nbsp;occupant d’un logement en viager</span></td><td></td></tr></table><p style=\"font-size: 9.5px;\">Indiquez la <strong>somme totale</strong> des derniers revenus fiscaux de référence (RFR) <strong>de l’ensemble des occupants</strong> du logement à améliorer (vous y compris le cas échéant)¹ : <span class=\"{sum_rfr}\"> </span>€, correspondant aux revenus de l’année <span class=\"{year_income}\"></p><ul style=\"margin-left:-25px;margin-top:-7px;margin-bottom:-5px;\" class='marker'><li><span style=\"color:#008286\">Cas particulier : vous n’occupez pas (et n’allez pas occuper) le logement à améliorer mais : </span></li></ul><p style=\"margin-top:5px;\"><input type=\"checkbox\" id=\"{casParticulier1}\" style=\"position:relative;top:-5px;width:10px;height:10px;\" >  <span style=\"font-size: 9.5px;\"> vous assurez la charge des travaux pour le compte de vos ascendants ou descendants de revenus modestes, eux-mêmes propriétaires du <span style=\"margin-left:19px\">logement;</span> </span><br><input type=\"checkbox\" id=\"{casParticulier2}\" style=\"position:relative;top:-5px;width:10px;height:10px;\" > <span style=\"font-size: 9.5px;\"> vous hébergez à titre gratuit un ménage de ressources modestes;</span></p><p style=\"font-size: 9.5px;\"><b>Dans ce cas, précisez également:</b></p><ul class=\"line\" style=\"margin-top:-5px;margin-left:-35px;\"><li style=\"font-size:9.5px;\"> le nombre de personnes vivant sous votre toit (vous y compris): <span></span>et, le cas échéant, le nombre d’enfant(s) à naître : <span></span></li><li style=\"font-size:9.5px;\"> comme pour les occupants du logement à améliorer, la somme totale des RFR de l’ensemble des occupants de votre logement (vous y compris)¹:<br> <span class=\"{sum_rfr_2}\"></span> , correspondant aux revenus de l’année <span class=\"{year_income_2}\"><span></span></li></ul></div>"
+            }
+        }
+    },
+    "19": {
+        "id": "19",
+        "title": "",
+        "active": "1",
+        "style": "",
+        "tag": "",
+        "hasLists": "1",
+        "ordre": "20",
+        "fields": {
+            "19": {
+                "id": "19",
+                "title": "",
+                "tag": "div",
+                "style-title": "",
+                "style": "",
+                "active": "1",
+                "type": "text",
+                "src": "",
+                "data": "<div style=\"margin-top:-135px;\"><table><tr><td><p style=\"background-color: #f9a51b;font-size:14px;color:white;margin-top:-5px;padding-right:400px;\">DESCRIPTION DU LOGEMENT À AMÉLIORER</p></td></tr></table><p style=\"font-size:10px; margin-top:-9.5px;margin-left:4px\">Si l’adresse du logement à rénover est différente de votre adresse, complétez ci-après:</p><table style=\"width: 100%;margin-top:-10px;\"><tr><td style=\"width:6.5%;\"><span style=\"font-size: 9px;position:relative;top:-2px\">Adresse :</span></td><td style=\"width:93.5%;\"> <span style=\"font-size:10px;position:relative;top:-3.5px\" class=\"{Adresse2}\"></span>                </td></tr></table><table style=\"width: 100%;margin-top:-9px;\"><tr><td style=\"width:7.5%;\"><span style=\"font-size: 9px;\">Bâtiment :</span></td><td style=\"width:6.5%;\"> <span style=\"font-size:10px;position:relative;top:-1.5px;\" class=\"{Batiment2}\"></span>  </td><td style=\"width:6.5%;\"><span style=\"font-size: 9px;\">Escalier :</span></td><td style=\"width:6.5%;\"> <span style=\"font-size:10px;\" class=\"{Escaller2}\"></span></td><td style=\"width:6.5%;\"><span style=\"font-size: 9px;\">Étage :</span></td><td style=\"width:6.5%;\"> <span style=\"font-size:10px;\" class=\"{Etage2}\"></span></td><td style=\"width:6.5%;\"><span style=\"font-size: 9px;\">Porte :</span></td><td style=\"width:53.5%;\"> <span style=\"font-size:10px;\" class=\"{Porte2}\"></span></td></tr></table><table style=\"width: 100%;margin-top:-5px;\"><tr><td style=\"width:10%;\"><span style=\"font-size: 9px;\">Code Postal :</span></td><td style=\"width:10%;\"> <span style=\"font-size:10px;\" class=\"{CodePostal2}\"></span></td><td style=\"width:9%;\"><span style=\"font-size: 9px;\">Commune :</span></td><td style=\"width:71%;\"> <span style=\"font-size:10px;\" class=\"{Commune2}\"></span></td></tr></table><ul style=\"margin-left:-25px;margin-top:-5px;\" ><li><span style=\"font-size:10px;\"> le logement à améliorer est: une maison individuelle </span> <input type=\"checkbox\" id=\"{descriptionIndiv}\" style=\"position:relative;top:-5px;width:10px;height:10px;\" > <span style=\"font-size:10px;\"> un appartement </span> <input type=\"checkbox\" id=\"{descriptionAppartement}\" style=\"position:relative;top:-5px;width:10px;height:10px;\" > <span style=\"font-size:10px;\"> dont les travaux concernent les parties communes de l’immeuble: oui</span> <input type=\"checkbox\" id=\"{descriptionOui1}\" style=\"position:relative;top:-5px;width:10px;height:10px;\" > <span style=\"font-size:10px;\"> non </span> <input type=\"checkbox\" id=\"{descriptionNon1}\" style=\"position:relative;top:-5px;width:10px;height:10px;\" ></li><li><span style=\"font-size:10px;\"> il a été construit depuis plus de 15 ans: oui</span> <input type=\"checkbox\" id=\"{descriptionOui2}\" style=\"position:relative;top:-5px;width:10px;height:10px;\" > <span style=\"font-size:10px;\"> non</span> <input type=\"checkbox\" id=\"{descriptionNon2}\" style=\"position:relative;top:-5px;width:10px;height:10px;\" > </li><li><span style=\"font-size:10.2px;\">  vous avez bénéficié d’un Prêt à Taux Zéro (PTZ) du ministère du Logement au cours des cinq dernières années pour son acquisition :  oui </span> <input type=\"checkbox\" id=\"{descriptionOui3}\" style=\"position:relative;top:-5px;width:10px;height:10px;\" > <span style=\"font-size:10px;\"> non</span> <input type=\"checkbox\" id=\"{descriptionNon3}\" style=\"position:relative;top:-5px;width:10px;height:10px;\" >  </li><li><span style=\"font-size:10px;\"> les travaux vont être réalisés partiellement ou totalement dans le cadre du dispositif d’auto-réhabilitation avec un opérateur spécialisé : oui </span> <input type=\"checkbox\" id=\"{descriptionOui4}\" style=\"position:relative;top:-5px;width:10px;height:10px;\" > <span style=\"font-size:10px;\"> non</span> <input type=\"checkbox\" id=\"{descriptionNon4}\" style=\"position:relative;top:-5px;width:10px;height:10px;\" >  </li><li><span style=\"font-size:10px;\"> pour le bénéfice de la prime Habiter Mieux sérénité, indiquez la consommation énergétique conventionnelle en kWh ep/m² .an de votre logement: avant travaux: <span class=\"{before_trv}\"></span> projetée après travaux: <span class=\"{after_trv}\">  <span></span></span></li><li><span style=\"font-size:9.7px;\"> vous souhaitez réaliser des travaux de :</span> <input type=\"checkbox\" id=\"{descriptionRenovationE}\" style=\"position:relative;top:-5px;width:10px;height:10px;\" > <span style=\"font-size:10px;\"> rénovation énergétique (isolation ; chauffage etc.)</span> <input type=\"checkbox\" id=\"{descriptionAdaptation}\" style=\"position:relative;top:-5px;width:10px;height:10px;\" > <span style=\"font-size:9.7px;\"> adaptation à la perte d’autonomie et accessibilité du logement (salle de bain ; monte-escalier etc.)</span> <input type=\"checkbox\" id=\"{descriptionRenovationL}\" style=\"position:relative;top:-5px;width:10px;height:10px;\" > <span style=\"font-size:9.7px;\"> rénovation lourde (travaux très importants)</span> <input type=\"checkbox\" class=\"{descriptionAutre}\" style=\"position:relative;top:-5px;width:10px;height:10px;\" > <span style=\"font-size:9.5px;\"> autres, précisez-en la nature :</span></li></ul><span style=\"font-size:10px;position: relative;top:-10px;right:-17px;\" class=\"{preciserNature}\"></span><p style=\"font-size:6.8px;width:100%;\"><b>1.</b> Il convient de se baser sur les derniers documents disponibles produits par l’administration fiscale: l’avis d’impôt sur les revenus (AIR) ou l’avis de situation déclarative à l’impôt sur les revenus (ASDIR) <br>au titre des revenus de l’année précédant celle du dépôt de votre demande de subvention <b>(N-1)</b> pour l’ensemble des occupants du logement, ou, uniquement si ceux-ci ne sont pas disponibles pour<br>l’ensemble des occupants, ceux de l’avant-dernière année (N-2).<u>Dans tous les cas, l’année de référence N-1 ou N-2 doit être la même pour l’ensemble des justificatifs transmis.</u></p></div>"
+            }
+
+        }
+    },
+    "20": {
+        "id": "20",
+        "title": "",
+        "active": "1",
+        "style": "",
+        "tag": "",
+        "hasLists": "0",
+        "ordre": "21",
+        "fields": {
+            "20": {
+                "id": "20",
+                "title": "",
+                "tag": "div",
+                "style-title": "",
+                "style": "",
+                "active": "1",
+                "type": "text",
+                "src": "",
+                "data": "<div style=\"position: absolute; top:97%;right:100% \"><table style=\"border: #f9a51b solid 1px;\"><tr><td ><p style=\"color: #f9a51b;margin-top:-5px;margin-bottom:-5px;\">2</p></td></tr></table></div>                "
+            }
+        }
+    },
+    "21": {
+        "id": "21",
+        "title": "",
+        "active": "1",
+        "style": "",
+        "tag": "",
+        "hasLists": "1",
+        "ordre": "22",
+        "fields": {
+            "21": {
+                "id": "21",
+                "title": "",
+                "tag": "div",
+                "style-title": "",
+                "style": "",
+                "active": "1",
+                "type": "text",
+                "src": "",
+                "data": " <div style=\"margin-top:20px;page-break-before: always;\"><table><tr><td><p style=\"background-color: #f9a51b;font-size:14px;color:white;margin-top:2px;padding-right:400px;\">VOS ENGAGEMENTS VIS-À-VIS DE L’ANAH2</p></td></tr></table><p style=\"font-size:14px;margin-top:-7px;\"><span style=\"color:#f9a51b;font-size:20px;\">•</span> <span style=\"color: #0289b0\">J’atteste:</span></p><ul class=\"line\" style=\"margin-top:-15px;margin-left:-35px;\"><li> <span style=\"font-size:9.5px;\"><b>ne pas avoir commencé les travaux </b>avant de déposer la présente demande auprès de l’Anah,</span></li><li> <span style=\"font-size:9.5px;\">que je n’ai pas acheté mon logement à un organisme HLM depuis moins de cinq ans,</span></li></ul><p style=\"font-size:14px;margin-top:-7px;\"><span style=\"color:#f9a51b;font-size:20px;\">•</span> <span style=\"color: #0289b0\">Je m’engage à:</span></p><ul class=\"line\" style=\"margin-top:-15px;margin-left:-35px;\"><li> <span style=\"font-size:9.5px;\"><b>commencer les travaux dans un délai de un an </b>suivant la date d’attribution de l’aide,</span></li><li> <span style=\"font-size:9.5px;\">faire réaliser les travaux par des entreprises du bâtiment ayant une activité déclarée en rapport avec les travaux effectués ( <b>pose et fourniture des matériaux et équipements réalisés par ces dernières</b>), sauf en cas d’auto-réhabilitation accompagnée par un opérateur spécialisé,</span></li><li> <span style=\"font-size:9.5px;\"><b> terminer les travaux</b> et présenter ma <b>demande de paiement du solde</b>de l’aide <b>dans le délai de trois ans</b> suivant la date d’attribution de l’aide,</span></li><li> <span style=\"font-size:9.5px;\"><b>occuper mon logement amélioré pendant au moins 6 ans à titre de résidence principale </b>suivant la date de réception par l’Anah de la demande de paiement du solde de l’aide,</span></li></ul><ul style=\"list-style: none;margin-top:-18px;\"><li> •  <span style=\"font-size:8px;\">si vous n’occupez pas encore le logement amélioré, vous avez jusqu’à un an suivant la demande de solde pour y entrer</span></li><li> • <span style=\"font-size:8px;\">si vous supportez la charge des travaux mais n’occupez pas le logement amélioré, l’obligation d’occuper au moins six ans le logement à compter de la demande de solde pèse sur les occupants propriétaires ou sur le ménage modeste que vous hébergez à titre gratuit.</span></li></ul><ul class=\"line\" style=\"margin-top:-15px;margin-left:-35px;\"><li> <span style=\"font-size:9.5px;\">pendant cette période de <b>six ans,</b>, informer l’Anah par écrit et dans les deux mois de toute <b> modification du droit de propriété</b> du logement amélioré (vente, mutation etc.) ou de ses conditions d’occupation (transformation en bureau, résidence secondaire, mise en location etc…),</span></li><li> <span style=\"font-size:9.5px;\">lorsque le projet comporte des <b>travaux d’amélioration de la performance énergétique:</b></span></li></ul></div> "
+            }
+        }
+    },
+    "22": {
+        "id": "22",
+        "title": "",
+        "active": "1",
+        "style": "",
+        "tag": "",
+        "hasLists": "1",
+        "ordre": "23",
+        "fields": {
+            "22": {
+                "id": "22",
+                "title": "",
+                "tag": "div",
+                "style-title": "",
+                "style": "",
+                "active": "1",
+                "type": "text",
+                "src": "",
+                "data": "<div><p style=\"font-size:10px;color:#8dc640;margin-top:-5px;\"><b>Pour la prime Habiter Mieux sérénité :</b></p><p style=\"margin-top:-5px;\"><span>•</span><span style=\"font-size:8.8px;\">exiger de chaque entreprise ou professionnel réalisant les travaux qu’il fournisse une <b>attestation d’exclusivité</b> (formulaire Cerfa n° 15 347) permettant la <br>valorisation des <b>CEE</b> exclusivement par l’Anah, qui a eu un rôle actif et incitatif dans la réalisation du projet de travaux subventionné (ces attestations devront <br>être obligatoirement fournies à l’Anah pour obtenir le paiement de l’aide),</span> <br><span>•</span><span style=\"font-size:8.8px;\"><b>ne pas signer de document similaire</b> permettant la valorisation des CEE par un autre acteur (entreprise de travaux, fournisseur de matériaux, <br>établissements de crédit etc.), sous peine de retrait de l’aide et de reversement des sommes déjà perçues,</span></p><p style=\"font-size: 9.5px;\"><span style=\"color:#ff5626\"><b>Pour Habiter Mieux agilité</b></span>, recourir à des entreprises qualifiées «<b> RGE </b>» (Reconnues Garantes de l’Environnement) pour effectuer les travaux.</p></div>                "
+            }
+        }
+    },
+    "23": {
+        "id": "23",
+        "title": "",
+        "active": "1",
+        "style": "",
+        "tag": "",
+        "hasLists": "1",
+        "ordre": "24",
+        "fields": {
+            "23": {
+                "id": "23",
+                "title": "",
+                "tag": "div",
+                "style-title": "",
+                "style": "",
+                "active": "1",
+                "type": "text",
+                "src": "",
+                "data": " <div><p style=\"font-size:14px;margin-top:-7px;\"><span style=\"color:#f9a51b;font-size:20px;\">•</span> <span style=\"color: #0289b0\">Je reconnais être informé(e) que:</span></p><ul class=\"line\" style=\"margin-top:-15px;margin-left:-35px;\"><li> <span style=\"font-size:9.5px;\"> l’Anah peut effectuer des <b>contrôles</b> (visite du logement, notamment pour vérifier la nature des travaux et la réalisation effective de ceux-ci, demande d’informations complémentaires, vérification de l’occupation du logement…) pendant les six ans de période obligatoire d’occupation du logement,</span></li><li> <span style=\"font-size:9.5px;\"><b>en cas de non-respect de ces engagements et de la réglementation en vigueur ou en cas de fraude,</b> l’aide attribuée est annulée et les sommes déjà perçues devront être remboursées avec une majoration,</span></li><li> <span style=\"font-size:9.5px;\"><b> toute fraude ou fausse déclaration</b> expose également à des sanctions financières et administratives, ainsi qu’à des poursuites judiciaires</span></li></ul></div>                "
+            }
+        }
+    },
+    "24": {
+        "id": "24",
+        "title": "",
+        "active": "1",
+        "style": "",
+        "tag": "",
+        "hasLists": "0",
+        "ordre": "25",
+        "fields": {
+            "24": {
+                "id": "24",
+                "title": "",
+                "tag": "div",
+                "style-title": "",
+                "style": "",
+                "active": "1",
+                "type": "text",
+                "src": "",
+                "data": "<div style=\"position: relative; top:70px;left:420px;\"><table style=\"width: 40%; \"><tr><td style=\"width: 11%;vertical-align: top;\"><span style=\"font-size: 9px;\">Fait à</span></td><td style=\"width: 35%;\"><span style=\"font-size: 9px;\" class=\"{FaitA}\"></span></td><td style=\"width: 7%;vertical-align: top;\"><span style=\"font-size: 9px;\">,le</span></td><td style=\"width: 51%;vertical-align: top;\"><span style=\"font-size: 9px;\" class=\"{le}\"></span></td></tr></table><table style=\"width: 40%; \"><tr><td style=\"width: 25%\"><span style=\"font-size: 9px;\">En qualité de :</span></td><td style=\"width: 75%\"><span style=\"font-size: 9px;\" class=\"{qualiteDe}\"></span></td></tr></table><table style=\"width: 40%; \"><tr><td style=\"width: 100%\"><span style=\"font-size: 9px;\"><input type=\"checkbox\" id=\"{Demandeur}\" style=\"position:relative;top:7px;\" > <b> Demandeur</b> de l’aide</span></td></tr></table><table style=\"width: 40%; \"><tr><td style=\"width: 100%\"><span style=\"font-size: 9px;\"><input type=\"checkbox\" id=\"{Mandataire}\" style=\"position:relative;top:7px;\" > <b> Mandataire</b> pour le compte du demandeur de l’aide ou tuteur du demandeur</span> <br> <img class=\"{signature_mandataire}\" style=\"height:90px;weight:auto;\"></img> </td></tr></table></div>    "
+            }
+        }
+    },
+    "25": {
+        "id": "25",
+        "title": "",
+        "active": "1",
+        "style": "",
+        "tag": "",
+        "hasLists": "0",
+        "ordre": "26",
+        "fields": {
+            "25": {
+                "id": "25",
+                "title": "",
+                "tag": "div",
+                "style-title": "",
+                "style": "",
+                "active": "1",
+                "type": "text",
+                "src": "",
+                "data": "<div style=\"position: relative; top:220px;\"><p style=\"font-size: 7.3px;\"><b>2.</b> Pour plus d’information sur les engagements et la réglementation en vigueur, reportez-vous au règlement général de l’agence (RGA) disponible notamment sur le site Légifrance</p><p style=\"font-size: 7.3px;\"><b>3.</b> Vous avez la possibilité de donner mandat à une personne ou un organisme pour remplir et signer en votre nom une demande d’aide et prendre en votre nom tout engagement envers l’Anah. <br> &nbsp;&nbsp;&nbsp;Le cas échéant, vous devez utiliser le <u>formulaire Cerfa n° 13462 </u>qui sera à joindre à la présente demande. <br> &nbsp;&nbsp;&nbsp;Le recours à un mandataire est obligatoire dans le cas où il y a pluralité de titulaires du droit de propriété du logement à améliorer.</p></div>                "
+            }
+        }
+    },
+
+    "26": {
+        "id": "26",
+        "title": "",
+        "active": "1",
+        "style": "",
+        "tag": "",
+        "hasLists": "0",
+        "ordre": "27",
+        "fields": {
+            "26": {
+                "id": "26",
+                "title": "",
+                "tag": "div",
+                "style-title": "",
+                "style": "",
+                "active": "1",
+                "type": "text",
+                "src": "",
+                "data": "<div style=\"position: absolute; top:97%;left:100% \"><table style=\"border: #f9a51b solid 1px;\"><tr><td ><p style=\"color: #f9a51b;margin-top:-5px;margin-bottom:-5px;\">3</p></td></tr></table></div>  "
+            }
+        }
+    },
+    "27": {
+        "id": "27",
+        "title": "",
+        "active": "1",
+        "style": "",
+        "tag": "",
+        "hasLists": "1",
+        "ordre": "28",
+        "fields": {
+            "27": {
+                "id": "27",
+                "title": "",
+                "tag": "div",
+                "style-title": "",
+                "style": "",
+                "active": "1",
+                "type": "text",
+                "src": "",
+            "data": "<div style=\"page-break-before: always;\"><p style=\"background-color: #f9a51b;font-size:14px;color:white;margin-top:35px;width:100%\">COMPOSITION DU DOSSIER </p><p style=\"font-size:14px;margin-top:-20px;\"><span style=\"color:#f9a51b;font-size:20px;\">•</span> <span style=\"color: #0289b0\"> Dans tous les cas:</span></p><ul class=\"line\" style=\"margin-top:-17px;margin-left:-35px;\"><li ><span style=\"font-size:9px;\"> <b>les justificatifs de ressources :</b></span></li></ul><ul style=\"list-style: none;margin-top:-10px;\"><li style=\"line-height:80%\">• <span style=\"font-size:8.5px;\">de l’ensemble des occupants du logement à améliorer: il s’agit des derniers documents disponibles produits par l’administration fiscale vous ayant servi à renseigner la ou, le cas échéant, les somme(s) totale(s) des RFR (voir note de bas de page n° 1). Si vous n’occupez pas le logement, joignez également les justificatifs des personnes vivant sous votre toit. Si le logement appartient à une SCI, joignez ceux de l’ensemble des associés, occupants ou non. Si vous êtes locataire, il s’agit des mêmes justificatifs que ceux demandés à un propriétaire occupant;</span></li><li style=\"line-height:80%\">•  <span style=\"font-size:8.5px;\">le cas échéant, les justificatifs permettant de prendre en compte une situation particulière pour l’appréciation des revenus (justificatif de séparation ou de divorce, attestation de garde des enfants, acte de décès, certificat de naissance ou d’enfant à naître, placement de longue durée en établissement de soin, etc…);</span></li></ul><ul class=\"line\" style=\"margin-top:-10px;margin-left:-35px;\"><li ><span style=\"font-size:9px;\"><b>le dossier technique</b>, comprenant:</span></li></ul><ul style=\"list-style: none;margin-top:-10px;\"><li style=\"line-height:80%\">• <span style=\"font-size:8.5px;\">dles devis détaillés descriptifs et estimatifs des travaux, présentés par une ou plusieurs entreprises du bâtiment ayant une activité déclarée en rapport avec les travaux effectués (<b>pose et fourniture des matériaux et équipements réalisées par ces dernières</b>) ou par un maître d’œuvre. Pour <span style=\"color:#ff5626\"><b>Habiter Mieux agilité</b></span>, les devis présentés devront être établis par des entreprises du bâtiment qualifiées « <b>RGE</b> » (Reconnues garantes de l’environnement);</span></li><li style=\"line-height:80%\">•  <span style=\"font-size:8.5px;\">le cas échéant, les justificatifs permettant de prendre en compte une situation particulière pour l’appréciation des revenus (justificatif de séparation ou de divorce, attestation de garde des enfants, acte de décès, certificat de naissance ou d’enfant à naître, placement de longue durée en établissement de soin, etc…);</span></li></ul><p style=\"font-size:14px;margin-top:-20px;\"><span style=\"color:#f9a51b;font-size:20px;\">•</span> <span style=\"color: #0289b0\"> Puis, selon les cas:</span></p><ul class=\"line\" style=\"margin-top:-15px;margin-left:-35px;\"><li > <span style=\"font-size:9px;\"><b>les justificatifs de propriété ou des droits détenus sur le logement,</b> uniquement dans le cas où :</span></li></ul><ul style=\"list-style: none;margin-top:-10px;\"><li style=\"line-height:80%\">• <span style=\"font-size:8.5px;\"> l’adresse figurant sur l’avis d’imposition ou de non-imposition est différente de l’adresse à laquelle sont réalisés les travaux. Dans ce cas, il doit être justifié par tout moyen de votre droit de propriété ou de vos droits sur l’usage du logement (photocopie de la taxe foncière, fiche d’immeuble, attestation de propriété ou fiche individuelle du propriétaire);</span></li><li style=\"line-height:80%\">•  <span style=\"font-size:8.5px;\">vous êtes titulaire d’un droit d’usage et d’habitation. Dans ce cas, joignez une photocopie de l’acte notarié (ou une attestation notariée de même nature) instituant un droit d’usage et d’habitation sur le logement aidé et indiquant le titulaire de ce droit;</span></li></ul><ul class=\"line\" style=\"margin-top:-10px;margin-left:-35px;\"><li> <span style=\"font-size:9px;\">pour le bénéfice de la prime <span style=\"color:#8dc640\"><b>Habiter Mieux sérénité</b></span></span></li></ul><ul style=\"list-style: none;margin-top:-10px;\"><li style=\"line-height:80%\">• <span style=\"font-size:8.5px;\"> une <b>évaluation énergétique</b> pour le logement concerné permettant de connaître la consommation conventionnelle en kWhep/m2.an et l’étiquette “énergie” avant travaux et projetés après travaux. Ce diagnostic doit être établi par un diagnostiqueur agréé dans le cadre d’une certification ou d’un label délivrés par des organismes agréés, ou par un opérateur/animateur doté de la compétence nécessaire ;</span></li><li style=\"line-height:80%\">•  <span style=\"font-size:8.5px;\">une copie de la <b>fiche de synthèse de l’évaluation globale</b> (fiche établie par l’opérateur réalisant la prestation d’accompagnement obligatoire);</span></li></ul><ul class=\"line\" style=\"margin-top:-10px;margin-left:-35px;\"><li style=\"line-height:80%\"> <span style=\"font-size:9px;\">en cas de <b>travaux lourds ou de travaux de lutte contre l’habitat indigne ou insalubre,</b> outre <b>l’évaluation énergétique</b> (voir à ce sujet la rubrique <span style=\"color:#8dc640\"><b>Habiter Mieux sérénité)</b></span>, l’une des pièces suivantes:</span></li></ul><ul style=\"list-style: none;margin-top:-10px;\"><li style=\"line-height:80%\">• <span style=\"font-size:8.5px;\"> documents notifiés par l’autorité administrative dans le cadre d’une injonction : <u>arrêtés, notifications ou prescriptions de travaux</u> en matière d’insalubrité, de saturnisme, de péril, de sécurité des équipements communs, ou de conformité au règlement sanitaire départemental, constat de risque d’exposition au plomb (CREP);</span></li><li style=\"line-height:80%\">•  <span style=\"font-size:8.5px;\"><u>rapport d’analyse réalisé par un professionnel qualifié</u> comportant la grille d’évaluation de l’insalubrité de l’habitat, ou la grille d’évaluation de la dégradation de l’habitat;</span></li></ul><ul class=\"line\" style=\"margin-top:-10px;margin-left:-35px;\"><li style=\"line-height:80%\"> <span style=\"font-size:9px;\">en cas de <b>travaux pour l’autonomie de la personne</b> permettant d’adapter le logement et les accès au logement aux besoins spécifiques d’une personne en situation de handicap ou de perte d’autonomie liée à la vieillesse, d’une part, <u>le justificatif handicap</u> ou de perte d’autonomie de la personne concernée (décision de la commission des droits et de l’autonomie des personnes handicapées (CDAPH ou « GIR ») et, <b>d’autre part</b>, un diagnostic établissant l’adéquation des travaux aux besoins de cette personne <u>(rapport d’ergothérapeute ou diagnostic autonomie)</u>;</span></li><li style=\"line-height:80%\"><span style=\"font-size:9px;\"> si le montant des travaux subventionnables <b>dépasse 100 000 €,</b> un plan de financement prévisionnel signé ;</span></li><li style=\"line-height:80%\"><span style=\"font-size:9px;\"> en cas de <b> prestation d’accompagnement d’un opérateur (assistance à maîtrise d’ouvrage – AMO - ou animateur de suivi-animation)</b>,  la copie de la fiche de synthèse de l’évaluation globale (fiche établie par l’opérateur réalisant cette prestation) et, le cas échéant, la copie du contrat que vous avez conclu avec ce prestataire, décrivant le contenu de la prestation effectuée et son montant;</span></li><li style=\"line-height:80%\"><span style=\"font-size:9px;\">en cas de recours à un <b>maître d’œuvre professionnel</b>  (architecte, agréé en architecture, etc.), le devis d’honoraires de maîtrise d’œuvre. Lorsque l’intervention d’une maîtrise d’œuvre professionnelle complète est rendue obligatoire par la réglementation de l’Anah (travaux subventionnables <b>supérieurs à 100 000 €,</b>  et/ou en cas d’arrêté d’injonction de travaux, vous devez joindre également la copie du <b> contrat de maîtrise d’œuvre complète</b> comprenant le montant des honoraires;</span></li><li style=\"line-height:80%\"><span style=\"font-size:9px;\"> si vous êtes <b>locataire</b> : le <b>contrat de location </b>avec, en cas de travaux pour la mise en décence, <u>la copie de la notification adressée au propriétaire</u> et la déclaration sur l’honneur selon laquelle il ne s’est pas opposé aux travaux et n’a pas déclaré les entreprendre lui-même et, en cas de travaux pour l’autonomie de la personne, <u>l’autorisation expresse du bailleur</u> pour la réalisation des travaux;</span></li><li style=\"line-height:80%\"><span style=\"font-size:9px;\"> si le logement est inclus dans un <b> bail commercial, </b> un <u>état des lieux annexé au bail commercial</u> et tout document permettant de constater l’occupation effective de ce logement;</span></li><li style=\"line-height:80%\"><span style=\"font-size:9px;\">  si vous <b> hébergez un ménage à titre gratuit, la convention d’occupation ou de mise à disposition (commodat), </b> ou son projet;</span></li><li style=\"line-height:80%\"><span style=\"font-size:9px;\"> si vous effectuez les travaux dans le cadre du <b> dispositif d’auto-réhabilitation accompagnée</b> par un opérateur spécialisé, une copie de la convention conclue entre vous et l’opérateur, accompagnée du formulaire spécifique « <b>Charte Anah pour l’encadrement des travaux réalisés en auto-réhabilitation</b> »;</span></li><li style=\"line-height:80%\"><span style=\"font-size:9px;\">  si les travaux font suite à une notification prescrivant la mise en conformité d’une <b> installation d’assainissement non-collectif,</b> joignez cette <b>notification</b> et également les <u>justificatifs de l’attribution d’une aide de l’Agence de l’eau ou d’une collectivité locale</u> (condition obligatoire pour la recevabilité des travaux);</span></li><li style=\"line-height:80%\"><span style=\"font-size:9px;\"> si le <b>bénéficiaire de l’aide est placé sous tutelle</b>  joindre une <b>copie de la décision judiciaire</b>  et préciser sur papier libre les <u>coordonnées complètes du tuteur;</u></span></li><li style=\"line-height:80%\"><span style=\"font-size:9px;\"> <b>en cas de mandat donné</b>  pour remplir et déposer au nom et pour le compte du bénéficiaire de l’aide la présente demande, <u>le formulaire Cerfa n° 13 462</u> (voir note de bas de page n° 3).</u></span></li></ul><table style=\"border: 0.5px solid black;padding:8px;\"><tr><td><span style=\"font-size:9px;\">À noter que <b>vous pourrez donner procuration à une tierce personne pour remplir et déposer en votre nom la (les) demande(s) de paiement</b> accompagnée(s) des pièces justifiant de l’exécution des travaux et de tout document nécessaire au calcul et au versement de l’aide. Votre mandataire percevra alors pour votre compte le montant de l’aide accordée par l’Agence. Référez-vous, le cas échéant, au <u> formulaire Cerfa n° 13 463.</u></span></td></tr></table></div> "
+            }
+        }
+    },
+    "28": {
+        "id": "28",
+        "title": "",
+        "active": "1",
+        "style": "",
+        "tag": "",
+        "hasLists": "1",
+        "ordre": "29",
+        "fields": {
+            "28": {
+                "id": "28",
+                "title": "",
+                "tag": "div",
+                "style-title": "",
+                "style": "",
+                "active": "1",
+                "type": "text",
+                "src": "",
+                "data": "<div style=\"position: absolute; top:98%;right:100% \"><table style=\"border: #f9a51b solid 1px;\"><tr><td ><p style=\"color: #f9a51b;margin-top:-5px;margin-bottom:-5px;\">4</p></td></tr></table></div>                "
+            }
+        }
+    }
+}

@@ -1,0 +1,156 @@
+{
+    "0": {
+    "id": "0",
+    "title": "",
+    "active": "1",
+    "style": "",
+    "tag": "h3",
+    "hasLists": "0",
+    "ordre": "1",
+    "fields": {
+        "0": {
+            "title": "",
+            "id": "0",
+            "tag": "div",
+            "style-title": "",
+            "style": "",
+            "active": "0",
+            "type": "text",
+            "src": "",
+            "data": "<div style=\"text-align: right;\"><img class=\"{logo}\" style=\"text-align:right;width: 100px; height: auto;\" alt=\"\"></div>            "
+        }
+    }
+},
+"1": {
+    "id": "1",
+    "title": "",
+    "active": "1",
+    "style": "",
+    "tag": "h3",
+    "hasLists": "0",
+    "ordre": "2",
+    "fields": {
+        "0": {
+            "title": "",
+            "id": "0",
+            "tag": "div",
+            "style-title": "",
+            "style": "",
+            "active": "0",
+            "type": "text",
+            "src": "",
+            "data": "<div ><h4 style=\"margin-bottom:-15px;font-size:14px;\"><span class=\"{company_name}\"></span></h4><p style=\"font-size:14px;\"><span class=\"{company_address}\"></span><br><span class=\"{company_postal_city}\"></span></p></div>            "
+        }
+    }
+},
+"2": {
+    "id": "2",
+    "title": "",
+    "active": "1",
+    "style": "",
+    "tag": "h3",
+    "hasLists": "0",
+    "ordre": "3",
+    "fields": {
+        "0": {
+            "title": "",
+            "id": "0",
+            "tag": "div",
+            "style-title": "",
+            "style": "",
+            "active": "0",
+            "type": "text",
+            "src": "",
+            "data":"<div style=\"position: relative; left: 40%\"><table style=\"border-collapse: collapse; width: 50%;border:solid 2px;\"><tr><td style=\" padding-left: 20px; padding-right: 15px; font-weight: bold; font-size: 13px;padding-top:5px;\">Monsieur et Madame <span class=\"{client_name}\"></span></td></tr><tr><td style=\" padding-left: 20px; padding-right: 15px; font-size: 13px;\"><span class=\"{client_address}\"></span></td></tr><tr><td style=\" padding-left: 20px; padding-right: 15px; font-size: 13px;\"><span class=\"{client_postal_city}\"></span></td></tr><tr><td style=\" padding-left: 20px; padding-right: 15px; font-size: 13px; font-weight: bold; border-bottom: 2px solid;padding-bottom:5px;\"><span class=\"{client_number}\"></span></td></tr><tr><td style=\" padding-left: 20px; padding-right: 15px; font-size: 13px; font-weight: bold;padding-top:5px;\">Devis N° <span class=\"{invoice_reference}\"></span></td></tr><tr><td style=\" padding-left: 20px; padding-right: 15px; font-size: 13px;padding-bottom:5px;\">Date : <span class=\"{invoice_date}\"></span></td></tr></table></div>            "
+        }
+    }
+},
+"3": {
+    "id": "3",
+    "title": "",
+    "active": "1",
+    "style": "",
+    "tag": "h3",
+    "hasLists": "0",
+    "ordre": "4",
+    "fields": {
+        "0": {
+            "title": "",
+            "id": "0",
+            "tag": "div",
+            "style-title": "",
+            "style": "",
+            "active": "0",
+            "type": "Devis",
+            "src": "",
+            "data": {}
+        }
+    }
+},
+"4": {
+    "id": "4",
+    "title": "",
+    "active": "1",
+    "style": "",
+    "tag": "",
+    "hasLists": "1",
+    "ordre": "5",
+    "fields": {
+        "0": {
+            "id": "0",
+            "title": "",
+            "tag": "div",
+            "style-title": "",
+            "style": "",
+            "active": "1",
+            "src": "",
+            "type": "text",
+            "data": "<div style=\"margin-top:35px;\"><p style=\" font-size:14px;\"><b>Validité du devis :</b> 3 mois à compter de la date d’émission <br><b>Date de début de la prestation :</b> À compter de la date de signature du contrat <br><b>Date de fin de la prestation :</b> Deux mois à compter de la date de fin des travaux. <br><b>Conditions de règlement :</b></p><ul class=\"line\" style=\"margin-top:-7px;\"><li style=\" font-size:14px;\"> Paiement à la commande d’un acompte de <b><span class=\"{ttc_audit}\"></span> TTC</b> correspondant à l’audit énergétique,</li><li style=\" font-size:14px;\"> Paiement du solde du devis à la réception du chantier</li></ul></div>            "
+        }
+    }
+},
+"6": {
+    "id": "6",
+    "title": "",
+    "active": "1",
+    "style": "",
+    "tag": "h3",
+    "hasLists": "0",
+    "ordre": "7",
+    "fields": {
+        "0": {
+            "title": "",
+            "id": "0",
+            "tag": "div",
+            "style-title": "",
+            "style": "",
+            "active": "0",
+            "type": "text",
+            "src": "",
+            "data": "<div style=\"margin-left:140px;\"><p><b class=\"constantia\" style=\"font-size:17px;\">Le Bénéficiaire</b> <br> Signature précédé de la mention manuscrite <br><i>\"Bon pour accord et exécution du devis »</i></p></div>            "
+        }
+    }
+},
+"7": {
+    "id": "7",
+    "title": "",
+    "active": "1",
+    "style": "",
+    "tag": "h3",
+    "hasLists": "0",
+    "ordre": "8",
+    "fields": {
+        "0": {
+            "title": "",
+            "id": "0",
+            "tag": "div",
+            "style-title": "",
+            "style": "",
+            "active": "0",
+            "type": "text",
+            "src": "",
+            "data": "<div class=\"footer\"><p> SAS au capital social de <span class=\"{capital_company}\"></span> € - RCS <span class=\"{rcs_company}\"></span> <br> Code NAF Ingénierie, Études Techniques (7112B) - N° TVA intracommunautaire <span class=\"{tva_company}\"></span> <br> N° d’Agréement Mon Accompagnateur Rénov’ : <span class=\"{approval_company}\"></span> - Page 1 /9</p></div>            "
+        }
+    }
+}
+}

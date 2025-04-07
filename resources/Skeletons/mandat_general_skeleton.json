@@ -1,0 +1,134 @@
+{
+    "0": {
+        "id": "0",
+        "title": "",
+        "active": "1",
+        "style": "",
+        "tag": "h3",
+        "hasLists": "0",
+        "ordre": "1",
+        "fields": {
+            "0": {
+                "title": "",
+                "id": "0",
+                "tag": "div",
+                "style-title": "",
+                "style": "",
+                "active": "0",
+                "type": "text",
+                "src": "",
+                "data": "<div style=\"text-align: center;\" class=\"title\"><h2 style=\"font-size: 19px;\">MANDAT</h2><p style=\"text-align: center;font-size:20px;margin-top:-10px;\"><span style=\"color:#a3d5ca;font-size:20px;margin-bottom:-15px; \"> •</span> <b><span>Administratif</span></b> : <span style=\"font-weight:500;\"><span>pour la constitution d’une demande</span> <br> <span >de prime et sa demande de paiement</span></span></p><br><p style=\"color: #a3d5ca;font-size:17px;font-weight:bold;margin-top:-36px;margin-bottom:27px;\" class=\"trebuchet\">et/ou</p><p style=\"text-align: center;font-size:20px;margin-top:-30px;\"><span style=\"color:#a3d5ca;font-size:20px; \"> •</span> <b><span>Financier</span></b> : <span style=\"font-weight:500;\"><span>pour la perception de la prime</span> </p><p style=\"color: #a3d5ca;font-size:17px;margin-top:-15px;font-weight:bold;\" class=\"trebuchet\"> PROPRIETAIRE OCCUPANT et PROPRIETAIRE BAILLEUR</p><p style=\"font-size:9px;\"> Articles 1984 et suivants du code civil / Décret modifé n°2020-26 du 14 janvier 2020 / <br> Arrêté modifé du 14 janvier 2020 relatif à la prime de transition énergétique</p></div>                "
+            }
+        }
+    },
+    "1": {
+        "id": "1",
+        "title": "",
+        "active": "1",
+        "style": "",
+        "tag": "h3",
+        "hasLists": "0",
+        "ordre": "2",
+        "fields": {
+            "1": {
+                "title": "",
+                "id": "1",
+                "tag": "div",
+                "style-title": "",
+                "style": "",
+                "active": "0",
+                "type": "text",
+                "src": "",
+                "data": "<div style=\"background-color:#a3d5ca;font-size:10.5px;padding:3px;padding-left:10px;margin-top:-20px;\"><p style=\"font-size:10.5px;\">Ce formulaire doit <b>obligatoirement</b> être utilisé si vous voulez désigner <b>un mandataire</b> pour effectuer les démarches relatives à MaPrimeRénov’. Vous pouvez choisir l’une ou l’ensemble des démarches proposées en cochant les cases ci-dessous, à savoir :</p><ul class=\"line\" style=\"margin-left:-37px;margin-top:-10px;\"><li>la constitution d’une demande de prime et d’une demande de paiement <b>(mandat administratif)</b>,</li><li>la perception de la prime <b>(mandat fnancier)</b>.</li></ul><p style=\"margin-top:-10px;font-size:10.5px;\">Le mandataire s’identife obligatoirement auprès de l’Anah, préalablement à la validation de votre demande de mandat. Pour être valable, ce mandat doit être <b>daté et signé par vous-même</b> (le mandant) <b>et par la personne que vous désignez</b> (votre mandataire). <b>Tous les champs sont obligatoires. Ce mandat reste valide tant qu’il n’a pas été révoqué par l’une ou l’autre des parties.</b></p></div>                "
+            }
+        }
+    },
+    "2": {
+        "id": "2",
+        "title": "",
+        "active": "1",
+        "style": "",
+        "tag": "div",
+        "hasLists": "0",
+        "ordre": "3",
+        "fields": {
+            "2": {
+                "id": "2",
+                "title": "",
+                "tag": "div",
+                "style-title": "",
+                "style": "",
+                "active": "1",
+                "type": "text",
+                "src": "",
+                "data": "<div class=\"form\"><p style=\"font-weight: bold;font-size:12px;\">Je, soussigné(e) (vous, le mandant) : </p><table style=\"width: 100%\"><tr><td style=\"width: 60%\"><p style=\"margin-top:-10px;\">M. <input type=\"checkbox\" style=\"vertical-align: bottom;\" id=\"{Mr}\"> ou Mme <input type=\"checkbox\" style=\"vertical-align: bottom;\" id=\"{Mme}\"></p></td><td style=\"width: 40%\"><p style=\"margin-top:-10px;\">N° du dossier : <span class=\"{ref_project}\"></span> </p></td></tr><tr><td><p style=\"margin-top:-10px;\">Nom : <span class=\"{client_last_name}\"></span></p></td><td><p style=\"margin-top:-10px;\">Prénom: <span class=\"{client_first_name}\"></span></p></td></tr></table><p style=\"margin-top:-15px;\"><input type=\"checkbox\" style=\"vertical-align: bottom;\" id=\"{holder_of_real_estate_right}\"> Propriétaire ou titulaire d’un droit réel immobilier du logement à rénover au (indiquer l’adresse postale complète, y compris s’il y en a, les numéros de bâtiments et/ou d’étages) :</p><p style=\"margin-top:-10px;\"><span class=\"{address}\"></span></p><table style=\"width: 100%\"><tr><td style=\"width: 30%\"><p style=\"margin-top:-10px;\">Code postal : <span class=\"{project_zip}\"></span></p></td><td style=\"width: 70%\"><p style=\"margin-top:-10px;\">Commune: <span class=\"{commune}\"></span></p></td></tr><tr><td colspan=\"2\"><p style=\"margin-top:-10px;\">Adresse mail : <span class=\"{client_mail}\"></span></p></td></tr><tr><td colspan=\"2\"><p style=\"margin-top:-10px;\">Téléphone (mobile ou fxe) : <span class=\"{client_number}\"></span></p></td></tr></table></div>                "
+            }
+        }
+    },
+    "3": {
+        "id": "3",
+        "title": "",
+        "active": "1",
+        "style": "",
+        "tag": "h3",
+        "hasLists": "0",
+        "ordre": "4",
+        "fields": {
+            "3": {
+                "id": "3",
+                "title": "",
+                "tag": "div",
+                "style-title": "",
+                "style": "",
+                "active": "1",
+                "type": "text",
+                "src": "",
+                "data": "<div class=\"form\"><p style=\"font-weight:bold;font-size:12px;margin-top:-8px;\"> Donne MANDAT à (votre mandataire): </p><p  style=\"margin-top:-11px;\"> M. <input type=\"checkbox\" style=\"vertical-align: bottom;\" id=\"{Mr1}\"> ou Mme <input type=\"checkbox\" style=\"vertical-align: bottom;\" id=\"{Mme1}\"> (si personne morale, nom-prénom du représentant ayant délégation de signature)</p><table style=\"width: 100%\"><tr><td style=\"width: 50%\"><p style=\"margin-top:-10px;\"> Nom: <span class=\"{mondataire_last_name}\"></span></p></td><td style=\"width: 50%\"><p style=\"margin-top:-10px;\"> Prénom: <span class=\"{mondataire_first_name}\"></span></p></td></tr><tr><td colspan=\"2\"><p  style=\"margin-top:-10px;\"> Raison sociale (si personne morale) : <span class=\"{mondataire_raison_social}\"></span></p></td></tr></table><table style=\"width: 100%;margin-top:-20px;\"><tr><td style=\"width: 30%\"><p> Code postal : <span class=\"{mondataire_zip}\"></span></p></td><td style=\"width: 70%\"><p> Commune: <span class=\"{mondataire_commune}\"></span></p></td></tr><tr  ><td colspan=\"2\"><p  style=\"margin-top:-10px;\"> Adresse mail : <span class=\"{mondataire_mail}\"></span></p></td></tr><tr><td colspan=\"2\"><p  style=\"margin-top:-10px;\"> Téléphone (mobile ou fxe) : <span class=\"{mondataire_number}\"></span></p></td></tr></table></div>                "
+            }
+        }
+    },
+    "4": {
+        "id": "4",
+        "title": "",
+        "active": "1",
+        "style": "",
+        "tag": "h3",
+        "hasLists": "0",
+        "ordre": "5",
+        "fields": {
+            "3": {
+                "id": "3",
+                "title": "",
+                "tag": "div",
+                "style-title": "",
+                "style": "",
+                "active": "1",
+                "type": "text",
+                "src": "",
+                "data": "<div><p style=\"font-size:12px;font-weight:bold;\"> Pour effectuer en mon nom et pour mon compte l’une ou les deux démarches suivantes (cocher la ou les cases concernées) :</p><p style=\"font-size:12px;font-weight:bold;\"> 1) Mandat ADMINISTRATIF : constituer mon dossier de demande <span style=\"color: #a3d5ca;\">MaPrimeRénov’</span> à ma place :</p><table style=\"width: 100%;margin-top:-20px;\"><tr><td style=\"width: 5%\"><input type=\"checkbox\" style=\"vertical-align: bottom; \" id=\"{mandat_admin}\"></td><td style=\"width: 95%\"><p style=\"font-size:11.3px;\"><b>Je donne mandat pour la constitution et le dépôt en ligne de mon dossier de demande de prime et de demande de paiement, ainsi que pour la réception et le traitement de toute correspondance avec l’Anah.</b> <span style=\"font-size:11px;\">Il appartient au mandataire de joindre l’ensemble des pièces nécessaires à la constitution de la demande.</span></p></td></tr></table><p style=\"font-size:12px;font-weight:bold;margin-top:-7px;\"> 2) Mandat FINANCIER : PERCEVOIR <span style=\"color: #a3d5ca;\">MaPrimeRénov’</span> à ma place :</p><table style=\"width: 100%;margin-top:-20px;\"><tr><td style=\"width: 5%\"><input type=\"checkbox\" style=\"vertical-align:bottom; \" id=\"{mandat_financier}\"></td><td style=\"width: 95%\"><p style=\"font-size:11.3px; \" ><b>Je donne mandat pour que les sommes versées par l’Anah relatives à <span style=\"color: #a3d5ca;\">MaPrimeRénov’</span> le soient directement sur le compte bancaire de mon mandataire.</b> <span style=\"font-size:10.7px;\">. Je reste cependant seul(e) bénéfciaire de la prime. Ainsi, en cas de contrôle de l’Anah après paiement, s’il s’avère que les conditions pour le bénéfce de MaPrimeRénov’ n’étaient pas remplies, je serais tenu(e) au reversement des sommes indûment payées même si celles-ci n’ont pas été versées sur mon compte bancaire personnel.</span></p></td></tr></table><img class=\"{renov}\" style=\"height:60px;width:auto;position: relative;top:50px;\" alt=\"\"></div>    "
+            }
+        }
+    },
+    "5": {
+        "id": "5",
+        "title": "",
+        "active": "1",
+        "style": "",
+        "tag": "h3",
+        "hasLists": "0",
+        "ordre": "6",
+        "fields": {
+            "3": {
+                "id": "3",
+                "title": "",
+                "tag": "div",
+                "style-title": "",
+                "style": "",
+                "active": "1",
+                "type": "text",
+                "src": "",
+                "data": "<div style=\"page-break-before:always;\"><p style=\"font-weight:bold;font-size:13px;\"><span style=\"color:#a3d5ca;font-size:20px;\">•</span>  J’ATTESTE:</p><ul class=\"line\" style=\"font-size:11.5px;margin-left:-34px;margin-top:-10px;\"><li><b> ne pas avoir commencé les travaux et/ou prestations avant le dépôt en ligne de la demande de <span style=\"color: #a3d5ca;\">MaPrimeRénov’</span> </b>; </li><li> avoir un projet de travaux sur un logement achevé depuis <b>plus de 15 ans</b> à la date de début des travaux et/ou prestations ; </li><li> être propriétaire de ce logement ou disposer d’ <b>un droit réel immobilier</b> me conférant l’usage du logement (usufruitier, contrat de &nbsp;&nbsp;viager) ; </li><li> avoir déclaré les ressources de <b>l’ensemble des membres de mon foyer.</b> </li></ul><p style=\"font-weight:bold;font-size:13px;\"><span style=\"color:#a3d5ca;font-size:20px;\">•</span>  JE M’ENGAGE À:</p><ul class=\"line\" style=\"font-size:11.5px;margin-left:-34px;margin-top:-10px;\"><li> faire réaliser les travaux et/ou prestations éligibles à <span style=\"color: #a3d5ca;\">MaPrimeRénov’</span> par <b>une ou des entreprises</b> Reconnues Garantes de l’Environnement <b>(RGE), lorsque cette certification existe pour le ou les travaux et/ou prestations réalisés</b>. Ces entreprises doivent procéder à la <b>fourniture et à l’installation des équipements</b>, des matériaux ou des appareils.Les factures doivent concerner la fourniture des matériaux et équipements ainsi que les travaux de pose, et comporter les informations et mentions requises par la réglementation ; </li><li> <b>justifier de l’achèvement des travaux et/ou prestations</b> conformément au projet agréé par l’Anah en présentant la demande de paiement du solde de <span style=\"color: #a3d5ca;\">MaPrimeRénov’</span> <b>au plus tard</b> dans un délai :</li></ul><ul style=\"font-size:11.5px;margin-top:-10px;\"><li><b>de 2 ans</b> suivant la date de notification de l’octroi de la prime ; </li><li><b>de 1 an </b>suivant la date de notification de l’octroi de la prime en cas <b>de versement d'une avance</b> </li></ul><ul class=\"line\" style=\"font-size:11.5px;margin-left:-34px;margin-top:-10px;\"><li><b>déclarer les autres aides, les réductions et les contreparties accordées par l'entreprise de travaux et/ou prestations</b>, le cas échéant, perçues ou à percevoir, pour le financement des travaux et/ou prestations faisant l’objet de la demande de <span style=\"color: #a3d5ca;\">MaPrimeRénov’</span> ; </li><li> <b> ne pas solliciter une autre aide de l’Anah pour les mêmes travaux et/ou prestations,</b> notamment celles accordées par MaPrimeRénov' Sérénité ou le programme Loc'Avantages ; </li><li> si je suis bailleur, je dois également <b>respecter les engagements fixés dans la réglementation relative à <span style=\"color: #a3d5ca;\">MaPrimeRénov’</span> et à signer l’attestation sur l’honneur du propriétaire bailleur,</b> disponible sur la plateforme www.maprimerenov.gouv.fr </li></ul><p style=\"font-weight:bold;font-size:13px;\"><span style=\"color:#a3d5ca;font-size:20px;\">•</span>  JE SUIS INFORMÉ(E) DES ÉLÉMENTS SUIVANTS: </p><ul class=\"line\" style=\"font-size:11.5px;margin-left:-34px;margin-top:-10px;\"><li><b>l’Anah peut effectuer à tout moment des contrôles</b>, sur place (visite du logement) ou sur pièces (demande d’informations complémentaires) pour vérifier notamment la nature des travaux et/ou des prestations et leur réalisation effective, l’occupation du logement … ;  </li><li> <b>l'absence de réponse à la demande de contrôle, l'entrave ou le refus de la réalisation du contrôle sur place</b> constitue un motif de non-respect des engagements liés au bénéfice de MaPrimeRénov’ et peut entrainer son retrait ; </li><li> <b>en cas de non-respect des engagements ci-dessus et de la réglementation en vigueur,</b> la prime octroyée est annulée et les sommes déjà perçues doivent être remboursées ; </li><li> <b>toute fraude, tentative de fraude ou fausse déclaration</b> entraîne le retrait et le reversement de la prime et expose également à des sanctions financières et administratives ainsi qu’à des poursuites judiciaires ; </li><li> <b>toute demande de paiement,</b> pour être recevable, <b>doit être accompagnée des pièces justificatives</b> fixées par l’arrêté modifié du 14 janvier 2020 relatif à la prime de transition énergétique, justifiant de l’exécution des travaux ainsi que tout document nécessaire au calcul et au versement de MaPrimeRénov’ ; </li><li> <b>le dépôt de la demande de solde par mon mandataire vaut déclaration d’achèvement de l’opération de travaux et/ou prestations</b>. Il appar- tient au mandataire de joindre l’ensemble des pièces nécessaires à la constitution de la demande de paiement du solde. </li></ul><p style=\"font-weight:bold;font-size:13px;\"><span style=\"color:#a3d5ca;font-size:20px;\">•</span> APRES LA SIGNATURE DE CE DOCUMENT: </p><ul class=\"line\" style=\"font-size:11.5px;margin-left:-34px;margin-top:-10px;\"><li><b>Je conserve l’original du présent mandat</b> et <b>téléverse</b> sa copie dans mon espace personnel sur la plateforme <span style=\"color: #a3d5ca;\">MaPrimeRénov’</span>. </li><li> <b>Mon mandataire et moi pouvons révoquer le présent mandat à tout moment avant le dépôt de la demande de solde.</b> Cette option est disponible sur mon espace personnel et sur celui de mon mandataire. En cas de révocation, mon mandataire et moi en seront immédiatement informés. </li></ul><p style=\"font-weight:bold;font-size:11.5px;\"> L’Anah décline toute responsabilité en cas de mauvaise exécution du présent mandat par votre mandataire. Cette circonstance ne pourra en aucun cas vous exonérer de vos obligations et du respect des engagements que vous avez pris vis-à-vis de l’Anah. </p><p> Fait à <span class=\"{client_city}\"></span> <br> le <span class=\"{date}\"></span> </p><table style=\"width: 50%;margin-top:-17px;\"><tr><td><p style=\"font-size:12px;font-weight:bold;\"> Partie réservée au MANDAT (vous-même) </p></td></tr><tr><td><p style=\"font-size:12px;margin-top:-5px;\"> Nom et prénom : <br> <span class=\"{client_name}\"></span> </p></td></tr><tr><td><p style=\"font-size:12px;margin-top:-10px;\"> Signature </p></td></tr></table><table style=\"width: 50%;margin-top:-17px;border-left:dotted 1px;margin-top:-130px;margin-left:290px;\"><tr><td style=\"padding-left:10px;\"><p style=\"font-size:12px;font-weight:bold;\"> Partie réservée au MANDATAIRE qui s’engage à informer le mandant des démarches relatives au présent mandat et à accepter les contrôles de l’Anah </p></td></tr><tr><td><p style=\"font-size:12px;margin-top:-5px;padding-left:10px;\"> Nom et prénom / Raison sociale (si personne morale) :  <br> <span class=\"{mondataire}\"></span> </p></td></tr><tr><td><p style=\"font-size:12px;margin-top:-10px;padding-left:10px;padding-bottom:50px;\"> Signature <br> <br> <img style=\"height:40px;width:auto;\" class=\"{signature_mar}\"></img> </p></td></tr></table></div>"
+            }
+        }
+    }
+}

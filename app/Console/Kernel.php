@@ -1,0 +1,33 @@
+<?php
+
+namespace App\Console;
+
+use App\Jobs\NotifyExpiringDateRGE;
+use App\Jobs\RefreshDocusignAccessToken;
+use App\Jobs\RefreshTokenSubscription;
+use Illuminate\Console\Scheduling\Schedule;
+use Illuminate\Foundation\Console\Kernel as ConsoleKernel;
+
+class Kernel extends ConsoleKernel
+{
+    /**
+     * Define the application's command schedule.
+     */
+    protected function schedule(Schedule $schedule): void
+    {
+        // $schedule->command('inspire')->hourly();
+        $schedule->job(new NotifyExpiringDateRGE())->daily();
+        $schedule->job(new RefreshDocusignAccessToken())->everyFifteenMinutes();
+        $schedule->job(new RefreshTokenSubscription())->dailyAt('00:00');
+    }
+
+    /**
+     * Register the commands for the application.
+     */
+    protected function commands(): void
+    {
+        $this->load(__DIR__ . '/Commands');
+
+        require base_path('routes/console.php');
+    }
+}

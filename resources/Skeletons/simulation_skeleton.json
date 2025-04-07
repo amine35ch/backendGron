@@ -1,0 +1,90 @@
+{
+    "0": {
+        "id": "0",
+        "title": "",
+        "active": "1",
+        "style": "",
+        "tag": "",
+        "hasLists": "0",
+        "ordre": "1",
+        "fields": {
+            "0": {
+                "title": "",
+                "id": "0",
+                "tag": "div",
+                "style-title": "",
+                "style": "",
+                "active": "0",
+                "type": "text",
+                "src": "",
+                "data": "<div style=\"margin-top:-50px;\"><p style=\"text-align:right;width:100%;margin-bottom:-10px;\">Le <span class=\"{date}\"></span></p><h3 style=\"background-color: #86A039;color:white;padding:10px;border-radius:10px;\">Information MAR:</h3><table style=\"margin-left:40px;width: 90%;margin-top:-5px;\"><tr><td style=\"width: 40%;\"><b>Raison Social:</b></td><td style=\"width: 60%;color:#6c6c6c;\"><span class=\"{raison_social}\"></span></td></tr></table><table style=\"margin-left:40px;width: 90%;margin-top:-5px;\"><tr><td style=\"width: 40%;\"><b>Adresse:</b></td><td style=\"width: 60%;color:#6c6c6c;\"><span class=\"{adresse}\"></span></td></tr></table><table style=\"margin-left:40px;width: 90%;margin-top:-5px;\"><tr><td style=\"width: 40%;\"><b>Ville:</b></td><td style=\"width: 60%;color:#6c6c6c;\"><span class=\"{city}\"></span></td></tr></table><table style=\"margin-left:40px;width: 90%;margin-top:-5px;\"><tr><td style=\"width: 40%;\"><b>SIRET: </b></td><td style=\"width: 60%;color:#6c6c6c;\"><span class=\"{siret}\"></span></td></tr></table><table style=\"margin-left:40px;width: 90%;margin-top:-5px;\"><tr><td style=\"width: 40%;\"><b>Téléphone: </b></td><td style=\"width: 60%;color:#6c6c6c;\"><span class=\"{telephone}\"></span></td></tr></table><table style=\"margin-left:40px;width: 90%;margin-top:-5px;\"><tr><td style=\"width: 40%;\"><b>Email: </b></td><td style=\"width: 60%;color:#6c6c6c;\"><span class=\"{mail}\"></span></td></tr></table></div>            "
+            }
+        }
+    },
+    "1": {
+        "id": "1",
+        "title": "",
+        "active": "1",
+        "style": "",
+        "tag": "",
+        "hasLists": "0",
+        "ordre": "2",
+        "fields": {
+            "0": {
+                "title": "",
+                "id": "0",
+                "tag": "div",
+                "style-title": "",
+                "style": "",
+                "active": "0",
+                "type": "text",
+                "src": "",
+                "data": " <div><h3 style=\"background-color: #86A039;color:white;padding:10px;border-radius:10px;\">Information Client:</h3><table style=\"margin-left:40px;width: 90%;margin-top:-5px;\"><tr><td style=\"width: 40%\"><b>Référence:</b></td><td style=\"width: 60%;color:#6c6c6c;\"><span class=\"{client_ref}\"></span></td></tr></table><table style=\"margin-left:40px;width: 90%;margin-top:-5px;\"><tr><td style=\"width: 40%\"><b>Nom & Prénom:</b></td><td style=\"width: 60%;color:#6c6c6c;\"><span class=\"{client_name}\"></span></td></tr></table><table style=\"margin-left:40px;width: 90%;margin-top:-5px;\"><tr><td style=\"width: 40%\"><b>Téléphone:</b></td><td style=\"width: 60%;color:#6c6c6c;\"><span class=\"{client_telephone}\"></span></td></tr></table><table style=\"margin-left:40px;width: 90%;margin-top:-5px;\"><tr><td style=\"width: 40%\"><b>Adresse:</b></td><td style=\"width: 60%;color:#6c6c6c;\"><span class=\"{client_address}\"></span></td></tr></table><table style=\"margin-left:40px;width: 90%;margin-top:-5px;\"><tr><td style=\"width: 40%;\"><b>Ville:</b></td><td style=\"width: 60%;color:#6c6c6c;\"><span class=\"{city_client}\"></span></td></tr></table><table style=\"margin-left:40px;width: 90%;margin-top:-5px;\"><tr><td style=\"width: 40%\"><b>Catégorie:</b></td><td style=\"width: 60%;color:#86A039;\"><span class=\"{client_category}\"></span></td></tr></table></div>            "
+            }
+        }
+    },
+    "2": {
+        "id": "2",
+        "title": "",
+        "active": "1",
+        "style": "",
+        "tag": "",
+        "hasLists": "0",
+        "ordre": "3",
+        "fields": {
+            "0": {
+                "title": "",
+                "id": "0",
+                "tag": "div",
+                "style-title": "",
+                "style": "",
+                "active": "0",
+                "type": "text",
+                "src": "",
+                "data": " <div><h3 style=\"background-color: #86A039;color:white;padding:10px;border-radius:10px;\">Information Ménage:</h3><table style=\"margin-left:40px;width: 90%;margin-top:-5px;\"><tr><td style=\"width: 40%\"><b>Nature du logement:</b></td><td style=\"width: 60%;color:#6c6c6c;\"><span class=\"{nature_log}\"></span></td></tr></table><table style=\"margin-left:40px;width: 90%;margin-top:-5px;\"><tr><td style=\"width: 40%\"><b>SHAB(m<sup>2</sup>):</b></td><td style=\"width: 60%;color:#6c6c6c;\"><span class=\"{shab}\"></span></td></tr></table><table style=\"margin-left:40px;width: 90%;margin-top:-5px;\"><tr><td style=\"width: 40%\"><b>Nombre d'étage:</b></td><td style=\"width: 60%;color:#6c6c6c;\"><span class=\"{etage}\"></span></td></tr></table><table style=\"margin-left:40px;width: 90%;margin-top:-5px;\"><tr><td style=\"width: 40%\"><b>Surfaces à isoler(m<sup>2</sup>):</b></td><td style=\"width: 60%;color:#6c6c6c;\"><span class=\"{surface_isole}\"></span></td></tr></table><table style=\"margin-left:40px;width: 90%;margin-top:-5px;\"><tr><td style=\"width: 40%\"><b>Classe énergitque intiale:</b></td><td style=\"width: 60%;color:#6c6c6c;\"><span class=\"{energ_class}\"></span></td></tr></table><table style=\"margin-left:40px;width: 90%;margin-top:-5px;\"><tr><td style=\"width: 40%\"><b>Saut de classe prévu:</b></td><td style=\"width: 60%;color:#86A039;\"><span class=\"{skip_class}\"></span></td></tr></table></div>            "
+            }
+        }
+    },
+    "3": {
+        "id": "3",
+        "title": "",
+        "active": "1",
+        "style": "",
+        "tag": "",
+        "hasLists": "0",
+        "ordre": "4",
+        "fields": {
+            "0": {
+                "title": "",
+                "id": "0",
+                "tag": "div",
+                "style-title": "",
+                "style": "",
+                "active": "0",
+                "type": "scenario",
+                "src": "",
+                "data": " "
+            }
+        }
+    }
+}

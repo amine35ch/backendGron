@@ -1,0 +1,35 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+return new class extends Migration
+{
+    /**
+     * Run the migrations.
+     */
+    public function up(): void
+    {
+        Schema::create('d_model_references', function (Blueprint $table) {
+            $table->id();
+            $table->string('format');
+            $table->string('prefix');
+            $table->string('table_name');
+            $table->string('type');
+            $table->string('current_count')->default('000001');
+
+            $table->softDeletes();
+
+            $table->timestamps();
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     */
+    public function down(): void
+    {
+        Schema::dropIfExists('d_model_references');
+    }
+};

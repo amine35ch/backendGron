@@ -1,0 +1,91 @@
+{
+    "0": {
+        "id": "0",
+        "title": "",
+        "active": "1",
+        "style": "",
+        "tag": "",
+        "hasLists": "1",
+        "ordre": "1",
+        "fields": {
+            "0": {
+                "id": "0",
+                "title": "",
+                "tag": "div",
+                "style-title": "",
+                "style": "",
+                "active": "1",
+                "src": "",
+                "type": "text",
+                "data": "<div><table style=\"width:100%; border: 2.7px solid; border-collapse: collapse;\"><tr><td style=\"width: 50%;\"><table style=\"width: 100%; margin:-2.5px;border-collapse: collapse;border-right:2.7px solid;\"><tr><td style=\"text-align: center; width: 50%; border-bottom: 1.5px solid; border-right: 1.5px solid; font-size: 13px; height: 20px; background-color: #44546a;\"><b style=\"color: white;\">Date</b></td><td style=\"text-align: center; width: 50%; border-bottom: 1.5px solid; background-color: #44546a; height: 20px;\"><b style=\"color: white;\"><span class=\"{Date}\"></span></b></td></tr><tr><td style=\"text-align: center; width: 50%; border-bottom: 1.5px solid; border-right: 1.5px solid; font-size: 13px; height: 30px;\"><b>Bureau d'études</b></td><td style=\"text-align: center; width: 50%; border-bottom: 1.5px solid;\"><span class=\"{Bureau_etude}\"></span></td></tr><tr><td style=\"text-align: center; width: 50%; border-bottom: 1.5px solid; border-right: 1.5px solid; font-size: 13px;\"><b>Adressse du bureau d'études</b></td><td style=\"text-align: center; width: 50%; border-bottom: 1.5px solid;\"><span class=\"{Adress_Bureau_etude}\"></span></td></tr><tr><td style=\"text-align: center; width: 50%; border-right: 1.5px solid; font-size: 13px;\"><b>SIRET du bureau d'études</b></td><td style=\"text-align: center; width: 50%;\"><span class=\"{SIRET_Bureau_etude}\"></span></td></tr></table></td><td style=\"height: 60px;text-align:center\"><img style=\"height:92px\" class=\"{logo}\" alt=\"logo></img></td></tr></table></div>                "
+            }
+        }
+    },
+
+    "1": {
+        "id": "1",
+        "title": "",
+        "active": "1",
+        "style": "",
+        "tag": "",
+        "hasLists": "0",
+        "ordre": "2",
+        "fields": {
+            "0": {
+                "title": "",
+                "id": "0",
+                "tag": "div",
+                "style-title": "",
+                "style": "",
+                "active": "0",
+                "type": "text",
+                "src": "",
+                "data": "<div><table style=\"width: 100%; margin-top:-2px; border-bottom:2.7px solid;border-right:2.7px solid;border-left:2.7px solid;\"><tr><td style=\"text-align: center;height:35px;color:#7b7b7b;font-size:25px;\">BON DE TRAVAIL</td></tr></table></div>"
+            }
+        }
+    },
+    "2": {
+        "id": "2",
+        "title": "",
+        "active": "1",
+        "style": "",
+        "tag": "h3",
+        "hasLists": "1",
+        "ordre": "3",
+        "fields": {
+            "0": {
+                "id": "0",
+                "title": "",
+                "tag": "p",
+                "style-title": "",
+                "style": "",
+                "active": "1",
+                "type": "text",
+                "src": "",
+                "data": "<div><table style=\"width:100%; border-collapse: collapse; border: 2.7px solid; margin-top:10px;\"><tr><td style=\"width: 23%;background-color: #c6e0b4;height:35px;text-align:center;font-size:10px;border-bottom:solid 2px;border-right:2px solid;\"><b> NOM ET PRENOM DU CLIENT</b></td><td style=\"width: 39%;background-color: #f2f2f2;text-align:center;font-size:14px;border-bottom:2px solid;\"><span class=\"{Client_name}\"></span></td><td style=\"width: 19%;background-color: #c6e0b4;height:35px;text-align:center;font-size:10px;border-bottom:solid 2px;border-right:2px solid;border-left:2px solid;\"><b>DATE DE DÉBUT PRÉVUE</b></td><td style=\"width: 19%;background-color: #c6e0b4;height:35px;text-align:center;font-size:10px;border-bottom:solid 2px;border-right:2px solid;\"><b>   DATE DE FIN PRÉVUE</b></td></tr><tr><td style=\"width: 23%;background-color: #c6e0b4;height:35px;text-align:center;font-size:10px;border-bottom:solid 2px;border-right:2px solid;\"><b>ADRESSE DU BIEN</b></td><td style=\"width: 39%;background-color: #f2f2f2;text-align:center;font-size:14px;border-bottom:2px solid;\"><span class=\"{Adresse_bien}\"></span></td><td style=\"width: 19%;background-color: #f2f2f2;text-align:center;font-size:14px;border-bottom:2px solid;border-left:2px solid;\" rowspan=\"2\"><span class=\"{Date_prevu}\"></span></td><td style=\"width: 19%;background-color: #f2f2f2;text-align:center;font-size:14px;border-bottom:2px solid;border-left:2px solid;\" rowspan=\"2\"><span class=\"{Fin_Date_prevu}\"></span></td></tr><tr><td style=\"width: 23%;background-color: #c6e0b4;height:35px;text-align:center;font-size:10px;border-bottom:2px solid ;border-right:2px solid;\"><b>TÉLÉPHONE DU CLIENT</b></td><td style=\"width: 39%;background-color: #f2f2f2;text-align:center;font-size:14px;border-bottom:2px solid;\"><span class=\"{Client_number}\"></span></td></tr><tr><td style=\"width: 23%;background-color: #c6e0b4;height:35px;text-align:center;font-size:10px;border-bottom:solid 2px;border-right:2px solid;\"><b> EMAIL DU CLIENT</b></td><td style=\"width: 77%;background-color: #f2f2f2;text-align:center;font-size:14px;border-bottom:2px solid;\" colspan=\"3\"><span class=\"{Client_email}\"></span></td></tr><tr><td style=\"width: 23%;background-color: #c6e0b4;height:35px;text-align:center;font-size:10px;border-bottom:solid 2px;border-right:2px solid;\"><b>  CLASSE ÉNERGETIQUE ACTUELLE</b></td><td style=\"width: 77%;background-color: #f2f2f2;text-align:center;font-size:14px;border-bottom:2px solid;\" colspan=\"3\"><span class=\"{Classe_energitique}\"></span></td></tr><tr><td style=\"width: 23%;background-color: #c6e0b4;height:35px;text-align:center;font-size:10px;border-bottom:solid 2px;border-right:2px solid;\"><b>  NOMBRES DE SAUTS DE CLASSE ENERGÉTIQUE ESTIMÉS</b></td><td style=\"width: 77%;background-color: #f2f2f2;text-align:center;font-size:14px;border-bottom:2px solid;\" colspan=\"3\"><span class=\"{Classe_sauts}\"></span></td></tr></table></div>"
+            }
+        }
+    },
+    "3": {
+        "id": "3",
+        "title": "",
+        "active": "1",
+        "style": "",
+        "tag": "",
+        "hasLists": "1",
+        "ordre": "4",
+        "fields": {
+            "0": {
+                "id": "0",
+                "title": "",
+                "tag": "div",
+                "style-title": "",
+                "style": "",
+                "active": "1",
+                "src": "",
+                "type": "travail",
+                "data": {}
+            }
+        }
+    }
+}

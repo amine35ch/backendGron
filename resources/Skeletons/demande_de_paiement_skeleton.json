@@ -1,0 +1,156 @@
+{
+    "0": {
+        "id": "0",
+        "title": "",
+        "active": "1",
+        "style": "",
+        "tag": "",
+        "hasLists": "0",
+        "ordre": "1",
+        "fields": {
+            "0": {
+                "title": "",
+                "id": "0",
+                "tag": "div",
+                "style-title": "",
+                "style": "",
+                "active": "0",
+                "type": "text",
+                "src": "",
+                "data": "<div><p class=\"tahoma\" style=\"font-weight:bold;\">Date <span class=\"{date}\"></span></p><p class=\"tahoma\" style=\"font-weight:bold;margin-top:-10px;\">NOM Prénom du demandeur de la prime : <br><span class=\"{demandeur_name}\" style=\"font-weight:500\"></span></p><p class=\"tahoma\" style=\"font-weight:bold;margin-top:-10px;\">Type de prime demandée :</p><p style=\"margin-left:30px;margin-top:-10px;font-size:13px;\"><input type=\"checkbox\" id=\"{prime_type1}\" style=\"vertical-align:bottom;\"> Forfait rénovation globale<sup>1</sup> <br><input type=\"checkbox\" id=\"{prime_type2}\" style=\"vertical-align:bottom;\"> Bonus sortie de passoire énergétique<sup>2</sup> <br><input type=\"checkbox\" id=\"{prime_type3}\" style=\"vertical-align:bottom;\"> Bonus BBC (Bâtiment basse consommation)<sup>3</sup> <br></p><p style=\"font-size:15px;background-color:#ededed;padding:8px;padding-left:15px;font-weight:bold;margin-top:50px;\">Logement</p><p class=\"tahoma\" style=\"font-weight:bold;margin-top:20px;\">Adresse de réalisation des travaux :</p><p class=\"tahoma\" style=\"font-weight:normal;margin-top:-10px;\">N° : <span class=\"{adresse_numero}\"></span> Voie: <span class=\"{voie}\"></span><br>Code Postal <span class=\"{zip}\"></span> Ville: <span class=\"{city}\"></span></p><p style=\"font-size:15px;background-color:#ededed;padding:8px;padding-left:15px;font-weight:bold;margin-top:40px;\" class=\"tahoma\">Coût des travaux</p><p class=\"tahoma\" style=\"font-weight:bold;margin-top:20px;\">Coût total des travaux (intégrant une prestation éventuelle d’Assistance à Maîtrise d’Ouvrage) <br>= <span class=\"{work_price}\"></span> € TTC</p></div>                "
+            }
+        }
+    },
+    "1": {
+        "id": "1",
+        "title": "",
+        "active": "1",
+        "style": "",
+        "tag": "h3",
+        "hasLists": "0",
+        "ordre": "2",
+        "fields": {
+            "0": {
+                "id": "1",
+                "title": "",
+                "tag": "div",
+                "style-title": "",
+                "style": "color:#4472c4;margin: 10px auto;margin-top:20px; ",
+                "active": "1",
+                "type": "text",
+                "src": "",
+                "data": "<div style=\"page-break-before:always;border:8px solid #ededed;margin-top:20px;\"><p style=\"font-size:16px;text-align:center;background-color:#ededed;padding:15px;margin-top:-5px;font-weight:bold;\" class=\"tahoma\">Synthèse à remplir par le professionnel ayant réalisé l’audit énergétique</p><p style=\"font-size:10px; padding:10px;\">Attention : depuis le 1er avril 2023, dans le cas d’une demande de forfait rénovation globale, le projet de travaux ne doit pas inclure l’installation d’une chaudière fonctionnant principalement aux énergies fossiles. Dans le cas contraire, la demande de prime sera rejetée</p><table style=\"width:97.5%;padding:10px;border:1px solid;margin:10px;border-collapse: collapse;\"><tr style=\"border-bottom:1px solid;\"><td style=\"width: 50%;border-right:1px solid;padding:10px;padding-top:1px;padding-bottom:1px;\"><p>Consommation conventionnelle du bâtiment avant les travaux en énergie primaire (le chauffage, le refroidissement et la production d’eau chaude sanitaire) :</p></td><td style=\"width: 50%;padding:10px;padding-top:1px;padding-bottom:1px;\"><p>C initial = <span class=\"{consume_initial}\"></span> kWh/m²/an d’énergie primaire</p></td></tr><tr style=\"border-bottom:1px solid;\"><td style=\"width: 50%;border-right:1px solid;padding:10px;padding-top:1px;padding-bottom:1px;\"><p>Consommation conventionnelle du logement rénové en énergie primaire :</p></td><td style=\"width: 50%;padding:10px;padding-top:1px;padding-bottom:1px;\"><p>C projet = <span class=\"{consume_project}\"></span> kWh/m²/an d’énergie primaire</p></td></tr><tr style=\"border-bottom:1px solid;\"><td style=\"width: 50%;border-right:1px solid;padding:10px;padding-top:1px;padding-bottom:1px;\"><p>Gain énergétique exprimé en % :</p></td><td style=\"width: 50%;padding:10px;padding-top:1px;padding-bottom:1px;\"><p>G = <span class=\"{energy_gain}\"></span> en %</p></td></tr><tr style=\"border-bottom:1px solid;\"><td colspan=\"2\" style=\"padding:10px;padding-top:1px;padding-bottom:1px;\"><p>Coût total de l’audit énergétique revenant au logement : <span class=\"{audit_price}\"></span> € TTC</p></td></tr><tr style=\"border-bottom:1px solid;\"><td style=\"width: 50%;border-right:1px solid;padding:10px;padding-top:1px;padding-bottom:1px;\"><p>Émissions annuelles de gaz à effet de serre avant les travaux :</p></td><td style=\"width: 50%;padding:10px;padding-top:1px;padding-bottom:1px;\"><p>GES initial = <span class=\"{gaz_emission_before_work}\"></span>  kgeqCO2/m²/an</p></td></tr><tr style=\"border-bottom:1px solid;\"><td style=\"width: 50%;border-right:1px solid;padding:10px;padding-top:1px;padding-bottom:1px;\"><p>Émissions annuelles de gaz à effet de serre après les travaux :</p></td><td style=\"width: 50%;padding:10px;padding-top:1px;padding-bottom:1px;\"><p>GES initial = <span class=\"{gaz_emission_after_work}\"></span>  kgeqCO2/m²/an</p></td></tr><tr style=\"border-bottom:1px solid;\"><td style=\"width: 50%;border-right:1px solid;padding:10px;padding-top:1px;padding-bottom:1px;\"><p>Étiquette DPE avant les travaux :</p></td><td style=\"width: 50%;padding:10px;padding-top:1px;padding-bottom:1px;\"><p><span class=\"{DPE_before_work}\"></span></p></td></tr><tr style=\"border-bottom:1px solid;\"><td style=\"width: 50%;border-right:1px solid;padding:10px;padding-top:1px;padding-bottom:1px;\"><p>Étiquette DPE après les travaux :</p></td><td style=\"width: 50%;padding:10px;padding-top:1px;padding-bottom:1px;\"><p><span class=\"{DPE_after_work}\"></span></p></td></tr></table><p style=\"font-size:16px;background-color:#ededed;padding:5px;margin:16px;font-weight:bold;\" class=\"tahoma\">Identité du professionnel ayant réalisé l’audit énergétique</p><p style=\"margin:16px;padding-bottom:60px;\">Nom du professionnel ayant réalisé l’audit énergétique : <br><span class=\"{audit_name}\"></span> <br>N° SIRET : <span class=\"{audit_siret}\"></span> <br>Fait à : <span class=\"{address_audit}\"></span> le : <span class=\"{date}\"></span> <br>Signature</p><p style=\"font-weight:bold;margin:16px;margin-right:13px;\" class=\"tahoma\">Important : <u>le professionnel ayant réalisé l’audit énergétique signe également la page suivante</u> et atteste, sur la base des factures remises, la cohérence entre les travaux renseignés ci-dessous et les préconisations de l’audit énergétique.</p></div> "
+            }
+        }
+    },
+    "2": {
+        "id": "2",
+        "title": "",
+        "active": "1",
+        "style": "",
+        "tag": "h3",
+        "hasLists": "1",
+        "ordre": "3",
+        "fields": {
+            "0": {
+                "id": "2",
+                "title": "",
+                "tag": "p",
+                "style-title": "",
+                "style": "color:#4472c4;margin: 10px auto;margin-top:15px;",
+                "active": "1",
+                "type": "text",
+                "src": "",
+                "data": "<div><p style=\"font-weight:bold;margin-left:20px;\">Signature et nom(s) du demandeur : <span class=\"{demandeur_name}\"></span></p></div>"
+            }
+        }
+    },
+    "3": {
+        "id": "3",
+        "title": "",
+        "active": "1",
+        "style": "color:#4472c4",
+        "tag": "h3",
+        "hasLists": "0",
+        "ordre": "4",
+        "fields": {
+            "0": {
+                "title": "",
+                "id": "3",
+                "tag": "p",
+                "style-title": "color:#4472c4",
+                "style": "color:#4472c4;font-size:13px;",
+                "active": "0",
+                "type": "text",
+                "src": "",
+                "data": "<div style=\"page-break-before:always;\"><p style=\"font-size:15px;background-color:#ededed;padding:8px;padding-left:15px;font-weight:bold;\" class=\"tahoma\">Caractéristiques des travaux</p><p style=\"font-weight:bold;\">En signant le présent document, l’entreprise certifie sur l’honneur qu’elle a pris connaissance de l’audit énergétique et que les travaux visés par la présente attestation respectent les prescriptions de l’audit énergétique pour atteindre la performance indiquée.</p><p style=\"font-weight:bold;\">L’entreprise certifie qu’elle dispose du signe de qualité RGE pour les travaux qu’elle réalise.</p><p style=\"font-weight:bold;\">L’entreprise est ici désignée au sens de l’entreprise contractualisant avec le demandeur (émettant les factures et engageant sa responsabilité).</p></div>"
+            }
+        }
+    },
+    "4": {
+        "id": "4",
+        "title": "",
+        "active": "1",
+        "style": "",
+        "tag": "",
+        "hasLists": "0",
+        "ordre": "5",
+        "fields": {
+            "0": {
+                "id": "4",
+                "title": "",
+                "tag": "p",
+                "style-title": "",
+                "style": "",
+                "active": "1",
+                "type": "text",
+                "src": "",
+                "data": "<div style=\"border:8px solid #ededed;margin-top:20px;\"><p style=\"font-size:16px;text-align:center;background-color:#ededed;padding:15px;margin-top:-5px;font-weight:bold;\" class=\"tahoma\">Recours éventuel à une assistance à maîtrise d’ouvrage (AMO)<sup>6</sup> <br><span style=\"font-weight:normal;font-size:14px;\">À remplir par l’entreprise AMO</span></p><p style=\"margin:15px;font-weight:bold;\" class=\"tahoma\">Coût total éligible revenant au logement = <span class=\"{total_eligble_price}\"></span> € TTC</p><p style=\"margin:15px;margin-top:-10px;\">Nature de la mission d’assistance à maîtrise d’ouvrage : <br><span class=\"{mission_nature}\"></span></p><p style=\"padding-bottom:60px;margin:15px;\">Nom de l’entreprise : <span class=\"{company_name}\"></span> <br>N° SIRET : <span class=\"{company_siret}\"></span> <br>Fait à : <span class=\"{address_amo}\"></span> le: <span class=\"{date}\"></span> <br>Signature</p></div>                "
+            }
+        }
+    },
+    "5": {
+        "id": "5",
+        "title": "",
+        "active": "1",
+        "style": "",
+        "tag": "h3",
+        "hasLists": "1",
+        "ordre": "6",
+        "fields": {
+            "0": {
+                "id": "5",
+                "title": "",
+                "tag": "p",
+                "style-title": "",
+                "style": "color:#4472c4 ;margin: 10px auto;margin-top:3px;",
+                "active": "1",
+                "type": "nature",
+                "src": "",
+                "data": {}
+            }
+        }
+    },
+    "6": {
+        "id": "6",
+        "title": "",
+        "active": "1",
+        "style": "",
+        "tag": "h3",
+        "hasLists": "1",
+        "ordre": "7",
+        "fields": {
+            "0": {
+                "id": "6",
+                "title": "",
+                "tag": "p",
+                "style-title": "",
+                "style": "color:#4472c4;margin: 10px auto;margin-top:-5px; ",
+                "active": "1",
+                "type": "text",
+                "src": "",
+                "data": "<div><p class=\"tahoma\" style=\"padding-bottom:60px;font-weight:bold;margin-left:20px;\">Signature du professionnel ayant réalisé l’audit énergétique attestant, <br> sur la base des factures remises, la cohérence entre les travaux renseignés <br> ci-dessus et les préconisations de l’audit énergétique :</p><hr style=\"width: 40%; margin: 0; margin-left: 20;\"><p style=\"font-size: 10px;margin-left:20px;\"><sup>1</sup>« Forfait rénovation globale » renvoie à l'ensemble de travaux de rénovation énergétique visant à améliorer la performance globale du logement, mentionné au 15 de l'annexe 1 du décret n°2020-26 du 14 janvier 2020 modifié et à l'article 13-2 du présent arrêté. Conformément à ce même article, le projet de travaux ne doit pas porter sur l’installation d’une chaudière fonctionnant principalement aux énergies fossiles.</p><p style=\"font-size: 10px;margin-left:20px;\"><sup>2</sup>« Bonus sortie de passoire énergétique » renvoie à la somme forfaitaire mentionnée au septième alinéa du I de l'article 3 du décret n°2020-26 du 14 janvier 2020 modifié et à l'article 13-3 du présent arrêté.</p><p style=\"font-size: 10px;margin-left:20px;\"><sup>3</sup>« Bonus Bâtiment basse Consommation » renvoie à la somme forfaitaire mentionnée au septième alinéa du I de l'article 3 du décret n°2020-26 du 14 janvier 2020 modifié et à l'article 13-4 du présent arrêté.</p><p style=\"font-size: 10px;margin-left:20px;\"><sup>4</sup>À la date du dépôt de la demande de prime, la facturation de l’audit ne doit pas dater de plus d’un an. En l’absence de facturation de l’audit énergétique, celui-ci doit être valide à la date du dépôt de la demande de prime.</p><p style=\"font-size: 10px;margin-left:20px;\"><sup>5</sup>En cas de projet de travaux entraînant une modification de la surface habitable, mentionner également la surface habitable après travaux</p><p style=\"font-size: 10px;margin-left:20px;\"><sup>6</sup>« Assistance à maîtrise d'ouvrage (AMO) » renvoie au 14 de l'annexe 1 du décret °2020-26 du 14 janvier 2020 modifié et à l'article 13-1 du présent arrêté. L’entreprise chargée de la mission d’assistance à maîtrise d’ouvrage ne peut être le maître d’œuvre, ni participer à la Maîtrise d'ouvrage (sauf architectes), ni être une entreprise fournisseur de matériaux, d’énergie ou d’équipements.</p><p style=\"font-size: 10px;margin-left:20px;\"><sup>7</sup>La description des travaux réalisés doit permettre d'apprécier les critères techniques minimaux pour l'obtention de la prime. Ainsi, dans le cas de travaux d'isolation thermique sur l’enveloppe il est demandé de renseigner la résistance thermique de l'installation ainsi que la surface isolée ; dans le cas d'un remplacement des parois vitrées, le nombre de fenêtres et leurs coefficients de transmission thermique ; enfin, dans le cas de travaux sur le système de chauffage, la performance de l’appareil (puissance, rendement saisonnier, certification, norme)</p></div>"
+            }
+        }
+    }
+}

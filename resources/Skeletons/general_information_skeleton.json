@@ -1,0 +1,134 @@
+{
+    "0": {
+        "id": "0",
+        "title": "",
+        "active": "1",
+        "style": "",
+        "tag": "",
+        "hasLists": "0",
+        "ordre": "1",
+        "fields": {
+            "0": {
+                "title": "",
+                "id": "0",
+                "tag": "div",
+                "style-title": "",
+                "style": "margin-top:-30px;",
+                "active": "0",
+                "type": "text",
+                "src": "",
+                "data": "<div><table style=\"width:100%; border-collapse:collapse; border:1px solid black;\"><tr class=\"with-border\"><td class=\"with-border\" style=\"padding-left:10px;\"><p style=\"color:#4472c4;position:relative;bottom:1%;font-size:12px; \"><strong>Date :</strong></p></td><td style=\"padding-left:10px;vertical-align:top;padding-top:3px;\" class=\"with-border\"><span style=\"\"><span class=\"{date}\"></span></span></td></tr><tr class=\"with-border\"><td style=\"padding-left:10px\"><span style=\"color:#4472c4;position:relative;bottom:2%;font-size:12px; \"><strong>Emetteur :</strong></span></td><td style=\"padding-left:10px\" class=\"with-border\"><span class=\"{mar_name}\"></span> <br><span style=\"font-size:12px;\">SIRET :<span class=\"{mar_siret}\"></span><br> Adresse : <span class=\"{mar_adress}\"> </span></span><br><span style=\"\">Numéro d’Agrément :<span class=\"{mar_approval_number}\"></span></span></td></tr><tr class=\"with-border\"><td style=\"padding-left:10px\" class=\"with-border\"><span style=\"color:#4472c4;position:relative;bottom:2%;font-size:13px;\"><strong>Bénéficiaire :</strong></span></td><td style=\"padding-left:10px\" class=\"with-border\"><span style=\"\">Nom : <span class=\"{last_name}\"></span><br><span style=\"\" >Prénom : </span><span class=\"{first_name}\"></span></span> <br><span style=\"\">Adresse :<span class=\"{address}\"></span></span></td></tr></table></div>"
+            }
+        }
+    },
+    "1": {
+        "id": "1",
+        "title": "",
+        "active": "1",
+        "style": "",
+        "tag": "h3",
+        "hasLists": "0",
+        "ordre": "2",
+        "fields": {
+            "0": {
+                "id": "0",
+                "title": "1 -Information sur le déroulé de l’accompagnement :",
+                "tag": "div",
+                "style-title": "",
+                "style": "color:#4472c4;margin-top:-1px;font-size:11.5px;",
+                "active": "1",
+                "type": "text",
+                "src": "",
+                "data": "<div style=\"margin-top:-30px\"><ul class=\"line\"><li style=\"font-size:11px;\">&nbsp;&nbsp;&nbsp;&nbsp;Prise de connaissance du document d’information préalable</li><li>&nbsp;&nbsp;&nbsp;&nbsp;Récupération de l’ensemble des documents afin de préparer votre dossier. Identification de votre catégorie MPR.</li><li>&nbsp;&nbsp;&nbsp;&nbsp;Visite préalable aux travaux. Relevé technique pour la réalisation de l’audit énergétique. L’audit énergétique présentera &nbsp;&nbsp;&nbsp;&nbsp;  au minimum deux scénarios de travaux.</li><li>&nbsp;&nbsp;&nbsp;&nbsp;Conseils de l’accompagnateur rénov sur les travaux à effectuer. Choix du scénario par le bénéficiaire.</li><li>&nbsp;&nbsp;&nbsp;&nbsp;Liste des aides détaillées. Aides de l’ANAH, CEE, aides régionales et départementales.</li><li>&nbsp;&nbsp;&nbsp;&nbsp;Etude de la situation financière du bénéficiaire. Plan de financement adapté incluant les modes de financement du  reste &nbsp;&nbsp;&nbsp;&nbsp; à charge adapté à la situation du bénéficiaire.</li><li>&nbsp;&nbsp;&nbsp;&nbsp;Présentation d’une liste d’entreprises RGE à proximité du bénéficiaire.</li><li>&nbsp;&nbsp;&nbsp;&nbsp;Choix de l’entreprise de travaux par le bénéficiaire.</li><li>&nbsp;&nbsp;&nbsp;&nbsp;Planification des travaux en fonction des délais administratifs le cas échéant.</li><li>&nbsp;&nbsp;&nbsp;&nbsp;Accompagnement à la réception des travaux.</li><li>&nbsp;&nbsp;&nbsp;&nbsp;Présentation et signature du rapport d’accompagnement.</li></ul></div>"
+            }
+        }
+    },
+    "2": {
+        "id": "2",
+        "title": "",
+        "active": "1",
+        "style": "",
+        "tag": "h3",
+        "hasLists": "1",
+        "ordre": "3",
+        "fields": {
+            "0": {
+                "id": "0",
+                "title": "2 - Honoraires de la mission d’accompagnateur rénov",
+                "tag": "p",
+                "style-title": "",
+                "style": "color:#4472c4;font-size:11.5px;margin-top:-10px;",
+                "active": "1",
+                "type": "text",
+                "src": "",
+                "data": "<div style=\"margin-top:-15px\"><ul class=\"line\" style=\"margin-top:-10px;\"><p style=\"margin-left:-20px;font-size:11px;margin-bottom:-2px;\">Les honoraires de la mission d’accompagnateur rénov sont de 2000 € TTC. Ils sont pris en charge par l’ANAH en fonction des catégories MPR auquel vous appartenez :</p><li>&nbsp;&nbsp;&nbsp;&nbsp;100 % pour un bénéficiaire en catégorie BLEU MPR</li><li>&nbsp;&nbsp;&nbsp;&nbsp;80 % pour un bénéficiaire en catégorie JAUNE MPR</li><li>&nbsp;&nbsp;&nbsp;&nbsp;40 % pour un bénéficiaire en catégorie VIOLET MPR</li><li>&nbsp;&nbsp;&nbsp;&nbsp;20 % pour un bénéficiaire en catégorie ROSE MPR</li></ul></div>"
+            }
+        }
+    },
+    "3": {
+        "id": "3",
+        "title": "",
+        "active": "1",
+        "style": "",
+        "tag": "h3",
+        "hasLists": "0",
+        "ordre": "4",
+        "fields": {
+            "0": {
+                "id": "0",
+                "title": "3 - Les aides susceptibles d’être attribuées permettant de financer les travaux et l'accompagnement. Les conditions et procédures d'octroi des aides.",
+                "tag": "p",
+                "style-title": "",
+                "style": "color:#4472c4;font-size:11.5px;margin-top:-10px;",
+                "active": "1",
+                "type": "text",
+                "src": "",
+                "data": "<div style=\"margin-top:-15px;\"><ul class=\"line\" style=\"margin-top:1px;\"><span style=\"margin-left:-20px;font-size:11px;\">L’accompagnateur rénov se chargera d’instruire les demandes d’aides suivantes :</span><li>&nbsp;&nbsp;&nbsp;&nbsp;MPRS (Ma Prime Rénov Sérénité) pour les catégories BLEU et JAUNE. Démarche à réaliser auprès de l’ANAH. Le dossier &nbsp;&nbsp;&nbsp;&nbsp; est à instruire sur https://monprojet.anah.gouv.fr.</li><li>&nbsp;&nbsp;&nbsp;&nbsp;CEE Certificat d’économies d’énergie. Pris en charge par l’ANAH. Démarche à réaliser auprès de l’ANAH.</li><li>&nbsp;&nbsp;&nbsp;&nbsp;Aide régional ou département. Démarche à réaliser auprès de la région ou du département.</li></ul></div>"
+            }
+        }
+    },
+    "4": {
+        "id": "4",
+        "title": "",
+        "active": "1",
+        "style": "",
+        "tag": "h3",
+        "hasLists": "0",
+        "ordre": "5",
+        "fields": {
+            "0": {
+                "id": "0",
+                "title": "4 - Les obligations du ménage en tant que maître d'ouvrage",
+                "tag": "p",
+                "style-title": "",
+                "style": "color:#4472c4;font-size:11.5px;margin-top:-10px;margin-bottom:-2px;",
+                "active": "1",
+                "type": "text",
+                "src": "",
+                "data": "<span style=\"margin-top:-20px;font-size:11px;margin-left:20px;\">Le bénéficiaire devra mettre à disposition de l’accompagnateur rénov tous documents et informations indispensables à la </span><br><span style=\"margin-top:-10px;font-size:11px;margin-left:20px;\"> bonne réalisation de sa mission d’accompagnement.</span><br> <span style=\"margin-top:-10px;font-size:10.5px;margin-left:20px;\"> Si le bénéficiaire n’est pas satisfait pendant l’exécution des travaux, ou à la fin des travaux, il devra en informer l’accompagnateur.</span><br> <span style=\"margin-top:-10px;font-size:11px;margin-left:20px;\">L’accompagnateur devra être consulté avant la signature d’un devis de travaux ou l’acceptation d’un plan de financement.</span><br> <span style=\"margin-top:-10px;font-size:11px;margin-left:20px;\">Le bénéficiaire devra réceptionner les travaux en présence de l’accompagnateur.</span>"
+            }
+        }
+    },
+    "5": {
+        "id": "5",
+        "title": "",
+        "active": "1",
+        "style": "",
+        "tag": "h3",
+        "hasLists": "0",
+        "ordre": "6",
+        "fields": {
+            "0": {
+                "id": "0",
+                "title": "5 - Les délais et autorisations d'urbanisme pour commencer les travaux.",
+                "tag": "div",
+                "style-title": "",
+                "style": "color:#4472c4;font-size:11.5px;margin-top:-2px;margin-bottom:-10px;",
+                "active": "1",
+                "type": "text",
+                "src": "",
+                "data": "<div><ul class=\"line\"><li style=\"\">&nbsp;&nbsp;&nbsp;&nbsp;En fonction du scénario de travaux que vous aurez retenus, certains délais administratifs pourront être nécessaire avant &nbsp;&nbsp;&nbsp;&nbsp;le démarrage travaux. L’accompagnateur rénov s’occupera des démarches auprès de la mairie de votre commune.</li></ul></div>"
+            }
+        }
+    }
+}

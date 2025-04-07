@@ -1,0 +1,310 @@
+{
+    "0": {
+        "id": "0",
+        "title": "",
+        "active": "1",
+        "style": "",
+        "tag": "",
+        "hasLists": "0",
+        "ordre": "1",
+        "fields": {
+            "0": {
+                "title": "",
+                "id": "0",
+                "tag": "div",
+                "style-title": "",
+                "style": "",
+                "active": "0",
+                "type": "text",
+                "src": "",
+                "data": "<div><table style=\"width:100%; border-collapse:collapse; border:1px solid black;\"><tr class=\"with-border\"><td class=\"with-border\" style=\"padding-left:10px;\"><p style=\"color:#4472c4;position:relative;bottom:1.2%;font-size:13px; \"><strong>Date de la réunion :</strong></p></td><td style=\"padding-left:10px;vertical-align: top;\" class=\"with-border\"><span style=\"\"><span class=\"{date}\"></span></span></td></tr><tr class=\"with-border\"><td style=\"padding-left:10px\"><span style=\"color:#4472c4;position:relative;bottom:2%;font-size:13px; \"><strong>Emetteur :</strong></span></td><td style=\"padding-left:10px\" class=\"with-border\"><span class=\"{mar_name}\"></span> <br><span style=\"\">SIRET :<span class=\"{mar_siret}\"> </span> <span class=\"{mar_address}\"></span> </span><br><span style=\"\">Numéro d’Agrément :<span class=\"{mar_approval_number}\"></span></span></td></tr><tr class=\"with-border\"><td style=\"padding-left:10px\" class=\"with-border\"><span style=\"color:#4472c4;position:relative;bottom:1%;font-size:13px;\"><strong>Bénéficiaire :</strong></span></td><td style=\"padding-left:10px\" class=\"with-border\"><span style=\"\">Nom Prénom : <span class=\"{last_name}\"></span>  <span class=\"{first_name}\"></span></span> <br><span style=\"\">Adresse :<span class=\"{address}\"></span></span></td></tr></table></div> "
+            }
+        }
+    },
+    "1": {
+        "id": "1",
+        "title": "",
+        "active": "1",
+        "style": "",
+        "tag": "h3",
+        "hasLists": "0",
+        "ordre": "2",
+        "fields": {
+            "0": {
+                "id": "1",
+                "title": "Objet du document :",
+                "tag": "div",
+                "style-title": "",
+                "style": "color:#4472c4;margin: 10px auto;margin-top:20px; ",
+                "active": "1",
+                "type": "text",
+                "src": "",
+                "data": "<div style=\"\"><p style=\"margin-top: -10px; \">Ce document a pour objet de préparer le projet de travaux du bénéficiaire</p></div>"
+            }
+        }
+    },
+    "2": {
+        "id": "2",
+        "title": "",
+        "active": "1",
+        "style": "",
+        "tag": "h3",
+        "hasLists": "1",
+        "ordre": "3",
+        "fields": {
+            "0": {
+                "id": "2",
+                "title": "Présentation des résultats de l’audit énergétique et présentation des scénarios de travaux.",
+                "tag": "p",
+                "style-title": "",
+                "style": "color:#4472c4;margin: 10px auto;margin-top:15px;",
+                "active": "1",
+                "type": "text",
+                "src": "",
+                "data": "<div style=\"margin-top: -10px; \"><span style=\"\">Scénarios préconisés par l’accompagnateur rénov<br>Scénarios retenus par le bénéficiaire</span></div>"
+            }
+        }
+    },
+    "3": {
+        "id": "3",
+        "title": "",
+        "active": "1",
+        "style": "color:#4472c4",
+        "tag": "h3",
+        "hasLists": "0",
+        "ordre": "4",
+        "fields": {
+            "0": {
+                "title": "Liste des entreprises de travaux RGE à proximité du bénéficiaire",
+                "id": "3",
+                "tag": "p",
+                "style-title": "color:#4472c4",
+                "style": "color:#4472c4;font-size:13px;",
+                "active": "0",
+                "type": "table",
+                "src": "",
+                "data": ""
+            }
+        }
+    },
+    "4": {
+        "id": "4",
+        "title": "",
+        "active": "1",
+        "style": "",
+        "tag": "",
+        "hasLists": "0",
+        "ordre": "5",
+        "fields": {
+            "0": {
+                "id": "4",
+                "title": "",
+                "tag": "p",
+                "style-title": "",
+                "style": "",
+                "active": "1",
+                "type": "text",
+                "src": "",
+                "data": "<div style=\"margin-top:-5px;\"><br>   <p>Liste des entreprises RGE a proximité du lieu du logement objet de l ‘accompagnement. Chaque professionnel de cette liste est titulaire de l'un des signes de qualité mentionnés au II de l'article 1er du décret n° 2014-812 du 16 juillet 2014, accessibles sur le système d'information national. </p></div>"
+            }
+        }
+    },
+    "5": {
+        "id": "5",
+        "title": "",
+        "active": "1",
+        "style": "",
+        "tag": "h3",
+        "hasLists": "1",
+        "ordre": "6",
+        "fields": {
+            "0": {
+                "id": "5",
+                "title": "Conseils pour la recherche et l'obtention de devis de travaux",
+                "tag": "p",
+                "style-title": "",
+                "style": "color:#4472c4 ;margin: 10px auto;margin-top:3px;",
+                "active": "1",
+                "type": "text",
+                "src": "",
+                "data": "<div style=\"\"><p style=\"margin-top: 0 \">Pour votre recherche et votre choix d’une entreprise de travaux. Vous pouvez consulter les sites suivants :<br>https://www.data.gouv.fr/fr/datasets/liste-des-entreprises-rge-1<br>https://france-renov.gouv.fr/annuaires-professionnels/artisan-rge<br>https://www.qualit-enr.org/annuaire<br><br>Il est conseillé de faire réaliser au moins cinq devis par cinq entreprises de travaux différentes.<br>Demander systématiquement une attestation d’assurance a jour.</p></div>"
+            }
+        }
+    },
+    "6": {
+        "id": "6",
+        "title": "",
+        "active": "1",
+        "style": "",
+        "tag": "h3",
+        "hasLists": "1",
+        "ordre": "7",
+        "fields": {
+            "0": {
+                "id": "6",
+                "title": "Choix de l’entreprise de travaux retenu par le ménage",
+                "tag": "p",
+                "style-title": "",
+                "style": "color:#4472c4;margin: 10px auto;margin-top:-5px; ",
+                "active": "1",
+                "type": "text",
+                "src": "",
+                "data": "<div style=\"\"><p style=\"margin-top: 0;\"><p>Par la présente, je soussigné :</p><p>Nom du bénéficiaire : <span class=\"{first_name}\"></span> <br>Prénom du bénéficiaire : <span class=\"{last_name}\"></span></p><p>Informe l’accompagnateur rénov que je décide de choisir l’entreprise <span class=\"{installer_name}\"></span> pour la réalisation des travaux de rénovation énergétique a mon domicile. J’ai bien pris connaissance de la liste des entreprises RGE que l’accompagnateur m’a conseillé mais je décide de choisir l’entreprise <span class=\"{installer_name}\"></span> dans la mesure où je connais cette entreprise.</p></div>"
+            }
+        }
+    },
+    "7": {
+        "id": "7",
+        "title": "",
+        "active": "1",
+        "style": "",
+        "tag": "h3",
+        "hasLists": "1",
+        "ordre": "8",
+        "fields": {
+            "0": {
+                "id": "7",
+                "title": "Vérification qualification RGE de l’entreprise retenu",
+                "tag": "p",
+                "style-title": "",
+                "style": "color:#4472c4;margin: 10px auto; ",
+                "active": "1",
+                "type": "text",
+                "src": "",
+                "data": "<div style=\"\"><p style=\"margin-top:0;\">Récupération des attestation RGE. <br>Récupération attestationDécennale<br>Joindre ces deux PDF à ce document.</p></div>"
+            }
+        }
+    },
+    "8": {
+        "id": "8",
+        "title": "",
+        "active": "1",
+        "style": "",
+        "tag": "",
+        "hasLists": "0",
+        "ordre": "9",
+        "fields": {
+            "0": {
+                "title": "Analyse du devis de l’entreprise retenu :",
+                "id": "8",
+                "tag": "div",
+                "style-title": "",
+                "style": "color:#4472c4 ;page-break-before:always;margin-bottom:10px;",
+                "active": "0",
+                "type": "text",
+                "src": "",
+                "data": "<div><table style=\"width:100%; border-collapse:collapse; border:1px black;\"><tr class=\"with-border\"><td class=\"with-border\" style=\"width:50%; padding-left:10px;\"><span style=\"font-size:11.5px;\">Le devis est compatible avec le scénario de travaux retenu</span></td><td style=\"padding-left:10px\" class=\"with-border\" style=\"width:50%;\"><span style=\"font-size:11.5px;\">Oui </span></td></tr><tr class=\"with-border\"><td style=\"padding-left:10px;\" class=\"with-border\" ><span style=\"font-size:11.5px;\">Analyse des prix du devis retenu</span></td><td style=\"padding-left:10px\" class=\"with-border\" ><span style=\"font-size:11.5px;\" class=\"{total_invoice}\"></span></td></tr><tr class=\"with-border\"><td class=\"with-border\" style=\"padding-left:10px;vertical-align:top;\"><span style=\"font-size:11.5px;\" >Informations sur les procédures d’urbanismes obligatoires</span></td><td style=\"padding-left:10px;padding-top:3px;\" class=\"with-border\" ><span style=\"font-size:10px;\" class=\"{urban_procedure}\"></span> </td></tr></table></div>"
+            }
+        }
+    },
+    "9": {
+        "id": "9",
+        "title": "",
+        "active": "1",
+        "style": "",
+        "tag": "h3",
+        "hasLists": "1",
+        "ordre": "10",
+        "fields": {
+            "0": {
+                "id": "9",
+                "title": "Information sur la possibilité de maîtrise d’œuvre :",
+                "tag": "p",
+                "style-title": "",
+                "style": "color:#4472c4 ;margin: 10px auto;",
+                "active": "1",
+                "type": "text",
+                "src": "",
+                "data": "<div style=\"\"><p style=\"margin-top:0;\">Par la présente, je soussigné :<br>Nom du bénéficiaire : <span class=\"{last_name}\"></span><br>Prénom du bénéficiaire : <span class=\"{first_name}\"></span></p><p>J’ai bien pris note du conseil de l’accompagnateur rénov de me faire accompagner par un maître d’œuvre mais je décide de ne pas faire appel à un maître d’œuvre. </p> </div>"
+            }
+        }
+    },
+    "10": {
+        "id": "10",
+        "title": "",
+        "active": "1",
+        "style": "",
+        "tag": "",
+        "hasLists": "0",
+        "ordre": "11",
+        "fields": {
+            "0": {
+                "title": "Plan de financement définitif:",
+                "id": "10",
+                "tag": "div",
+                "style-title": "",
+                "style": "color:#4472c4;margin: 10px auto; ",
+                "active": "0",
+                "type": "text",
+                "src": "",
+                "data": "<div><table style=\"width:100%; border-collapse:collapse; border:1px  black;\"><tr class=\"with-border\"><td style=\"padding-left:10px\" class=\"with-border\"><span>Catégorie MPR du bénéficiaire</span></td><td style=\"padding-left:10px\" class=\"with-border\"><span><span class=\"{client_class}\"></p></td></tr><tr class=\"with-border\"><td style=\"padding-left:10px\" class=\"with-border\"><span>Montant du reste a charge obligatoire</span></td><td style=\"padding-left:10px\" class=\"with-border\"><span><span class=\"{net_to_pay}\"></p></tr><tr class=\"with-border\"><td style=\"padding-left:10px\" class=\"with-border\"><span>Numéro du scénario de travaux choisi dans l’audit</span></td><td style=\"padding-left:10px\" class=\"with-border\"><span><span class=\"{scenario}\"></p></td></tr><tr class=\"with-border\"><td style=\"padding-left:10px\" class=\"with-border\"><span>Montant du devis de l’entreprise retenue</span></td><td style=\"padding-left:10px\" class=\"with-border\"><span><span class=\"{total_invoice}\"></p></td></tr><tr class=\"with-border\"><td style=\"padding-left:10px;vertical-align:top;\" class=\"with-border\"><span style=\"\">Récapitulatif des aides</span></td><td style=\"padding-left:10px\" class=\"with-border\"><span>ANAH MPRS : </span><span class=\"{anah_mprs}\"></span> <br> CEE : <span class=\"{cee}\"> </span><br>Aides départementales : <span class=\"{departmental_help}\"> </span><br>Aides régionales : <span class=\"{regional_help}\"></span> <br>Aides collectivités territoriales : <span class=\"{help_local_authorities}\"></span> </p></td></tr><tr class=\"with-border\"><td style=\"padding-left:10px\" class=\"with-border\"><span>Montant total des aides</p></td><td style=\"padding-left:10px\" class=\"with-border\"><span><span class=\"{total_help}\"></p></td></tr><tr class=\"with-border\"><td style=\"padding-left:10px\"><span>Montant du reste a charge</span></td><td style=\"padding-left:10px\" class=\"with-border\"><span><span class=\"{net_to_pay}\"></p></td></tr></table></div>"
+            }
+        }
+    },
+    "11": {
+        "id": "11",
+        "title": "",
+        "active": "1",
+        "style": "",
+        "tag": "",
+        "hasLists": "0",
+        "ordre": "12",
+        "fields": {
+            "0": {
+                "title": "Modalités du financement du reste à charge :",
+                "id": "11",
+                "tag": "div",
+                "style-title": "",
+                "style": "color:#4472c4;margin: 10px auto;",
+                "active": "0",
+                "type": "text",
+                "src": "",
+                "data": "<div><table style=\"width:100%; border-collapse:collapse; border:1px  black;\"><tr class=\"with-border\"><td style=\"padding-left:10px;width:60%\" class=\"with-border\"><span>Eco Prêt à taux zéro au sens de l'arrêté du 30 mars 2009</span></td><td style=\"padding-left:10px;width:40%\" class=\"with-border\"> <span class=\"{eco_loan_stopped_thirty_mars}\"></span> </td></tr><tr class=\"with-border\"><td style=\"padding-left:10px;width:60%;font-size:12px;\" class=\"with-border\"><span style=\"font-size:11.5px;\">Prêt avance rénovation au sens du décret n° 2021-1700 du 17 décembre 2021relatif aux modalités d'intervention du fonds de garantie pour la rénovation énergétique, à l'amortissement des prêts avance mutation et au taux annuel effectif global applicable au prêt viager hypothécaire</span></td><td style=\"padding-left:10px;width:40%;vertical-align:top;\" class=\"with-border\"><span class=\"{renovation_advance_loan_seventeen_december}\"></span></td></tr><tr class=\"with-border\"><td style=\"padding-left:10px;vertical-align:top;width:60%\" class=\"with-border\"><span>Autres </span></td><td style=\"padding-left:10px;width:40%\" class=\"with-border\"><span class=\"{other_description_of_remainder_payable}\"></span></td></tr></table></div>                "
+            }
+        }
+    },
+    "13": {
+        "id": "13",
+        "title": "",
+        "active": "1",
+        "style": "",
+        "tag": "h3",
+        "hasLists": "1",
+        "ordre": "14",
+        "fields": {
+            "0": {
+                "id": "13",
+                "title": "Informations sur la prise en charge des démarches en ligne par l’accompagnateur rénov:",
+                "tag": "p",
+                "style-title": "",
+                "style": "color: #4472c4;margin-bottom:5px;",
+                "active": "1",
+                "type": "text",
+                "src": "",
+                "data": "<div style=\"\"><p style=\"margin-top:0;\">Conformément à l’article 4 du contrat d’accompagnement, l’accompagnateur rénov s’occupera de la demande d’aides auprès de l’ANAH pour le compte du bénéficiaire.Il effectuera également les demandes d’aides auprès du département, de la région et des collectivités si nécessaires.L’accompagnement inclus les démarches pour l'obtention des attestations de travaux nécessaires pour bénéficier de la prime de transition énergétique mentionné dans le décret n°2020-26 du 14 janvier 2020. L’accompagnateur prendra en charge l’ensemble des démarchjesadministratives jusqu’à la notification de l'octroi de ou des subventions.</p></div>"
+            }
+        }
+    },
+    "14": {
+        "id": "14",
+        "title": "",
+        "active": "1",
+        "style": "",
+        "tag": "",
+        "hasLists": "0",
+        "ordre": "15",
+        "fields": {
+            "0": {
+                "title": "",
+                "id": "14",
+                "tag": "div",
+                "style-title": "",
+                "style": "",
+                "active": "0",
+                "type": "text",
+                "src": "",
+                "data": "<div style=\"position:relative;top:15%;page-break-before:always;\"><table style=\"width:100%; border-collapse:collapse; border:1px black;\"><tr class=\"with-border\"><td style=\"padding-left:10px\" class=\"with-border\"><table><tr><td> <span style=\"padding-left:10px\">Fait à <span class=\"{mar_city}\"></span></span></td></tr><tr><td><span style=\"padding-left:10px\">Le</span> <span class=\"{date}\"></span></td></tr><tr><td><span style=\"padding-left:10px\">Signature pour l’accompagnateur Rénov </span> <br> <img style=\"height:70px;width:auto;\" class=\"{signature_mar}\"></img> </td></tr><tr><td style=\"text-align:center;height:50px;\"> </td></tr></table></td><td style=\"padding-left:10px;vertical-align:top;\" class=\"with-border\"><table style=\"\"><tr><td ><span style=\"padding-left:10px\">Signature pour le Bénéficiaire </span></td></tr><tr><td style=\"text-align:center;height:50px;\"> </td></tr><tr><td> <span style=\"padding-left:10px\">Nom <span class=\"{last_name}\"></span></span></td></tr><tr><td><span style=\"padding-left:10px\">Prénom</span> <span class=\"{first_name}\"></span></td></tr></table></td></tr></table></div> "
+            }
+        }
+    }
+}

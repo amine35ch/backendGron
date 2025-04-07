@@ -1,0 +1,189 @@
+{
+    "0": {
+        "id": "0",
+        "title": "1. Identité du demandeur",
+        "active": "1",
+        "style": "background-color:#f2f2f2;padding:3px",
+        "tag": "",
+        "hasLists": "0",
+        "ordre": "1",
+        "fields": {
+            "0": {
+                "title": "",
+                "id": "0",
+                "tag": "div",
+                "style-title": "",
+                "style": "",
+                "active": "0",
+                "type": "text",
+                "src": "",
+                "data": " <div style=\"margin-top:-10px;margin-bottom:-10px;\"> <p> NOM, Prénom(s) du demandeur : <span class=\"{client_name}\"></span> </p> </div>"
+            }
+        }
+    },
+    "1": {
+        "id": "1",
+        "title": "2. Adresse du chantier",
+        "active": "1",
+        "style": "background-color:#f2f2f2;padding:3px",
+        "tag": "h3",
+        "hasLists": "0",
+        "ordre": "2",
+        "fields": {
+            "0": {
+                "id": "0",
+                "title": "",
+                "tag": "div",
+                "style-title": "",
+                "style": "",
+                "active": "1",
+                "type": "text",
+                "src": "",
+                "data": " <div style=\"margin-top:-10px;margin-bottom:-10px;\"> <p> Numéro et voie : <span class=\"{number_and_street}\"></span> </p> <p> Code postal :<span class=\"{zip_code}\"></span> </p> <p>  Ville :<span class=\"{city}\"></span> </p> </div>"
+            }
+        }
+    },
+    "2": {
+        "id": "2",
+        "title": " 3. Synthèse des travaux éligibles",
+        "active": "1",
+        "style": "background-color:#f2f2f2;padding:3px",
+        "tag": "h3",
+        "hasLists": "1",
+        "ordre": "3",
+        "fields": {
+            "0": {
+                "id": "0",
+                "title": "",
+                "tag": "",
+                "style-title": "",
+                "style": "",
+                "active": "1",
+                "type": "text",
+                "src": "",
+                "data": "  <div style=\"margin-top:-10px;margin-bottom:-10px;\"> <table style=\"width: 100%\"> <tr> <td style=\"width: 35%\"> <p> Coût total des travaux éligibles  : </p> </td> <td style=\"width: 33%\"> <p> <span class=\"{cost_ht}\"></span> € HT </p> </td> <td style=\"width: 33%\"> <p> <span class=\"{cost_ttc}\"></span> € TTC </p> </td> </tr> </table> </div>"
+            }
+        }
+    },
+    "3": {
+        "id": "3",
+        "title": " 4. Synthèse de l’audit énergétique",
+        "active": "1",
+        "style": "background-color:#f2f2f2;padding:3px",
+        "tag": "h3",
+        "hasLists": "0",
+        "ordre": "4",
+        "fields": {
+            "0": {
+                "id": "0",
+                "title": "",
+                "tag": "h4",
+                "style-title": "",
+                "style": "",
+                "active": "1",
+                "type": "text",
+                "src": "",
+                "data": "<div style=\"margin-top:-10px;margin-bottom:-10px;\"> <section> <p style=\"margin-bottom:-10px;\"> Date de réalisation de l’audit énergétique : <span class=\"{date_realization_audit}\"></span> </p> <p style=\"margin-bottom:-10px;\"> Identifiant de l’audit énergétique (n°) : <span class=\"{audit_identifier}\"></span> </p> <p style=\"margin-bottom:-10px;\"> Professionnel ayant réalisé l’audit énergétique : <span class=\"{auditor_name}\"> </span>  </p> <p style=\"margin-bottom:0px;\"> Raison social : <span class=\"{raison_social}\"></span>  SIRET (14 chiffres) : <span class=\"{audit_siret}\"></span> </p> </section> <section> <p style=\"margin-bottom:-10px;\"> <strong>Situation initiale du logement (« avant travaux »)</strong> </p> <p style=\"margin-bottom:-10px;\"> Consommation conventionnelle (chauffage, refroidissement, production d'eau chaude sanitaire, éclairage, auxiliaires) </p> <p style=\"margin-bottom:-10px;padding-left:35px\" >en kWh/m²/an d’énergie primaire : <span class=\"{primary_energy_before_work}\"></span> </p> <p style=\"margin-bottom:-10px;padding-left:35px\" >en kWh/m²/an d’énergie finale : <span class=\"{final_energy_before_work}\"></span> </p> <p style=\"margin-bottom:-10px;\"> Émissions annuelles de gaz à effet de serre en kgCO2eq/m2/an : <span class=\"{gaz_emission_before_work}\"></span> </p> <p style=\"margin-bottom:-10px;\"> Classe de performance énergétique (de A à G) :  <span class=\"{performance_energy_before_work}\"></span> </p> <p style=\"margin-bottom:0px;\"> Surface de référence du logement en m²  :  <span class=\"{surface_housing_before_work}\"></span> </p> </section> <section> <p style=\"margin-bottom:-10px;\"> <strong>Situation du logement projetée dans le scénario de travaux retenu (« après travaux »)</strong> </p> <p style=\"margin-bottom:-10px;\"> Référence ou n° du scenario retenu :  <span class=\"{scenario_retenu}\"></span> </p> <p style=\"margin-bottom:-10px;\"> Consommation conventionnelle (chauffage, refroidissement, production d'eau chaude sanitaire, éclairage, auxiliaires) </p> <p style=\"margin-bottom:-10px;padding-left:35px\">en kWh/m²/an d’énergie primaire : <span class=\"{primary_energy_after_work}\"></span> </p> <p style=\"margin-bottom:-10px;padding-left:35px\" >en kWh/m²/an d’énergie finale : <span class=\"{final_energy_after_work}\"></span> </p> <p style=\"margin-bottom:-10px;\"> Émissions annuelles de gaz à effet de serre en kgCO2eq/m2/an : <span class=\"{gaz_emission_after_work}\"></span> </p> </p> <p style=\"margin-bottom:-10px;\"> Classe de performance énergétique (de A à G) :  <span class=\"{performance_energy_after_work}\"></span> </p> <p style=\"margin-bottom:-10px;\"> Surface de référence du logement en m²  :  <span class=\"{surface_housing_after_work}\"></span> </p> </section> <section> <p style=\"margin-bottom:-10px;\"> <section style=\"margin-top:20px;\"> <hr style=\"width:40%;color:black;position:relative;left:-220px;\"> <p style=\"font-size:9px\"><sup>1</sup> hors prestation Mon Accompagnateur Rénov’ ou audit énergétique.</section></p> <p style=\"font-size:12px;font-weight:bold;\">Gain de classe de performance énergétique associé au projet de travaux :</p> <table style=\"width:100%;\"><tr><td><label style=\"display:block; vertical-align:middle;\"><input style=\"vertical-align:middle;font-size:11px;\" type=\"checkbox\" id=\"{class_one}\"> Gain de 2 classes </label></td></tr><tr><td><label style=\"display:block; vertical-align:middle;\"><input style=\"vertical-align:middle;font-size:11px;\" type=\"checkbox\" id=\"{class_two}\"> Gain de 3 classes </label></td></tr><tr><td><label style=\"display:block; vertical-align:middle;\"><input style=\"vertical-align:middle;font-size:11px;\" type=\"checkbox\" id=\"{class_three}\"> Gain de 4 classes ou plus </label></td></tr></table> </section> </div>"
+            }
+        }
+    },
+    "4": {
+        "id": "4",
+        "title": "5. Description des travaux éligibles",
+        "active": "1",
+        "style": "background-color:#f2f2f2;padding:3px;",
+        "tag": "h3",
+        "hasLists": "1",
+        "ordre": "5",
+        "fields": {
+            "0": {
+                "id": "0",
+                "title": "",
+                "tag": "p",
+                "style-title": "",
+                "style": "",
+                "active": "1",
+                "type": "works",
+                "src": "",
+                "data": {}
+            },
+            "1": {
+                "id": "1",
+                "title": " ",
+                "tag": "h4",
+                "style-title": "",
+                "style": "",
+                "active": "1",
+                "type": "text",
+                "src": "",
+                "data": "<div> <p style=\"font-style: italic\"> Exemple :  Isolation thermique par l’extérieur de 100 m2 de murs avec de la laine de bois, résistance thermique de 4,5 m2.K/W Exemple : XX € HT / XX € TTC </p> <hr> <p style=\"font-size: 9px\"> <sup>2</sup> La description des postes de travaux doit inclure les caractéristiques techniques et niveaux de performance permettant d'apprécier le respect des critères d’éligibilité. Ainsi, dans le cas de l'acquisition et de la pose de matériaux d'isolation thermique des parois opaques, il est demandé de renseigner la nature et la surface des parois opaques isolées, la résistance thermique de l’isolation installée, en distinguant ce qui relève de l'isolation par l'extérieur de ce qui relève de l'isolation par l'intérieur ; dans le cas de l'acquisition de matériaux d'isolation thermique des parois vitrées, il est demandé de renseigner le nombre d’équipements remplacés, le coefficient de transmission thermique et le facteur transmission solaire ; dans le cas de l’installation d’un système de chauffage des locaux et/ou de production d’eau chaude sanitaire, il est demandé de renseigner les caractéristiques techniques et niveaux de performance (puissance, efficacité énergétique saisonnière, efficacité énergétique pour le chauffage de l’eau, etc.) dans les conditions d’utilisation de l’équipement. </p> </div>"
+            }
+        }
+    },
+    "5": {
+        "id": "5",
+        "title": "6. Demande de dérogation aux critères de résistance thermique, de coefficient de transmission thermique ou de facteur de transmission solaire",
+        "active": "1",
+        "style": "background-color:#f2f2f2;padding:3px;page-break-before:always",
+        "tag": "h3",
+        "hasLists": "0",
+        "ordre": "6",
+        "fields": {
+            "0": {
+                "id": "0",
+                "title": "",
+                "tag": "h4",
+                "style-title": "",
+                "style": "",
+                "active": "1",
+                "type": "derogation",
+                "src": "",
+                "data": ""
+            }
+        }
+    },
+    "6": {
+        "id": "6",
+        "title": "En signant le présent document, le demandeur :",
+        "active": "1",
+        "style": "background-color:#f2f2f2;padding:3px",
+        "tag": "h3",
+        "hasLists": "0",
+        "ordre": "7",
+        "fields": {
+            "0": {
+                "id": "0",
+                "title": "",
+                "tag": "p",
+                "style-title": "",
+                "style": "",
+                "active": "1",
+                "type": "text",
+                "src": "",
+                "data": " <div style=\"font-size:11.5px;\"> <ol> <li> Atteste que le programme de travaux décrit dans la section <b>5. Description des travaux éligibles</b> est associé au gain de classe de performance énergétique figurant dans la section<b> 4. Synthèse de l’audit énergétique </b>de la présente attestation ; </li> <li> Atteste que le programme de travaux décrit dans la section<b> 5. Description des travaux éligibles </b>respecte les critères fixés par l’arrêté du 17 novembre 2020 , en particulier : <ul> <li> Les travaux de rénovation permettent de réaliser un <b>saut d’au moins deux classes </b>au sens de l’article L. 173-1-1 du code de la construction et de l’habitation ; </li> <li> Au moins <b>deux postes de travaux traitant l’enveloppe du bâtiment</b> sont mis en œuvre parmi les quatre postes suivants : (i) isolation des murs par l’intérieur ou par l’extérieur, (ii) isolation des planchers bas, (iii) isolation de la toiture, des planchers de combles perdus ou de la toiture terrasse, (iv) remplacement des fenêtres et portes fenêtres ou pose de doubles fenêtres ; </li> <li><b> Au moins 25% des surfaces du bâtiment concernées</b> par les postes de travaux mis en œuvre font l’objet de travaux ; </li> <li> Sauf contrainte technique, architecturale ou patrimoniale justifiée dans la présente attestation, la <b>résistance thermique de l’isolation installée</b> est supérieure ou égale à : <ul> <li> 7 m2.K/W en plancher de combles perdus ; </li> <li> 6 m².K/W en rampants de toiture ; </li> <li> 6,5 m².K/W pour les toitures terrasses ; </li> <li> 3,7 m².K/W pour les murs en façade ou en pignon, en cas d’isolation par l’intérieur ; </li> <li> 4,4 m².K/W pour les murs en façade ou en pignon, en cas d’isolation par l’extérieur ; </li> <li> 3 m².K/W en plancher bas ; </li> </ul> </li> <li> Le coefficient de transmission thermique (Uw) et le facteur solaire (Sw) des <b>fenêtres ou portes-fenêtres</b> respectent les exigences suivantes <ul> <li>pour les fenêtres de toiture : Uw ≤ 1,5 W/m².K et Sw ≤ 0,36 ;</li> <li>pour les autres fenêtres ou portes-fenêtres : <ul> <li> • Uw ≤ 1,3 W/ m².K et Sw ≥ 0,3 ; </li> <li> • Uw ≤ 1,3 W/ m².K et Sw ≥ 0,3 ; </li> </ul> </li> <li> pour les doubles fenêtres : Uw ≤ 1,5 W/m².K et Sw ≥ 0,32 ; </li> </ul> </li> <li style=\"page-break-before:always;\"> Les travaux de rénovation fondés sur un audit énergétique réalisé à compter du <b>1er avril 2024</b> permettant de réaliser un gain d’au moins quatre classes respectent en sus le critère relatif aux déperditions thermiques défini par l’article 3 de l’arrêté du 3 octobre 2023 relatif au contenu et aux conditions d'attribution du label prévu à l'article R. 171-7 du code de la construction et de l'habitation ; </li> <li> Les travaux <b>n’intègrent pas</b> l'installation d’un système de chauffage ou de production d’eau chaude sanitaire incluant un (ou plusieurs) équipement(s) dont le niveau d'émissions de gaz à effet de serre est isolément supérieur à 150 gCO2eq/kWh PCI, et dont le taux de couverture, défini comme le rapport entre (i) la chaleur fournie par les équipements du système possédant un niveau d’émissions supérieur à 150 gCO2eq/kWh PCI et (ii) les besoins annuels de chaleur couverts par le système, est supérieur à 30% ; </li> <li> Les travaux <b>ne conduisent pas</b> à conserver un système de chauffage ou de production d'eau chaude sanitaire incluant un (ou plusieurs) équipement(s) dont le niveau d'émissions de gaz à effet de serre est isolément supérieur à 300 gCO2eq/kWh PCI, et dont le taux de couverture, défini comme le rapport entre (i) la chaleur fournie par les équipements du système possédant un niveau d’émissions supérieur à 300 gCO2eq/kWh PCI et (ii) les besoins annuels de chaleur couverts par le système, est supérieur à 30% ; </li> <li> Les <b>émissions annuelles de gaz à effet de serre après rénovation</b>, rapportées à la surface de référence  de la maison, sont inférieures ou égales aux émissions avant rénovation ; </li> </ul> </li> <li> S’engage à réserver l’exclusivité de la valorisation des certificats d’économie d’énergie à l’Agence nationale de l’habitat. </li> </ol> <p> Fait à <span class=\"{location_client}\"></span> le <span class=\"{date_signature_client}\"></span> </p> <p> NOM, Prénom et signature du demandeur : <span class=\"{client_name}\"></span> </p> <p style=\"margin-bottom:60px;\"> <img style=\"width:100px;height:100px\" class=\"{client_signature}\"></img> </p> <p style=\"font-size:9px\"><sup>3</sup> arrêté du 17 novembre 2020 modifié relatif aux caractéristiques techniques et modalités de réalisation des travaux et prestations dont les dépenses sont éligibles à la prime de transition énergétique </p></div>"
+            }
+        }
+    },
+    "7": {
+        "id": "7",
+        "title": "En signant le présent document, l’accompagnateur agréé « Mon Accompagnateur Rénov’ » :",
+        "active": "1",
+        "style": "background-color:#f2f2f2;padding:3px;page-break-before:always",
+        "tag": "h3",
+        "hasLists": "0",
+        "ordre": "8",
+        "fields": {
+            "0": {
+                "id": "0",
+                "title": "",
+                "tag": "div",
+                "style-title": "",
+                "style": "",
+                "active": "1",
+                "type": "text",
+                "src": "",
+                "data": " <div> <ol> <li> Atteste sur la base des factures remises de la concordance entre le programme de travaux et le scénario de travaux issu de l’audit énergétique retenu par le ménage ; </li> <li> Atteste que l’audit énergétique a été réalisé conformément aux exigences relatives au contenu de l’audit prévues à l’article 8 de l’arrêté du 17 novembre 2020 susmentionné, par une personne répondant aux conditions mentionnées au VII de l’article 2 du décret du 14 janvier 2020 relatif à la prime de transition énergétique. </li> </ol> <p> Fait à <span class=\"{location_mar}\"></span> le <span class=\"{date_signature_mar}\"></span> </p> <p> NOM, Prénom et signature de l'accompagnateur : <span class=\"{mar_name}\"></span> </p> <p> <img style=\"width:100px;height:100px\" class=\"{mar_signature}\"></img> </p> <p> Raison sociale : <span class=\"{mar_name}\"></span> </p> <p> SIRET (14 chiffres) : <span class=\"{mar_siret}\"></span> </p> </div>"
+            }
+        }
+    }
+}

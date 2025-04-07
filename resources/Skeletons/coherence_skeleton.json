@@ -1,0 +1,68 @@
+{
+    "0": {
+    "id": "0",
+    "title": "",
+    "active": "1",
+    "style": "",
+    "tag": "",
+    "hasLists": "0",
+    "ordre": "1",
+    "fields": {
+        "0": {
+            "title": "",
+            "id": "0",
+            "tag": "div",
+            "style-title": "",
+            "style": "",
+            "active": "0",
+            "type": "text",
+            "src": "",
+            "data": "<div><table style=\"width:100%; border-collapse:collapse; border:1px solid black;\"><tr class=\"with-border\"><td class=\"with-border\" style=\"padding-left:10px;\"><p style=\"color:#4472c4;position:relative;bottom:1.2%;font-size:13px; \"><strong>Date de la réunion :</strong></p></td><td style=\"padding-left:10px;vertical-align: top;\" class=\"with-border\"><span style=\"\"><span class=\"{date}\"></span></span></td></tr><tr class=\"with-border\"><td style=\"padding-left:10px\"><span style=\"color:#4472c4;position:relative;bottom:2%;font-size:13px; \"><strong>Emetteur :</strong></span></td><td style=\"padding-left:10px\" class=\"with-border\"><span class=\"{mar_name}\"></span> <br><span style=\"\">SIRET :<span class=\"{mar_siret}\"></span> <span class=\"{mar_adress}\"></span></span><br><span style=\"\">Numéro d’Agrément Mon Accompagnateur Rénov : <span class=\"{mar_approval_number}\"></span></span></td></tr><tr class=\"with-border\"><td style=\"padding-left:10px\" class=\"with-border\"><span style=\"color:#4472c4;position:relative;bottom:1%;font-size:13px;\"><strong>Bénéficiaire :</strong></span></td><td style=\"padding-left:10px\" class=\"with-border\"><span style=\"\">Nom Prénom <span class=\"{last_name}\"></span> <span class=\"{first_name}\"></span></span> <br><span style=\"\">Adresse :<span class=\"{client_address}\"></span></span></td></tr></table></div>            "
+            }
+        }
+    },
+    "1": {
+        "id": "1",
+        "title": "",
+        "active": "1",
+        "style": "",
+        "tag": "h3",
+        "hasLists": "0",
+        "ordre": "2",
+        "fields": {
+            "0": {
+                "id": "1",
+                "title": "",
+                "tag": "div",
+                "style-title": "",
+                "style": "color:#4472c4;margin: 10px auto;margin-top:20px; ",
+                "active": "1",
+                "type": "text",
+                "src": "",
+                "data": "<div style=\"margin-top: 10px;\"><p style=\"font-size: 14px;\">La cohérence des travaux entre les travaux réalisés et le scénario de travaux prévu a bien été vérifié ce jour en présence du bénéficiaire et de l’accompagnateur rénov. </p><p style=\"font-size: 14px;\">Le bénéficiaire a été accompagner ce jour pour la prise en main du logement après travaux.</p></div>                "
+            }
+        }
+    },
+    "2": {
+        "id": "2",
+        "title": "",
+        "active": "1",
+        "style": "",
+        "tag": "h3",
+        "hasLists": "0",
+        "ordre": "3",
+        "fields": {
+            "0": {
+                "id": "1",
+                "title": "",
+                "tag": "div",
+                "style-title": "",
+                "style": "color:#4472c4;margin: 10px auto;margin-top:20px; ",
+                "active": "1",
+                "type": "text",
+                "src": "",
+                "data": "<div style=\"position:relative;top:5%;\"><table style=\"width:100%; border-collapse:collapse; border:1px black;\"><tr class=\"with-border\"><td style=\"padding-left:10px\" class=\"with-border\"><table><tr><td><span style=\"padding-left:10px\">Fait à <span class=\"{mar_city}\"></span></span></td></tr><tr><td><span style=\"padding-left:10px\">Le</span> <span class=\"{date}\"></span></td></tr><tr><td><span style=\"padding-left:10px\">Signature pour l’accompagnateur Rénov </span></td></tr><tr><td style=\"text-align:center;height:50px;\"></td></tr></table></td><td style=\"padding-left:10px\" class=\"with-border\"><table><tr><td><span style=\"padding-left:10px\">Signature pour le Bénéficiaire </span></td></tr><tr><td style=\"text-align:center;height:50px;\"></td></tr><tr><td><span style=\"padding-left:10px\">Nom <span class=\"{last_name}\"></span></span></td></tr><tr><td><span style=\"padding-left:10px\">Prénom</span> <span class=\"{first_name}\"></span></td></tr></table></td></tr></table></div> "
+            }
+        }
+    }
+}
