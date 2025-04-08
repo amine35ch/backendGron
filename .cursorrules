@@ -1,0 +1,216 @@
+{
+  "version": "1.0",
+  "rules": {
+    "migrations": {
+      "enforceIdempotence": true,
+      "checkColumnExistence": true,
+      "enforceForeignKeyChecks": true,
+      "warnings": [
+        "Toujours vérifier l'existence des colonnes avec 'Schema::hasColumn()' avant de les modifier ou supprimer",
+        "Utiliser des transactions pour les migrations complexes",
+        "Supprimer les contraintes de clé étrangère avant de supprimer les colonnes référencées"
+      ]
+    },
+    "controllers": {
+      "enforceServicePattern": true,
+      "avoidLargeControllers": true,
+      "enforceValidation": true,
+      "warnings": [
+        "Déplacer la logique métier dans des classes de service",
+        "Limiter les contrôleurs à 100-150 lignes de code",
+        "Toujours valider les entrées utilisateur"
+      ]
+    },
+    "database": {
+      "enforceIndexing": true,
+      "preventNPlusOne": true,
+      "enforceEagerLoading": true,
+      "warnings": [
+        "Ajouter des index sur les colonnes fréquemment utilisées dans les WHERE, JOIN ou ORDER BY",
+        "Utiliser eager loading (with()) pour éviter le problème N+1",
+        "Limiter les requêtes dans les boucles"
+      ]
+    },
+    "security": {
+      "enforceInputValidation": true,
+      "preventSQLInjection": true,
+      "enforceAuthentication": true,
+      "warnings": [
+        "Valider toutes les entrées utilisateur",
+        "Utiliser des requêtes préparées ou Eloquent",
+        "Vérifier les autorisations avant d'accéder aux ressources",
+        "Utiliser les middleware de permissions de Spatie correctement"
+      ]
+    },
+    "performance": {
+      "enforceCaching": true,
+      "limitDatabaseQueries": true,
+      "warnings": [
+        "Mettre en cache les données fréquemment utilisées",
+        "Limiter le nombre de requêtes par requête HTTP",
+        "Utiliser des jobs en arrière-plan pour les tâches lourdes",
+        "Utiliser la génération de PDF en arrière-plan pour les documents volumineux"
+      ]
+    },
+    "code_quality": {
+      "enforceNaming": true,
+      "enforceSingleResponsibility": true,
+      "warnings": [
+        "Suivre les conventions de nommage Laravel",
+        "Une classe devrait avoir une seule responsabilité",
+        "Maintenir la couverture de tests pour les fonctionnalités critiques"
+      ]
+    },
+    "git": {
+      "branchNaming": "^(feature|bugfix|hotfix|release|docs)/T-\\d+_[a-z0-9-]+$",
+      "commitMessageFormat": "^(feat|fix|refactor|perf|style|test|docs|build|ops|chore)(\\(.*\\))?(!)?:\\s.+$",
+      "warnings": [
+        "Utiliser le format de branche: prefix/T-123_nom-descriptif",
+        "Commencer les messages de commit par: feat, fix, refactor, etc.",
+        "Référencer le numéro de tâche dans les messages de commit: [T-123]"
+      ]
+    },
+    "docusign_integration": {
+      "enforceTokenSecurity": true,
+      "warningPriority": "high",
+      "warnings": [
+        "Ne jamais exposer les tokens DocuSign dans le code",
+        "Gérer les timeouts et erreurs de connexion",
+        "Implémenter des jobs en arrière-plan pour les notifications",
+        "Vérifier la version de l'API DocuSign utilisée (actuellement ^6.18)"
+      ]
+    },
+    "maintenance": {
+      "enforceBackwardCompatibility": true,
+      "enforceDocumentation": true,
+      "warnings": [
+        "Maintenir la rétrocompatibilité des endpoints API",
+        "Documenter tous les changements dans les fichiers de documentation",
+        "Suivre le plan de maintenance défini dans feuille_de_route_maintenance_backend.md"
+      ]
+    },
+    "emergency": {
+      "quickFixes": [
+        "php artisan cache:clear",
+        "php artisan config:clear",
+        "php artisan route:clear",
+        "php artisan view:clear",
+        "php artisan queue:restart",
+        "php artisan passport:keys",
+        "php artisan optimize:clear"
+      ],
+      "checkBeforeDeployment": [
+        "php artisan migrate:status",
+        "php artisan route:list",
+        "php artisan test",
+        "php artisan passport:status"
+      ]
+    },
+    "pdf_generation": {
+      "useDomPdf": true,
+      "enforcePdfPerformance": true,
+      "warnings": [
+        "Utiliser barryvdh/laravel-dompdf pour la génération de PDF",
+        "Éviter de générer des PDF volumineux dans les requêtes synchrones",
+        "Utiliser clegginabox/pdf-merger pour fusionner des PDF",
+        "Gérer les erreurs de génération PDF"
+      ]
+    },
+    "excel_export": {
+      "useMaatwebsiteExcel": true,
+      "enforceExcelPerformance": true,
+      "warnings": [
+        "Utiliser maatwebsite/excel pour l'exportation Excel",
+        "Implémenter l'exportation de gros fichiers en arrière-plan",
+        "Gérer la mémoire pour les exports volumineux"
+      ]
+    },
+    "api_documentation": {
+      "useSwagger": true,
+      "enforceDocumentation": true,
+      "warnings": [
+        "Documenter tous les endpoints avec les annotations Swagger",
+        "Utiliser darkaonline/l5-swagger pour générer la documentation API",
+        "Maintenir la documentation à jour après chaque modification d'API"
+      ]
+    },
+    "authorization": {
+      "useSpatiePermissions": true,
+      "enforceRoleBasedAccess": true,
+      "warnings": [
+        "Utiliser le package spatie/laravel-permission pour la gestion des rôles",
+        "Définir clairement les rôles et permissions dans les seeders",
+        "Utiliser les middleware 'role' et 'permission' pour sécuriser les routes"
+      ]
+    },
+    "authentication": {
+      "usePassport": true,
+      "enforceTokenSecurity": true,
+      "warnings": [
+        "Utiliser Laravel Passport pour l'authentification API",
+        "Configurer correctement les expirations de tokens",
+        "Utiliser des clients Passport appropriés pour différents contextes",
+        "Implémenter la révocation des tokens lors de la déconnexion"
+      ]
+    },
+    "helpers": {
+      "checkCustomHelpers": true,
+      "warnings": [
+        "Utiliser les helpers d'authentification, généraux et de permissions correctement",
+        "Éviter la duplication de code dans les helpers",
+        "Documenter clairement les fonctions helper"
+      ]
+    },
+    "qrcode": {
+      "useSimpleQrCode": true,
+      "warnings": [
+        "Utiliser simplesoftwareio/simple-qrcode pour la génération de QR codes",
+        "Implémenter une gestion d'erreurs pour la génération de QR codes"
+      ]
+    },
+    "eloquent_filter": {
+      "useTuckerEric": true,
+      "warnings": [
+        "Utiliser tucker-eric/eloquentfilter pour le filtrage des modèles",
+        "Implémenter des ModelFilters dédiés pour des filtres complexes",
+        "Optimiser les requêtes filtrées pour les performances"
+      ]
+    },
+    "telescope": {
+      "useInDevOnly": true,
+      "warnings": [
+        "Désactiver Laravel Telescope en production",
+        "Utiliser Telescope pour déboguer les requêtes en développement",
+        "Configurer les watchers Telescope appropriés"
+      ]
+    },
+    "php_version": {
+      "minVersion": "8.1",
+      "warnings": [
+        "Utiliser uniquement des fonctionnalités compatibles avec PHP 8.1+",
+        "Mettre à jour les dépendances pour assurer la compatibilité PHP 8.1+"
+      ]
+    }
+  },
+  "paths": {
+    "migrations": ["database/migrations/**/*.php"],
+    "controllers": ["app/Http/Controllers/**/*.php"],
+    "models": ["app/Models/**/*.php"],
+    "services": ["app/Services/**/*.php"],
+    "tests": ["tests/**/*.php"],
+    "config": ["config/**/*.php"],
+    "routes": ["routes/**/*.php"],
+    "helpers": ["app/Helpers/**/*.php"],
+    "permissions": ["database/seeders/RoleSeeder.php", "database/seeders/PermissionSeeder.php"],
+    "filters": ["app/ModelFilters/**/*.php"],
+    "passport": ["config/passport.php"],
+    "swagger": ["app/Http/Controllers/**/*.php", "app/Models/**/*.php"]
+  },
+  "ignores": [
+    "vendor/**/*",
+    "node_modules/**/*",
+    "public/**/*",
+    "storage/**/*",
+    "bootstrap/cache/**/*"
+  ]
+}
