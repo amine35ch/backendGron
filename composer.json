@@ -24,6 +24,7 @@
         "tucker-eric/eloquentfilter": "^3.2"
     },
     "require-dev": {
+        "darkaonline/l5-swagger": "8.5",
         "fakerphp/faker": "^1.9.1",
         "laravel-lang/common": "^6.1",
         "laravel/pint": "^1.13",
