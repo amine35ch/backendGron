@@ -40,3 +40,6 @@ Route::post('refresh-subscription', [AuthController::class, 'refreshTokenSubscri
     Route::get('companies/{subscriber}/finished-projects', [SubscriptionController::class, 'getFinishedProject']);
     Route::post('companies/mars', [DCompanyController::class, 'storeMAR']);
 // });
+
+// Ajouter cette route pour servir le fichier de documentation Swagger
+Route::get('/docs/GRON_API_Collection.json', [App\Http\Controllers\SwaggerDocController::class, 'serveJson']);

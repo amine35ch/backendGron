@@ -84,6 +84,7 @@ use App\Http\Controllers\PTypeVisitController;
 use App\Http\Controllers\PUnitController;
 use App\Http\Controllers\PWorkTypeController;
 use App\Http\Controllers\SubscriptionController;
+use App\Http\Controllers\SwaggerController;
 use App\Http\Controllers\TeamUserController;
 use App\Http\Controllers\UserController;
 use App\Http\Middleware\GlobalCheckSubscription;
@@ -118,6 +119,22 @@ use Illuminate\Support\Facades\Auth;
 |
 */
 
+// Routes pour la documentation Swagger
+Route::get('/api/docs', [App\Http\Controllers\ApiDocController::class, 'index'])->name('api.docs');
+Route::get('/api/docs/json', [App\Http\Controllers\ApiDocController::class, 'json'])->name('api.docs.json');
+
+// Redirection des anciennes routes vers la nouvelle interface
+Route::get('/api/documentation', function() {
+    return redirect()->route('api.docs');
+});
+Route::get('/api-docs', function () {
+    return redirect()->route('api.docs');
+});
+
+// Rendre le fichier de documentation accessible via la racine (pour compatibilité)
+Route::get('/GRON_API_Collection.json', function () {
+    return redirect()->route('api.docs.json');
+});
 
 Route::post('/publicStore/{token}', [
     DClientController::class,
