@@ -89,6 +89,63 @@ class DProjectController extends Controller
     /**
      * Display a listing of the resource.
      *
+     * @OA\Get(
+     *     path="/web/projects",
+     *     summary="Liste des projets",
+     *     description="Récupère la liste des projets avec pagination",
+     *     operationId="getProjectsList",
+     *     tags={"Projets"},
+     *     security={{"bearerAuth":{}}},
+     *     @OA\Parameter(
+     *         name="page",
+     *         in="query",
+     *         description="Numéro de page",
+     *         required=false,
+     *         @OA\Schema(type="integer")
+     *     ),
+     *     @OA\Parameter(
+     *         name="per_page",
+     *         in="query",
+     *         description="Nombre d'éléments par page",
+     *         required=false,
+     *         @OA\Schema(type="integer")
+     *     ),
+     *     @OA\Parameter(
+     *         name="sort_by",
+     *         in="query",
+     *         description="Champ de tri",
+     *         required=false,
+     *         @OA\Schema(type="string")
+     *     ),
+     *     @OA\Parameter(
+     *         name="sort_order",
+     *         in="query",
+     *         description="Ordre de tri (asc, desc)",
+     *         required=false,
+     *         @OA\Schema(type="string", enum={"asc", "desc"})
+     *     ),
+     *     @OA\Response(
+     *         response=200,
+     *         description="Liste des projets",
+     *         @OA\JsonContent(
+     *             type="object",
+     *             @OA\Property(property="data", type="array", @OA\Items(ref="#/components/schemas/Project")),
+     *             @OA\Property(property="meta", type="object", 
+     *                  @OA\Property(property="current_page", type="integer", example=1),
+     *                  @OA\Property(property="from", type="integer", example=1),
+     *                  @OA\Property(property="last_page", type="integer", example=5),
+     *                  @OA\Property(property="path", type="string", example="http://example.com/api/projects"),
+     *                  @OA\Property(property="per_page", type="integer", example=15),
+     *                  @OA\Property(property="to", type="integer", example=15),
+     *                  @OA\Property(property="total", type="integer", example=75),
+     *             )
+     *         )
+     *     ),
+     *     @OA\Response(
+     *         response=401,
+     *         description="Non authentifié"
+     *     )
+     * )
      * @return \Illuminate\Http\Response
      */
     public function index(Request $request)
@@ -141,6 +198,48 @@ class DProjectController extends Controller
 
     /**
      * Store a newly created resource in storage.
+     *
+     * @OA\Post(
+     *     path="/web/projects",
+     *     summary="Créer un nouveau projet",
+     *     description="Crée un nouveau projet avec les données fournies",
+     *     operationId="storeProject",
+     *     tags={"Projets"},
+     *     security={{"bearerAuth":{}}},
+     *     @OA\RequestBody(
+     *         required=true,
+     *         @OA\JsonContent(
+     *             type="object",
+     *             required={"reference", "d_client_id", "house_number", "street", "zip_code", "city"},
+     *             @OA\Property(property="reference", type="string", example="PROJ-2023-001"),
+     *             @OA\Property(property="status", type="string", example="en_cours"),
+     *             @OA\Property(property="state", type="string", example="actif"),
+     *             @OA\Property(property="d_client_id", type="integer", example=1),
+     *             @OA\Property(property="house_number", type="string", example="123"),
+     *             @OA\Property(property="street", type="string", example="Rue de la Paix"),
+     *             @OA\Property(property="zip_code", type="string", example="75000"),
+     *             @OA\Property(property="city", type="string", example="Paris"),
+     *             @OA\Property(property="isolated_surface", type="number", format="float", example=120.5),
+     *         )
+     *     ),
+     *     @OA\Response(
+     *         response=201,
+     *         description="Projet créé avec succès",
+     *         @OA\JsonContent(
+     *             type="object",
+     *             @OA\Property(property="message", type="string", example="Projet créé avec succès"),
+     *             @OA\Property(property="data", ref="#/components/schemas/Project")
+     *         )
+     *     ),
+     *     @OA\Response(
+     *         response=401,
+     *         description="Non authentifié"
+     *     ),
+     *     @OA\Response(
+     *         response=422,
+     *         description="Données invalides"
+     *     )
+     * )
      */
     public function store(DProjectStoreRequest $request): JsonResponse
     {
@@ -231,6 +330,38 @@ class DProjectController extends Controller
     }
     /**
      * Display the specified resource.
+     *
+     * @OA\Get(
+     *     path="/web/projects/{dProject}",
+     *     summary="Détails d'un projet",
+     *     description="Récupère les détails d'un projet spécifique",
+     *     operationId="getProject",
+     *     tags={"Projets"},
+     *     security={{"bearerAuth":{}}},
+     *     @OA\Parameter(
+     *         name="dProject",
+     *         in="path",
+     *         description="ID du projet à consulter",
+     *         required=true,
+     *         @OA\Schema(type="integer")
+     *     ),
+     *     @OA\Response(
+     *         response=200,
+     *         description="Détails du projet",
+     *         @OA\JsonContent(
+     *             type="object",
+     *             @OA\Property(property="data", ref="#/components/schemas/Project")
+     *         )
+     *     ),
+     *     @OA\Response(
+     *         response=401,
+     *         description="Non authentifié"
+     *     ),
+     *     @OA\Response(
+     *         response=404,
+     *         description="Projet non trouvé"
+     *     )
+     * )
      */
     public function show(DProject $dProject): JsonResponse
     {
@@ -239,6 +370,57 @@ class DProjectController extends Controller
 
     /**
      * Update the specified resource in storage.
+     *
+     * @OA\Put(
+     *     path="/web/projects/{dProject}",
+     *     summary="Mettre à jour un projet",
+     *     description="Met à jour les données d'un projet existant",
+     *     operationId="updateProject",
+     *     tags={"Projets"},
+     *     security={{"bearerAuth":{}}},
+     *     @OA\Parameter(
+     *         name="dProject",
+     *         in="path",
+     *         description="ID du projet à mettre à jour",
+     *         required=true,
+     *         @OA\Schema(type="integer")
+     *     ),
+     *     @OA\RequestBody(
+     *         required=true,
+     *         @OA\JsonContent(
+     *             type="object",
+     *             @OA\Property(property="reference", type="string", example="PROJ-2023-001"),
+     *             @OA\Property(property="status", type="string", example="en_cours"),
+     *             @OA\Property(property="state", type="string", example="actif"),
+     *             @OA\Property(property="house_number", type="string", example="123"),
+     *             @OA\Property(property="street", type="string", example="Rue de la Paix"),
+     *             @OA\Property(property="zip_code", type="string", example="75000"),
+     *             @OA\Property(property="city", type="string", example="Paris"),
+     *             @OA\Property(property="isolated_surface", type="number", format="float", example=120.5),
+     *         )
+     *     ),
+     *     @OA\Response(
+     *         response=200,
+     *         description="Projet mis à jour avec succès",
+     *         @OA\JsonContent(
+     *             type="object",
+     *             @OA\Property(property="message", type="string", example="Projet mis à jour avec succès"),
+     *             @OA\Property(property="data", ref="#/components/schemas/Project")
+     *         )
+     *     ),
+     *     @OA\Response(
+     *         response=401,
+     *         description="Non authentifié"
+     *     ),
+     *     @OA\Response(
+     *         response=404,
+     *         description="Projet non trouvé"
+     *     ),
+     *     @OA\Response(
+     *         response=422,
+     *         description="Données invalides"
+     *     )
+     * )
      */
     public function update(DProjectUpdateRequest $request, DProject $dProject): JsonResponse
     {

@@ -27,6 +27,59 @@ class AuthController extends Controller
 {
     /**
      * Auth.
+     *
+     * @OA\Post(
+     *     path="/web/login",
+     *     summary="Authentification utilisateur",
+     *     description="Authentifie un utilisateur et retourne un token JWT",
+     *     operationId="login",
+     *     tags={"Authentification"},
+     *     @OA\RequestBody(
+     *         required=true,
+     *         @OA\JsonContent(
+     *             type="object",
+     *             required={"username", "password", "company_code"},
+     *             @OA\Property(property="username", type="string", example="admin"),
+     *             @OA\Property(property="password", type="string", format="password", example="password"),
+     *             @OA\Property(property="company_code", type="string", example="GRON"),
+     *             @OA\Property(property="login_subscription", type="boolean", example=false),
+     *         )
+     *     ),
+     *     @OA\Response(
+     *         response=200,
+     *         description="Authentification réussie",
+     *         @OA\JsonContent(
+     *             type="object",
+     *             @OA\Property(property="status", type="string", example="success"),
+     *             @OA\Property(
+     *                 property="result",
+     *                 type="object",
+     *                 @OA\Property(property="id", type="integer", example=1),
+     *                 @OA\Property(property="username", type="string", example="admin"),
+     *                 @OA\Property(property="email", type="string", format="email", example="admin@example.com"),
+     *                 @OA\Property(property="first_name", type="string", example="Admin"),
+     *                 @OA\Property(property="last_name", type="string", example="User"),
+     *                 @OA\Property(property="role", type="string", example="admin"),
+     *                 @OA\Property(property="token", type="string", example="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9..."),
+     *                 @OA\Property(property="display_profile", type="string", example="Administrator"),
+     *                 @OA\Property(
+     *                     property="permissions",
+     *                     type="array",
+     *                     @OA\Items(type="string", example="view-projects")
+     *                 ),
+     *             )
+     *         )
+     *     ),
+     *     @OA\Response(
+     *         response=404,
+     *         description="Authentification échouée",
+     *         @OA\JsonContent(
+     *             type="object",
+     *             @OA\Property(property="status", type="string", example="failed"),
+     *             @OA\Property(property="result", type="string", example="Le mot de passe, identifiant ou le code saisi est incorrect."),
+     *         )
+     *     )
+     * )
      */
     public function login(AuthenticationRequest $request)
     {
