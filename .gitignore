@@ -58,4 +58,4 @@ Thumbs.db
 !/storage/app/exports/.gitkeep
 
 # DocuSign API credentials
-docusign_private.key 
+docusign_private.key !/rapport_reparations.md
