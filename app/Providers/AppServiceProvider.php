@@ -61,6 +61,10 @@ class AppServiceProvider extends ServiceProvider
         // $this->app->bind(DProjectVisitService::class, function() {
         //     return new DProjectVisit();
         // });
+        if ($this->app->environment('local')) {
+            $this->app->register(\Laravel\Telescope\TelescopeServiceProvider::class);
+            $this->app->register(TelescopeServiceProvider::class);
+        }
     }
 
     /**

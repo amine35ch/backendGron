@@ -160,6 +160,7 @@ return [
         /*
          * Package Service Providers...
          */
+        Laravel\Telescope\TelescopeServiceProvider::class,
 
         /*
          * Application Service Providers...
