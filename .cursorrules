@@ -125,13 +125,28 @@
         "Gérer la mémoire pour les exports volumineux"
       ]
     },
-    "api_documentation": {
-      "useSwagger": true,
-      "enforceDocumentation": true,
+    "api_structure": {
+      "enforceConsistency": true,
+      "followCategorization": true,
+      "enforceVersioning": true,
       "warnings": [
-        "Documenter tous les endpoints avec les annotations Swagger",
-        "Utiliser darkaonline/l5-swagger pour générer la documentation API",
-        "Maintenir la documentation à jour après chaque modification d'API"
+        "Suivre strictement les 10 catégories définies dans rapport_endpoints_api.md",
+        "Maintenir la cohérence entre la documentation et la collection Postman",
+        "Assurer la compatibilité avec l'intégration frontend (JWT, React Query, CASL)",
+        "Prévoir la rétrocompatibilité pour les futures évolutions de l'API",
+        "Utiliser les standards REST pour tous les nouveaux endpoints"
+      ],
+      "categories": [
+        "Endpoints d'Authentification",
+        "Gestion des Entités",
+        "Gestion du Catalogue",
+        "Gestion des Visites et Événements",
+        "Gestion des Documents",
+        "Paramètres et Configuration",
+        "Tableaux de Bord et Statistiques",
+        "Souscription et Facturation",
+        "Notifications",
+        "Structure d'Authentification et Permissions"
       ]
     },
     "authorization": {
@@ -146,11 +161,13 @@
     "authentication": {
       "usePassport": true,
       "enforceTokenSecurity": true,
+      "enforceFrontendCompatibility": true,
       "warnings": [
         "Utiliser Laravel Passport pour l'authentification API",
         "Configurer correctement les expirations de tokens",
         "Utiliser des clients Passport appropriés pour différents contextes",
-        "Implémenter la révocation des tokens lors de la déconnexion"
+        "Implémenter la révocation des tokens lors de la déconnexion",
+        "Assurer la compatibilité avec le système JWT utilisé par le frontend"
       ]
     },
     "helpers": {
@@ -178,10 +195,12 @@
     },
     "telescope": {
       "useInDevOnly": true,
+      "configureForApiMonitoring": true,
       "warnings": [
         "Désactiver Laravel Telescope en production",
         "Utiliser Telescope pour déboguer les requêtes en développement",
-        "Configurer les watchers Telescope appropriés"
+        "Configurer les watchers Telescope pour suivre les performances API",
+        "Utiliser Telescope pour identifier les problèmes N+1 des endpoints"
       ]
     },
     "php_version": {
@@ -204,7 +223,7 @@
     "permissions": ["database/seeders/RoleSeeder.php", "database/seeders/PermissionSeeder.php"],
     "filters": ["app/ModelFilters/**/*.php"],
     "passport": ["config/passport.php"],
-    "swagger": ["app/Http/Controllers/**/*.php", "app/Models/**/*.php"]
+    "api_tests": ["tests/Feature/Api/**/*.php"]
   },
   "ignores": [
     "vendor/**/*",
@@ -212,5 +231,10 @@
     "public/**/*",
     "storage/**/*",
     "bootstrap/cache/**/*"
-  ]
+  ],
+  "references": {
+    "api_structure": "rapport_endpoints_api.md",
+    "frontend_integration": "rapport_analyse_frontend_gron.md",
+    "phase1_plan": "phase1_plan_execution.md"
+  }
 }

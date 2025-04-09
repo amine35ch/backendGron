@@ -15,6 +15,44 @@ use Illuminate\Notifications\Notifiable;
 use Laravel\Passport\HasApiTokens;
 use Spatie\Permission\Traits\HasRoles;
 
+/**
+ * @OA\Schema(
+ *     schema="User",
+ *     title="Utilisateur",
+ *     description="Modèle d'utilisateur avec détails complets",
+ *     @OA\Property(property="id", type="integer", format="int64", example=1, description="Identifiant unique de l'utilisateur"),
+ *     @OA\Property(property="username", type="string", example="john.doe", description="Nom d'utilisateur"),
+ *     @OA\Property(property="email", type="string", format="email", example="john.doe@example.com", description="Adresse email de l'utilisateur"),
+ *     @OA\Property(property="first_name", type="string", example="John", description="Prénom de l'utilisateur"),
+ *     @OA\Property(property="last_name", type="string", example="Doe", description="Nom de famille de l'utilisateur"),
+ *     @OA\Property(property="full_name", type="string", example="John Doe", description="Nom complet de l'utilisateur"),
+ *     @OA\Property(property="state", type="string", example="active", description="État du compte utilisateur"),
+ *     @OA\Property(property="profile", type="string", example="ADM", description="Code du profil utilisateur"),
+ *     @OA\Property(property="last_login", type="string", format="date-time", example="2023-05-30T14:30:00Z", description="Dernière connexion"),
+ *     @OA\Property(property="ip", type="string", example="192.168.1.1", description="Dernière adresse IP connue"),
+ *     @OA\Property(property="city", type="string", example="Paris", description="Ville de l'utilisateur"),
+ *     @OA\Property(property="zip_code", type="string", example="75001", description="Code postal"),
+ *     @OA\Property(property="phone_number", type="string", example="+33123456789", description="Numéro de téléphone"),
+ *     @OA\Property(property="address", type="string", example="123 Rue de Paris", description="Adresse postale"),
+ *     @OA\Property(property="signature", type="string", example="data:image/png;base64,...", description="Signature numérisée"),
+ *     @OA\Property(property="role", type="string", example="admin", description="Rôle principal de l'utilisateur"),
+ *     @OA\Property(property="display_role_name", type="string", example="Administrateur", description="Nom du rôle affiché"),
+ *     @OA\Property(property="created_at", type="string", format="date-time", example="2023-01-01T00:00:00Z", description="Date de création du compte"),
+ *     @OA\Property(property="updated_at", type="string", format="date-time", example="2023-01-01T00:00:00Z", description="Date de dernière mise à jour"),
+ *     @OA\Property(property="email_verified_at", type="string", format="date-time", nullable=true, example="2023-01-01T00:00:00Z", description="Date de vérification de l'email")
+ * )
+ * 
+ * @OA\Schema(
+ *     schema="UserList",
+ *     title="Liste d'utilisateurs",
+ *     description="Représentation d'une liste paginée d'utilisateurs",
+ *     @OA\Property(property="data", type="array", @OA\Items(ref="#/components/schemas/User")),
+ *     @OA\Property(property="current_page", type="integer", example=1),
+ *     @OA\Property(property="per_page", type="integer", example=15),
+ *     @OA\Property(property="total", type="integer", example=50),
+ *     @OA\Property(property="last_page", type="integer", example=4)
+ * )
+ */
 class User extends Authenticatable
 {
     use Filterable, HasApiTokens, HasFactory, HasRoles, Notifiable, SoftDeletes;

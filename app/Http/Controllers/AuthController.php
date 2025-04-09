@@ -1,5 +1,53 @@
 <?php
 
+/**
+ * @OA\Info(
+ *     version="1.0",
+ *     title="API GRON",
+ *     description="Documentation de l'API pour le système GRON",
+ *     @OA\Contact(
+ *         name="Support API",
+ *         email="support@gron.com"
+ *     )
+ * )
+ */
+
+/**
+ * @OA\PathItem(
+ *     path="/web/login"
+ * )
+ */
+
+/**
+ * @OA\PathItem(
+ *     path="/web/logout"
+ * )
+ */
+
+/**
+ * @OA\PathItem(
+ *     path="/logged-user"
+ * )
+ */
+
+/**
+ * @OA\PathItem(
+ *     path="/verify-reset-key"
+ * )
+ */
+
+/**
+ * @OA\PathItem(
+ *     path="/reset-password"
+ * )
+ */
+
+/**
+ * @OA\PathItem(
+ *     path="/send-reset-link-email-by-user"
+ * )
+ */
+
 namespace App\Http\Controllers;
 
 use App\Enums\PStateEnum\PStateEnum;
@@ -162,6 +210,24 @@ class AuthController extends Controller
     /**
      * Auth.
      *
+     * @OA\Put(
+     *     path="/web/logout",
+     *     summary="Déconnexion utilisateur",
+     *     description="Déconnecte l'utilisateur et supprime sa session",
+     *     operationId="logout",
+     *     tags={"Authentification"},
+     *     security={{"bearerAuth":{}}},
+     *     @OA\Response(
+     *         response=200,
+     *         description="Déconnexion réussie",
+     *         @OA\JsonContent(
+     *             type="object",
+     *             @OA\Property(property="status", type="string", example="success"),
+     *             @OA\Property(property="result", type="string", example="User logged out successfully"),
+     *         )
+     *     )
+     * )
+     *
      * @return \Illuminate\Http\Response
      */
     public function logout()
@@ -174,6 +240,64 @@ class AuthController extends Controller
         Auth::guard('web')->logout();
     }
 
+    /**
+     * Get logged in user.
+     *
+     * @OA\Get(
+     *     path="/logged-user",
+     *     summary="Récupérer les informations de l'utilisateur connecté",
+     *     description="Renvoie les détails de l'utilisateur actuellement connecté",
+     *     operationId="loggedInUser",
+     *     tags={"Authentification"},
+     *     security={{"bearerAuth":{}}},
+     *     @OA\Response(
+     *         response=200,
+     *         description="Informations utilisateur récupérées avec succès",
+     *         @OA\JsonContent(
+     *             type="object",
+     *             @OA\Property(property="status", type="string", example="success"),
+     *             @OA\Property(
+     *                 property="result",
+     *                 type="object",
+     *                 @OA\Property(property="id", type="integer", example=1),
+     *                 @OA\Property(property="username", type="string", example="admin"),
+     *                 @OA\Property(property="email", type="string", format="email", example="admin@example.com"),
+     *                 @OA\Property(property="first_name", type="string", example="Admin"),
+     *                 @OA\Property(property="last_name", type="string", example="User"),
+     *                 @OA\Property(property="subscription_status", type="string", example="payed"),
+     *                 @OA\Property(property="display_profile", type="string", example="Administrator"),
+     *                 @OA\Property(property="role", type="string", example="admin"),
+     *                 @OA\Property(
+     *                     property="permissions",
+     *                     type="array",
+     *                     @OA\Items(type="string", example="view-projects")
+     *                 ),
+     *                 @OA\Property(
+     *                     property="company",
+     *                     type="object",
+     *                     @OA\Property(property="id", type="integer", example=1),
+     *                     @OA\Property(property="trade_name", type="string", example="GRON SAS")
+     *                 ),
+     *                 @OA\Property(
+     *                     property="profile",
+     *                     type="object",
+     *                     @OA\Property(property="id", type="integer", example=1),
+     *                     @OA\Property(property="entitled", type="string", example="Administrator")
+     *                 )
+     *             )
+     *         )
+     *     ),
+     *     @OA\Response(
+     *         response=401,
+     *         description="Non authentifié",
+     *         @OA\JsonContent(
+     *             type="object",
+     *             @OA\Property(property="status", type="string", example="failed"),
+     *             @OA\Property(property="result", type="string", example="Unauthenticated")
+     *         )
+     *     )
+     * )
+     */
     public function loggedInUser()
     {
         $user = auth()->user();
