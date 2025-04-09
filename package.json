@@ -3,7 +3,10 @@
     "type": "module",
     "scripts": {
         "dev": "vite",
-        "build": "vite build"
+        "build": "vite build",
+        "test": "php artisan test",
+        "postman:generate": "node scripts/generate_postman_collection.js",
+        "postman:setup": "node scripts/postman_generate_and_run.js"
     },
     "devDependencies": {
         "axios": "^1.6.1",

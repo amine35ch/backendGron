@@ -1,0 +1,65 @@
+{
+  "name": "GRON API - STAGING",
+  "values": [
+    {
+      "key": "base_url",
+      "value": "https://api-staging.gron.com",
+      "type": "string",
+      "enabled": true
+    },
+    {
+      "key": "user_email",
+      "value": "",
+      "type": "string",
+      "enabled": true
+    },
+    {
+      "key": "user_password",
+      "value": "",
+      "type": "string",
+      "enabled": true
+    },
+    {
+      "key": "access_token",
+      "value": "",
+      "type": "string",
+      "enabled": true
+    },
+    {
+      "key": "client_id",
+      "value": "",
+      "type": "string",
+      "enabled": true
+    },
+    {
+      "key": "company_id",
+      "value": "",
+      "type": "string",
+      "enabled": true
+    },
+    {
+      "key": "project_id",
+      "value": "",
+      "type": "string",
+      "enabled": true
+    },
+    {
+      "key": "visit_id",
+      "value": "",
+      "type": "string",
+      "enabled": true
+    },
+    {
+      "key": "document_id",
+      "value": "",
+      "type": "string",
+      "enabled": true
+    },
+    {
+      "key": "reset_token",
+      "value": "",
+      "type": "string",
+      "enabled": true
+    }
+  ]
+}

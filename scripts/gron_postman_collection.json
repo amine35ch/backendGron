@@ -1,0 +1,1069 @@
+{
+  "info": {
+    "name": "GRON API",
+    "description": "Collection Postman pour l'API GRON",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "1. Endpoints d'Authentification",
+      "item": [
+        {
+          "name": "Login",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/web/login",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "web",
+                "login"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"email\": \"{{user_email}}\",\n  \"password\": \"{{user_password}}\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Logout",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/web/logout",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "web",
+                "logout"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Get Logged User",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/logged-user",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "logged-user"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Verify Reset Key",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/verify-reset-key",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "verify-reset-key"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"token\": \"{{reset_token}}\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Reset Password",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/reset-password",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "reset-password"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"token\": \"{{reset_token}}\",\n  \"password\": \"new_password\",\n  \"password_confirmation\": \"new_password\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Send Reset Link Email",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/send-reset-link-email-by-user",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "send-reset-link-email-by-user"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"email\": \"{{user_email}}\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "2. Gestion des Entités",
+      "item": [
+        {
+          "name": "2.1 Clients/Bénéficiaires",
+          "item": [
+            {
+              "name": "Liste des clients",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Authorization",
+                    "value": "Bearer {{access_token}}",
+                    "type": "text"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/web/clients",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "web",
+                    "clients"
+                  ]
+                }
+              }
+            },
+            {
+              "name": "Créer un client",
+              "request": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Authorization",
+                    "value": "Bearer {{access_token}}",
+                    "type": "text"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/web/clients",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "web",
+                    "clients"
+                  ]
+                },
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"name\": \"Nom du client\",\n  \"email\": \"client@example.com\"\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "name": "Détails d'un client",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Authorization",
+                    "value": "Bearer {{access_token}}",
+                    "type": "text"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/web/clients/{{client_id}}",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "web",
+                    "clients",
+                    "{{client_id}}"
+                  ]
+                }
+              }
+            },
+            {
+              "name": "Mettre à jour un client",
+              "request": {
+                "method": "PUT",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Authorization",
+                    "value": "Bearer {{access_token}}",
+                    "type": "text"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/web/clients/{{client_id}}",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "web",
+                    "clients",
+                    "{{client_id}}"
+                  ]
+                }
+              }
+            },
+            {
+              "name": "Supprimer un client",
+              "request": {
+                "method": "DELETE",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Authorization",
+                    "value": "Bearer {{access_token}}",
+                    "type": "text"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/web/clients/{{client_id}}",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "web",
+                    "clients",
+                    "{{client_id}}"
+                  ]
+                }
+              }
+            },
+            {
+              "name": "Ajouter des documents",
+              "request": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Authorization",
+                    "value": "Bearer {{access_token}}",
+                    "type": "text"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/web/clients/{{client_id}}/documents",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "web",
+                    "clients",
+                    "{{client_id}}",
+                    "documents"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "2.2 Entreprises",
+          "item": [
+            {
+              "name": "Liste des entreprises",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Authorization",
+                    "value": "Bearer {{access_token}}",
+                    "type": "text"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/web/companies/{{identifier}}",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "web",
+                    "companies",
+                    "{{identifier}}"
+                  ]
+                }
+              }
+            },
+            {
+              "name": "Créer une entreprise",
+              "request": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Authorization",
+                    "value": "Bearer {{access_token}}",
+                    "type": "text"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/web/companies/{{identifier}}",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "web",
+                    "companies",
+                    "{{identifier}}"
+                  ]
+                }
+              }
+            },
+            {
+              "name": "Détails d'une entreprise",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Authorization",
+                    "value": "Bearer {{access_token}}",
+                    "type": "text"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/web/companies/{{identifier}}/{{company_id}}",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "web",
+                    "companies",
+                    "{{identifier}}",
+                    "{{company_id}}"
+                  ]
+                }
+              }
+            },
+            {
+              "name": "Mettre à jour une entreprise",
+              "request": {
+                "method": "PUT",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Authorization",
+                    "value": "Bearer {{access_token}}",
+                    "type": "text"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/web/companies/{{identifier}}/{{company_id}}",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "web",
+                    "companies",
+                    "{{identifier}}",
+                    "{{company_id}}"
+                  ]
+                }
+              }
+            },
+            {
+              "name": "Supprimer une entreprise",
+              "request": {
+                "method": "DELETE",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Authorization",
+                    "value": "Bearer {{access_token}}",
+                    "type": "text"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/web/companies/{{identifier}}/{{company_id}}",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "web",
+                    "companies",
+                    "{{identifier}}",
+                    "{{company_id}}"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "2.3 Projets",
+          "item": [
+            {
+              "name": "Liste des projets",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Authorization",
+                    "value": "Bearer {{access_token}}",
+                    "type": "text"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/web/projects",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "web",
+                    "projects"
+                  ]
+                }
+              }
+            },
+            {
+              "name": "Créer un projet",
+              "request": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Authorization",
+                    "value": "Bearer {{access_token}}",
+                    "type": "text"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/web/projects",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "web",
+                    "projects"
+                  ]
+                }
+              }
+            },
+            {
+              "name": "Détails d'un projet",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Authorization",
+                    "value": "Bearer {{access_token}}",
+                    "type": "text"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/web/projects/{{project_id}}",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "web",
+                    "projects",
+                    "{{project_id}}"
+                  ]
+                }
+              }
+            },
+            {
+              "name": "Mettre à jour un projet",
+              "request": {
+                "method": "PUT",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Authorization",
+                    "value": "Bearer {{access_token}}",
+                    "type": "text"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/web/projects/{{project_id}}",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "web",
+                    "projects",
+                    "{{project_id}}"
+                  ]
+                }
+              }
+            },
+            {
+              "name": "Supprimer un projet",
+              "request": {
+                "method": "DELETE",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Authorization",
+                    "value": "Bearer {{access_token}}",
+                    "type": "text"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/web/projects/{{project_id}}",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "web",
+                    "projects",
+                    "{{project_id}}"
+                  ]
+                }
+              }
+            },
+            {
+              "name": "Étape suivante",
+              "request": {
+                "method": "PUT",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Authorization",
+                    "value": "Bearer {{access_token}}",
+                    "type": "text"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/web/projects/{{project_id}}/next-step",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "web",
+                    "projects",
+                    "{{project_id}}",
+                    "next-step"
+                  ]
+                }
+              }
+            },
+            {
+              "name": "Étape précédente",
+              "request": {
+                "method": "PUT",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Authorization",
+                    "value": "Bearer {{access_token}}",
+                    "type": "text"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/web/projects/{{project_id}}/prev-step",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "web",
+                    "projects",
+                    "{{project_id}}",
+                    "prev-step"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "3. Gestion du Catalogue",
+      "item": [
+        {
+          "name": "3.1 Articles",
+          "item": [
+            {
+              "name": "Liste des articles",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Authorization",
+                    "value": "Bearer {{access_token}}",
+                    "type": "text"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/web/articles",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "web",
+                    "articles"
+                  ]
+                }
+              }
+            },
+            {
+              "name": "Créer un article",
+              "request": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Authorization",
+                    "value": "Bearer {{access_token}}",
+                    "type": "text"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/web/articles",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "web",
+                    "articles"
+                  ]
+                }
+              }
+            },
+            {
+              "name": "Détails d'un article",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Authorization",
+                    "value": "Bearer {{access_token}}",
+                    "type": "text"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/web/articles/{{article_id}}",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "web",
+                    "articles",
+                    "{{article_id}}"
+                  ]
+                }
+              }
+            },
+            {
+              "name": "Mettre à jour un article",
+              "request": {
+                "method": "PUT",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Authorization",
+                    "value": "Bearer {{access_token}}",
+                    "type": "text"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/web/articles/{{article_id}}",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "web",
+                    "articles",
+                    "{{article_id}}"
+                  ]
+                }
+              }
+            },
+            {
+              "name": "Supprimer un article",
+              "request": {
+                "method": "DELETE",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Authorization",
+                    "value": "Bearer {{access_token}}",
+                    "type": "text"
+                  }
+                ],
+                "url": {
+                  "raw": "{{base_url}}/web/articles/{{article_id}}",
+                  "host": [
+                    "{{base_url}}"
+                  ],
+                  "path": [
+                    "web",
+                    "articles",
+                    "{{article_id}}"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "4. Gestion des Visites et Événements",
+      "item": [
+        {
+          "name": "Liste des visites",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/web/project-visits",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "web",
+                "project-visits"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Créer une visite",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/web/project-visits",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "web",
+                "project-visits"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Détails d'une visite",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/web/project-visits/{{visit_id}}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "web",
+                "project-visits",
+                "{{visit_id}}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Mettre à jour une visite",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/web/project-visits/{{visit_id}}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "web",
+                "project-visits",
+                "{{visit_id}}"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "5. Gestion des Documents",
+      "item": [
+        {
+          "name": "Télécharger un document projet",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/web/project-documents/{{document_id}}/download",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "web",
+                "project-documents",
+                "{{document_id}}",
+                "download"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Télécharger un document client",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "Bearer {{access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/web/client-documents/{{document_id}}/download",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "web",
+                "client-documents",
+                "{{document_id}}",
+                "download"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
